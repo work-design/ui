@@ -1,0 +1,41 @@
+.ui.sidenav {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.navigating.toggled {
+    padding-left: 250px;
+}
+
+.navigating > .ui.sidenav {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.navigating.toggled > .ui.sidenav {
+    width: 250px;
+}
+
+.navigating > .page-content {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+.navigating.toggled > .page-content {
+    position: absolute;
+    margin-right: -250px;
+}

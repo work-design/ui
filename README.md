@@ -14,4 +14,6 @@
 Although some components will work in IE9, [grids](http://semantic-ui.com/collections/grid.html) and other [flexbox](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes) components are not supported by IE9 and may not appear correctly.
 
 ### 使用方法
+- 安装less: `npm install -g less`, less命令为`lessc`
+
 

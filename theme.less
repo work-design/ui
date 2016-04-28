@@ -37,25 +37,3 @@
 
 /* Site Theme */
 @import (optional) "@{siteFolder}/@{type}s/@{element}.variables";
-
-
-/*******************************
-             Mix-ins
-*******************************/
-
-/*------------------
-       Fonts
--------------------*/
-
-.loadFonts() when (@importGoogleFonts) {
-  @import url('@{googleProtocol}fonts.googleapis.com/css?family=@{googleFontRequest}');
-}
-
-/*------------------
-     Overrides
--------------------*/
-
-.loadUIOverrides() {
-  @import (optional) "@{themesFolder}/@{theme}/@{type}s/@{element}.overrides";
-  @import (optional) "@{siteFolder}/@{type}s/@{element}.overrides";
-}

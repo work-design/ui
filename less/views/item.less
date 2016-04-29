@@ -12,9 +12,22 @@
 *******************************/
 
 /*--------------
+      Items
+---------------*/
+.ui.items {
+  margin: @groupMargin;
+}
+
+.ui.items:first-child {
+  margin-top: 0 !important;
+}
+.ui.items:last-child {
+  margin-bottom: 0 !important;
+}
+
+/*--------------
       Item
 ---------------*/
-
 .ui.items > .item {
   display: @display;
   margin: @itemSpacing 0;
@@ -31,21 +44,6 @@
 }
 .ui.items > .item a {
   cursor: pointer;
-}
-
-/*--------------
-      Items
----------------*/
-
-.ui.items {
-  margin: @groupMargin;
-}
-
-.ui.items:first-child {
-  margin-top: 0 !important;
-}
-.ui.items:last-child {
-  margin-bottom: 0 !important;
 }
 
 /*--------------

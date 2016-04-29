@@ -157,23 +157,6 @@ ol.ui.list ol li,
   padding-left: 0;
 }
 
-/* Header */
-.ui.list .list > .item .header,
-.ui.list > .item .header {
-  display: block;
-  margin: 0;
-  font-family: @itemHeaderFontFamily;
-  font-weight: @itemHeaderFontWeight;
-  color: @itemHeaderColor;
-}
-
-/* Description */
-.ui.list .list > .item .description,
-.ui.list > .item .description {
-  display: block;
-  color: @itemDescriptionColor;
-}
-
 /* Child Link */
 .ui.list > .item a,
 .ui.list .list > .item a {
@@ -195,17 +178,6 @@ ol.ui.list ol li,
 .ui.list .list > a.item i.icon,
 .ui.list > a.item i.icon {
   color: @itemLinkIconColor;
-}
-
-/* Header Link */
-.ui.list .list > .item a.header,
-.ui.list > .item a.header {
-  cursor: pointer;
-  color: @itemHeaderLinkColor !important;
-}
-.ui.list .list > .item a.header:hover,
-.ui.list > .item a.header:hover {
-  color: @itemHeaderLinkHoverColor !important;
 }
 
 /* Floated Content */
@@ -351,14 +323,6 @@ ol.ui.list ol li,
 .ui.inverted.list .list > a.item > .icon,
 .ui.inverted.list > a.item > .icon {
   color: @invertedIconLinkColor;
-}
-.ui.inverted.list .list > .item .header,
-.ui.inverted.list > .item .header {
-  color: @invertedHeaderColor;
-}
-.ui.inverted.list .list > .item .description,
-.ui.inverted.list > .item .description {
-  color: @invertedDescriptionColor;
 }
 
 /* Item Link */
@@ -748,10 +712,10 @@ ol.ui.list li[value]:before {
 
 /* Sub Menu */
 .ui.celled.list .item .list > .item {
-  border-width: 0px;
+  border-width: 0;
 }
 .ui.celled.list .list > .item:first-child {
-  border-top-width: 0px;
+  border-top-width: 0;
 }
 
 /* Celled Bulleted */

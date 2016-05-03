@@ -1,0 +1,23 @@
+{
+  "name": "whmall-ui",
+  "version": "1.0.0",
+  "description": "our ui",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^1.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whmall/whmall-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whmall/whmall-ui/issues"
+  },
+  "homepage": "https://github.com/whmall/whmall-ui#readme"
+}

@@ -1,0 +1,12 @@
+<div class="ui menu secondary">
+
+  {% for node in site.navigation %}
+
+  {% if page.url == node.url %}
+  <a href="{{ BASE_PATH }}{{ node.url }}" class="active item">{{node.title}}</a>
+  {% else %}
+  <a href="{{ BASE_PATH }}{{ node.url }}" class="item">{{node.title}}</a>
+  {% endif %}
+
+  {% endfor %}
+</div>

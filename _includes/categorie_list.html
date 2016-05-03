@@ -1,0 +1,11 @@
+<div class="ui visible left vertical sidebar menu">
+	<div class="item">
+		{% assign cate = page.categories[0] %}
+		{{ cate }}
+		<div class="menu">
+			{% for post in site.categories[cate] %}
+			<a href="{{ post.url }}" class="item">{{ post.title }}</a>
+			{% endfor %}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+
+
+<div class="row">
+
+  <div class="col-lg-3">
+    <ul class="list-unstyled">
+      {% assign pages_list = site.categories.about %}
+      {% include JB/pages_list %}
+    </ul>
+  </div>
+
+  <div class="col-lg-9">
+
+    <div class="page-header">
+      <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+    </div>
+    <div class="date">
+      <span>{{ page.date | date_to_long_string }}</span>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+
+  </div>
+
+</div>

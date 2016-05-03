@@ -1,0 +1,26 @@
+
+  {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %} 
+    	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
+    {% endfor %}
+  {% else %}
+    {% for tag in tags_list %} 
+    	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
+    {% endfor %}
+  {% endif %}
+
+
+{% assign tags_list = nil %}
+
+
+  <div class="ui segment">
+    <div class="ui link list">
+      {% for post in site.posts %}
+      <div class="item">
+        <i class="map marker icon"></i>
+        <div class="content"><a href="{{ post.url }}">{{ post.title }}</a></div>
+        <div class="right floated compact">{{ post.date | date_to_human }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>

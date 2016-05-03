@@ -16,6 +16,7 @@ Although some components will work in IE9, [grids](http://semantic-ui.com/collec
 ### 使用方法
 - 安装less: `npm install -g less`, less命令为`lessc`
 - 安装: `npm install -g less-plugin-clean-css`
+- 需要在非chrome下开发
 
 ### 生成
 - `lessc --clean-css whmall-ui.less whmall-ui.css`

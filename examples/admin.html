@@ -3,14 +3,20 @@ title: 首页
 layout: default
 ---
 
-<div class="ui container grid">
-  <div class="three wide column">
+<div class="ui container grid invisible side">
+  <div class="three wide column sidebar">
     <div class="ui menu vertical fluid">
       <div class="item">
         <span>用户管理</span>
         <div class="menu">
-          <a class="item active" href="/admin/users">用户管理</a>
-          <a class="item" href="/admin/wechat_users">微信用户</a>
+          <a class="item active" href="/admin/users">
+            <i class="alarm icon"></i>
+            用户管理
+          </a>
+          <a class="item" href="/admin/wechat_users">
+            <i class="edit icon"></i>
+            微信用户
+          </a>
           <a class="item" href="/admin/wechat_user_logs">微信解绑</a>
           <a class="item" href="/admin/roles">角色管理</a>
         </div>
@@ -18,7 +24,7 @@ layout: default
     </div>
   </div>
 
-  <div class="thirteen wide column">
+  <div class="thirteen wide column content">
 
     <div class="ui top attached menu borderless">
       <div class="item"><strong>用户列表</strong></div>

@@ -1,15 +1,3 @@
-/*!
- * # Semantic UI - Icon
- * http://github.com/semantic-org/semantic-ui/
- *
- *
- * Copyright 2015 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
-
 /*******************************
             Theme
 *******************************/
@@ -24,22 +12,11 @@
              Icon
 *******************************/
 
-@font-face {
-  font-family: 'Icons';
-  src: @fallbackSRC;
-  src: @src;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-decoration: inherit;
-  text-transform: none;
-}
-
 i.icon {
   display: inline-block;
   opacity: @opacity;
 
-  margin: 0em @distanceFromText 0em 0em;
+  margin: 0 @distanceFromText 0 0;
 
   width: @width;
   height: @height;
@@ -115,7 +92,7 @@ i.disabled.icon {
 
 i.fitted.icon {
   width: auto;
-  margin: 0em;
+  margin: 0;
 }
 
 /*-------------------
@@ -136,7 +113,7 @@ i.link.icon:hover {
 --------------------*/
 
 i.circular.icon {
-  border-radius: 500em !important;
+  border-radius: 500 !important;
   line-height: 1 !important;
 
   padding: @circularPadding !important;
@@ -447,7 +424,7 @@ i.icons .icon {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  margin: 0em;
+  margin: 0;
   margin: 0;
 }
 

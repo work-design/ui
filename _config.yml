@@ -3,7 +3,6 @@ exclude: ['.ruby-version', 'README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock']
 encoding: UTF-8
 
 permalink: /:categories/:title
-highlighter: pygments
 
 title: Whmall UI
 tagline: Site Tagline

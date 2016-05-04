@@ -1,0 +1,210 @@
+---
+title: 首页
+layout: default
+---
+
+<div class="ui container grid">
+  <div class="three wide column">
+    <div class="ui menu vertical fluid">
+      <div class="item">
+        <span>用户管理</span>
+        <div class="menu">
+          <a class="item active" href="/admin/users">用户管理</a>
+          <a class="item" href="/admin/wechat_users">微信用户</a>
+          <a class="item" href="/admin/wechat_user_logs">微信解绑</a>
+          <a class="item" href="/admin/roles">角色管理</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="thirteen wide column">
+
+    <div class="ui top attached menu borderless">
+      <div class="item"><strong>用户列表</strong></div>
+    </div>
+
+    <div class="ui segment bottom attached">
+      <form class="ui form" action="/admin" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+        <div class="fields">
+          <div class="field"><input placeholder="用户名：" class="" type="text" name="q[name]" id="q_name"></div>
+          <div class="field"><input placeholder="手机号：" class="" type="text" name="q[mobile]" id="q_mobile"></div>
+          <div class="field"><input placeholder="hola@123.com" class="" type="text" name="q[email]" id="q_email"></div>
+          <input type="submit" name="commit" value="查询" class="ui green small button" data-disable-with="查询">
+        </div>
+      </form>
+    </div>
+
+    <table class="ui table">
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>用户名</th>
+        <th>电话</th>
+        <th>注册时间</th>
+        <th>上次登录时间</th>
+        <th></th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <tr>
+        <td>26359</td>
+        <td>武汉测试20160503</td>
+        <td>111111</td>
+        <td>2016-05-03 11:01:26</td>
+        <td></td>
+        <td>
+          <a class="ui blue label" href="/admin/users/26359">详细</a>
+          <a class="ui pink label" href="/admin/users/26359/edit">编辑</a>
+          <a data-confirm="Are you sure?" class="ui red label" rel="nofollow" data-method="delete" href="/admin/users/26359">删除</a>
+        </td>
+      </tr>
+      <tr>
+        <td>26358</td>
+        <td>万</td>
+        <td>13517253767</td>
+        <td>2016-04-27 15:48:34</td>
+        <td>2016-04-27 15:48:40</td>
+        <td>
+          <a class="ui blue label" href="/admin/users/26358">详细</a>
+          <a class="ui pink label" href="/admin/users/26358/edit">编辑</a>
+          <a data-confirm="Are you sure?" class="ui red label" rel="nofollow" data-method="delete" href="/admin/users/26358">删除</a>
+        </td>
+      </tr>
+      <tr>
+        <td>26353</td>
+        <td>988</td>
+        <td>13797012235</td>
+        <td>2016-04-21 18:03:54</td>
+        <td></td>
+        <td>
+          <a class="ui blue label" href="/admin/users/26353">详细</a>
+          <a class="ui pink label" href="/admin/users/26353/edit">编辑</a>
+          <a data-confirm="Are you sure?" class="ui red label" rel="nofollow" data-method="delete" href="/admin/users/26353">删除</a>
+        </td>
+      </tr>
+      <tr>
+        <td>26348</td>
+        <td>小溪</td>
+        <td>23797012235</td>
+        <td>2016-04-19 16:01:03</td>
+        <td>2016-04-21 13:55:43</td>
+        <td>
+          <a class="ui blue label" href="/admin/users/26348">详细</a>
+          <a class="ui pink label" href="/admin/users/26348/edit">编辑</a>
+          <a data-confirm="Are you sure?" class="ui red label" rel="nofollow" data-method="delete" href="/admin/users/26348">删除</a>
+        </td>
+      </tr>
+      <tr>
+        <td>26344</td>
+        <td>yangdong</td>
+        <td>23797012235</td>
+        <td>2016-04-19 13:41:17</td>
+        <td></td>
+        <td>
+          <a class="ui blue label" href="/admin/users/26344">详细</a>
+          <a class="ui pink label" href="/admin/users/26344/edit">编辑</a>
+          <a data-confirm="Are you sure?" class="ui red label" rel="nofollow" data-method="delete" href="/admin/users/26344">删除</a>
+        </td>
+      </tr>
+      <tr>
+        <td>26336</td>
+        <td>55</td>
+        <td>18612965346</td>
+        <td>2016-04-19 10:03:50</td>
+        <td>2016-04-22 14:22:40</td>
+        <td>
+          <a class="ui blue label" href="/admin/users/26336">详细</a>
+          <a class="ui pink label" href="/admin/users/26336/edit">编辑</a>
+          <a data-confirm="Are you sure?" class="ui red label" rel="nofollow" data-method="delete" href="/admin/users/26336">删除</a>
+        </td>
+      </tr>
+      <tr>
+        <td>26333</td>
+        <td>杨东</td>
+        <td>987656781</td>
+        <td>2016-04-18 09:24:44</td>
+        <td></td>
+        <td>
+          <a class="ui blue label" href="/admin/users/26333">详细</a>
+          <a class="ui pink label" href="/admin/users/26333/edit">编辑</a>
+          <a data-confirm="Are you sure?" class="ui red label" rel="nofollow" data-method="delete" href="/admin/users/26333">删除</a>
+        </td>
+      </tr>
+      <tr>
+        <td>26332</td>
+        <td>杨东</td>
+        <td>98765678</td>
+        <td>2016-04-18 09:22:22</td>
+        <td></td>
+        <td>
+          <a class="ui blue label" href="/admin/users/26332">详细</a>
+          <a class="ui pink label" href="/admin/users/26332/edit">编辑</a>
+          <a data-confirm="Are you sure?" class="ui red label" rel="nofollow" data-method="delete" href="/admin/users/26332">删除</a>
+        </td>
+      </tr>
+      <tr>
+        <td>26331</td>
+        <td>杨东</td>
+        <td>13793012235</td>
+        <td>2016-04-18 09:18:45</td>
+        <td></td>
+        <td>
+          <a class="ui blue label" href="/admin/users/26331">详细</a>
+          <a class="ui pink label" href="/admin/users/26331/edit">编辑</a>
+          <a data-confirm="Are you sure?" class="ui red label" rel="nofollow" data-method="delete" href="/admin/users/26331">删除</a>
+        </td>
+      </tr>
+      <tr>
+        <td>26330</td>
+        <td>杨东</td>
+        <td>18963985145</td>
+        <td>2016-04-18 09:14:20</td>
+        <td></td>
+        <td>
+          <a class="ui blue label" href="/admin/users/26330">详细</a>
+          <a class="ui pink label" href="/admin/users/26330/edit">编辑</a>
+          <a data-confirm="Are you sure?" class="ui red label" rel="nofollow" data-method="delete" href="/admin/users/26330">删除</a>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+
+    <ul class="ui pagination menu">
+      <span class="item"><span class="translation_missing" title="translation missing: zh.views.pagination.first">First</span></span>
+
+
+
+      <span class="item active">1</span>
+
+
+      <span class="item "><a rel="next" href="/admin?page=2">2</a></span>
+
+
+      <span class="item "><a href="/admin?page=3">3</a></span>
+
+
+      <span class="item "><a href="/admin?page=4">4</a></span>
+
+
+      <span class="item "><a href="/admin?page=5">5</a></span>
+
+
+        <span class="item">
+  <a><span class="translation_missing" title="translation missing: zh.views.pagination.truncate">Truncate</span></a>
+</span>
+
+    <span class="item next">
+  <a rel="next" href="/admin?page=2"><span class="translation_missing" title="translation missing: zh.views.pagination.next">Next</span></a>
+</span>
+
+      <span class="item"><a href="/admin?page=1666"><span class="translation_missing" title="translation missing: zh.views.pagination.last">Last</span></a></span>
+
+    </ul>
+
+  </div>
+
+
+
+</div>

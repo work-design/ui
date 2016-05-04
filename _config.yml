@@ -5,18 +5,10 @@ encoding: UTF-8
 permalink: /:categories/:title
 highlighter: pygments
 
-title: 新声音
+title: Whmall UI
 tagline: Site Tagline
 production_url : http://www.xinshengyin.com
 
 navigation:
  - url: /
    title: 首页
- - url: /category
-   title: 分类
- - url: /about
-   title: 关于我
-
-markdown: redcarpet
-redcarpet:
-  extensions: ['tables']

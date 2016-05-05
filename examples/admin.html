@@ -228,8 +228,20 @@ layout: default
 
 <script>
   $('#test_side').click(function(){
+    $('#test_side').toggleClass('invisible')
     $('.ui.side').toggleClass('invisible');
     $('.ui.side .ui.menu > .item').toggleClass('ui dropdown')
+    $('.ui.dropdown').dropdown({
+      on: 'click',
+      debug: true
+    });
+    $('.ui.dropdown').dropdown('toggle')
+  });
+
+  $('#test_side.invisible').click(function(){
+    $('#test_side.invisible').removeClass('invisible')
+    $('.ui.side').removeClass('invisible');
+    $('.ui.side .ui.menu > .item').removeClass('ui dropdown')
     $('.ui.dropdown').dropdown({
       on: 'click',
       debug: true

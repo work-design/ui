@@ -1,11 +1,8 @@
 .ui.side {
   display: flex;
-  position: relative;
 }
 
 .ui.side > .sidebar {
-  position: absolute;
-  left: 0;
   width: 260px;
   transition: all 1s ease;
 }
@@ -16,16 +13,12 @@
 }
 
 .ui.side > .content {
-  position: relative;
-  left: 260px;
-  width: e("calc(100% - 260px)");
+  width: 100%;
   transition: all 1s ease;
 }
 
 .ui.invisible.side > .sidebar {
-  position: absolute;
-  left: -200px;
-  width: 260px;
+  width: 60px;
   transition: all 1s ease;
 }
 .ui.invisible.side > .sidebar .item > span {
@@ -33,8 +26,5 @@
 }
 
 .ui.invisible.side > .content {
-  position: relative;
-  left: 60px;
-  width: 100%;
   transition: all 1s ease;
 }

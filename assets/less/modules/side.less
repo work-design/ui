@@ -1,11 +1,25 @@
 .ui.side {
   display: flex;
+  position: relative;
+}
+
+
+.ui.side > .sidebar {
+  width: 260px;
+  transition: all 3s ease;
+}
+
+.ui.side > .content {
+  width: 100%;
 }
 
 .ui.invisible.side > .sidebar {
-  display: none ;
+  position: absolute;
+  left: -260px;
+  width: 260px;
+  transition: all 3s ease;
 }
 
 .ui.invisible.side > .content {
-  width: 100% !important;
+  width: 100%;
 }

@@ -3,8 +3,11 @@ title: 首页
 layout: default
 ---
 
-<div class="ui container grid invisible side">
-  <div class="three wide column sidebar">
+
+
+<div class="ui side">
+
+  <div class="sidebar">
     <div class="ui menu vertical fluid">
       <div class="item">
         <span>用户管理</span>
@@ -24,7 +27,8 @@ layout: default
     </div>
   </div>
 
-  <div class="thirteen wide column content">
+  <div class="content">
+  <div class="thirteen wide column">
 
     <div class="ui top attached menu borderless">
       <div class="item"><strong>用户列表</strong></div>
@@ -61,7 +65,7 @@ layout: default
         <td>2016-05-03 11:01:26</td>
         <td></td>
         <td>
-          <a class="ui blue label" href="/admin/users/26359">详细</a>
+          <a class="ui blue label" href="#" id="test_side">详细</a>
           <a class="ui pink label" href="/admin/users/26359/edit">编辑</a>
           <a data-confirm="Are you sure?" class="ui red label" rel="nofollow" data-method="delete" href="/admin/users/26359">删除</a>
         </td>
@@ -211,6 +215,12 @@ layout: default
 
   </div>
 
-
+  </div>
 
 </div>
+
+<script>
+  $('#test_side').click(function(){
+    $('.ui.side').toggleClass('invisible');
+  });
+</script>

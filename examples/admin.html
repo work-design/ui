@@ -12,10 +12,12 @@ layout: default
 <div class="ui side">
 
   <div class="sidebar">
-    <div class="ui vertical fluid menu">
-      <div class="item ui dropdown">
+    <div class="ui vertical fluid accordion menu">
+      <div class="item">
+        <a class="title">
           <i class="dropdown icon">↓</i>
           <span>用户管理</span>
+        </a>
         <div class="menu">
           <a class="item active" href="/admin/users">
             <i class="alarm icon">1</i>
@@ -227,18 +229,16 @@ layout: default
 <script>
   $('#test_side').click(function(){
     $('.ui.side').toggleClass('invisible');
-    //$('.ui.side .ui.menu').toggleClass('accordion')
-    //$('.ui.side .ui.menu > .item').toggleClass('ui dropdown')
+    $('.ui.side .ui.menu > .item').toggleClass('ui dropdown')
+    $('.ui.dropdown').dropdown({
+      on: 'click',
+      debug: true
+    });
   });
 
-//  $('.ui.accordion').accordion({
-//    selector: {
-//      trigger: '.title .icon'
-//    }
-//  });
-
-  $('.ui.dropdown').dropdown({
-    on: 'hover',
-    debug: true
+  $('.ui.accordion').accordion({
+    selector: {
+      trigger: '.title .icon'
+    }
   });
 </script>

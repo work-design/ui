@@ -5,21 +5,37 @@
 
 
 .ui.side > .sidebar {
+  left: 0;
   width: 260px;
-  transition: all 3s ease;
+  transition: all 1s ease;
 }
 
 .ui.side > .content {
+  position: static;
+  left: 260px;
   width: 100%;
+  transition: all 1s ease;
 }
 
 .ui.invisible.side > .sidebar {
   position: absolute;
-  left: -260px;
+  left: -200px;
   width: 260px;
-  transition: all 3s ease;
+  transition: all 1s ease;
 }
 
 .ui.invisible.side > .content {
+  position: relative;
+  left: 60px;
   width: 100%;
+  transition: all 1s ease;
+}
+
+.ui.side:after {
+  display: block;
+  content: ' ';
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
 }

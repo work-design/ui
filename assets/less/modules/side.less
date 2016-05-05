@@ -3,12 +3,16 @@
   position: relative;
 }
 
-
 .ui.side > .sidebar {
   position: absolute;
   left: 0;
   width: 260px;
   transition: all 1s ease;
+}
+
+/* sidebar */
+.ui.side > .sidebar .item > span {
+  color: #00ACED;
 }
 
 .ui.side > .content {
@@ -23,6 +27,9 @@
   left: -200px;
   width: 260px;
   transition: all 1s ease;
+}
+.ui.invisible.side > .sidebar .item > span {
+  display: none;
 }
 
 .ui.invisible.side > .content {

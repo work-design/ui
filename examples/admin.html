@@ -3,18 +3,20 @@ title: 首页
 layout: default
 ---
 
-
+<style>
+  .slide.down.in {
+    transition: width 1s ease;
+  }
+</style>
 
 <div class="ui side">
 
   <div class="sidebar">
-    <div class="ui vertical fluid accordion menu">
-      <div class="item">
-        <a class="title">
+    <div class="ui vertical fluid menu">
+      <div class="item ui dropdown">
           <i class="dropdown icon">↓</i>
           <span>用户管理</span>
-        </a>
-        <div class="content menu">
+        <div class="menu">
           <a class="item active" href="/admin/users">
             <i class="alarm icon">1</i>
             <span>用户管理</span>
@@ -225,13 +227,18 @@ layout: default
 <script>
   $('#test_side').click(function(){
     $('.ui.side').toggleClass('invisible');
+    //$('.ui.side .ui.menu').toggleClass('accordion')
+    //$('.ui.side .ui.menu > .item').toggleClass('ui dropdown')
   });
 
-  $('.ui.accordion')
-    .accordion({
-      selector: {
-        trigger: '.title .icon'
-      }
-    })
-  ;
+//  $('.ui.accordion').accordion({
+//    selector: {
+//      trigger: '.title .icon'
+//    }
+//  });
+
+  $('.ui.dropdown').dropdown({
+    on: 'hover',
+    debug: true
+  });
 </script>

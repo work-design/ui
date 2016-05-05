@@ -8,10 +8,13 @@ layout: default
 <div class="ui side">
 
   <div class="sidebar">
-    <div class="ui menu vertical fluid">
+    <div class="ui vertical fluid accordion menu">
       <div class="item">
-        <span>用户管理</span>
-        <div class="menu">
+        <a class="title">
+          <i class="dropdown icon">↓</i>
+          <span>用户管理</span>
+        </a>
+        <div class="content menu">
           <a class="item active" href="/admin/users">
             <i class="alarm icon">1</i>
             <span>用户管理</span>
@@ -223,4 +226,12 @@ layout: default
   $('#test_side').click(function(){
     $('.ui.side').toggleClass('invisible');
   });
+
+  $('.ui.accordion')
+    .accordion({
+      selector: {
+        trigger: '.dropdown.icon'
+      }
+    })
+  ;
 </script>

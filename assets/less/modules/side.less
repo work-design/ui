@@ -4,7 +4,8 @@
 
 .ui.side > .sidebar {
   width: 260px;
-  transition: all 1s ease;
+  padding-right: 10px;
+  transition: width 1s ease;
 }
 
 /* sidebar */
@@ -14,17 +15,18 @@
 
 .ui.side > .content {
   width: 100%;
-  transition: all 1s ease;
+  transition: width 1s ease;
 }
 
 .ui.invisible.side > .sidebar {
   width: 60px;
-  transition: all 1s ease;
+  visibility: hidden;
+  transition: width,visibility 1s ease;
 }
 .ui.invisible.side > .sidebar .item > span {
   display: none;
 }
 
 .ui.invisible.side > .content {
-  transition: all 1s ease;
+  transition: width 1s ease;
 }

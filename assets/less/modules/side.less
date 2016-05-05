@@ -5,13 +5,14 @@
 
 
 .ui.side > .sidebar {
+  position: absolute;
   left: 0;
   width: 260px;
   transition: all 1s ease;
 }
 
 .ui.side > .content {
-  position: static;
+  position: relative;
   left: 260px;
   width: 100%;
   transition: all 1s ease;
@@ -29,13 +30,4 @@
   left: 60px;
   width: 100%;
   transition: all 1s ease;
-}
-
-.ui.side:after {
-  display: block;
-  content: ' ';
-  height: 0;
-  clear: both;
-  overflow: hidden;
-  visibility: hidden;
 }

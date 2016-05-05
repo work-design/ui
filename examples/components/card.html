@@ -1,68 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title>Theming - Semantic</title>
-
-  <!--- Site CSS -->
-  <link rel="stylesheet" type="text/css" href="../../dist/components/reset.css">
-  <link rel="stylesheet" type="text/css" href="../../dist/components/site.css">
-  <link rel="stylesheet" type="text/css" href="../../dist/components/grid.css">
-
-  <!--- Component CSS -->
-  <link rel="stylesheet" type="text/css" href="../../dist/components/icon.css">
-  <link rel="stylesheet" type="text/css" href="../../dist/components/button.css">
-  <link rel="stylesheet" type="text/css" href="../../dist/components/card.css">
-  <link rel="stylesheet" type="text/css" href="../../dist/components/label.css">
-  <link rel="stylesheet" type="text/css" href="../../dist/components/image.css">
-  <link rel="stylesheet" type="text/css" href="../../dist/components/reveal.css">
-  <link rel="stylesheet" type="text/css" href="../../dist/components/dimmer.css">
-  <link rel="stylesheet" type="text/css" href="../../dist/components/rating.css">
-  <link rel="stylesheet" type="text/css" href="../../dist/components/transition.css">
-  <link rel="stylesheet" type="text/css" href="../../dist/components/popup.css">
-
-  <!--- Component JS -->
-  <script src="../assets/library/jquery.min.js"></script>
-  <script src="../assets/library/iframe-content.js"></script>
-  <script type="text/javascript" src="../../dist/components/popup.js"></script>
-  <script type="text/javascript" src="../../dist/components/dimmer.js"></script>
-  <script type="text/javascript" src="../../dist/components/rating.js"></script>
-  <script type="text/javascript" src="../../dist/components/transition.js"></script>
-
-  <!--- Show Names -->
-  <script src="../assets/show-examples.js"></script>
-
-  <!--- Example CSS -->
-  <style>
-    body {
-      padding: 1em;
-    }
-  </style>
-
-  <!--- Example Javascript -->
-  <script>
-  $(document)
-    .ready(function() {
-      $('.special.card .image').dimmer({
-        on: 'hover'
-      });
-      $('.star.rating')
-        .rating()
-      ;
-      $('.card .dimmer')
-        .dimmer({
-          on: 'hover'
-        })
-      ;
-    })
-  ;
-  </script>
-</head>
-
-<body>
+---
+title: 首页
+layout: default
+---
 
 <div class="ui four cards">
   <div class="ui card">
@@ -116,10 +55,10 @@
   <div class="ui card">
     <div class="ui slide right reveal image">
       <div class="visible content">
-        <img class="ui fluid image" src="../assets/images/avatar/nan.jpg">
+        <img class="ui fluid image" src="../../assets/images/avatar/nan.jpg">
       </div>
       <div class="hidden content">
-        <img class="ui fluid image" src="../assets/images/avatar/tom.jpg">
+        <img class="ui fluid image" src="../../assets/images/avatar/tom.jpg">
       </div>
     </div>
     <div class="content">
@@ -129,10 +68,10 @@
   <div class="ui card">
     <div class="ui move reveal image">
       <div class="visible content">
-        <img class="ui fluid image" src="../assets/images/avatar/tom.jpg">
+        <img class="ui fluid image" src="../../assets/images/avatar/tom.jpg">
       </div>
       <div class="hidden content">
-        <img class="ui fluid image" src="../assets/images/avatar/nan.jpg">
+        <img class="ui fluid image" src="../../assets/images/avatar/nan.jpg">
       </div>
     </div>
     <div class="content">
@@ -308,6 +247,3 @@
     </div>
   </div>
 </div>
-
-</body>
-</html>

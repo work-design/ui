@@ -1,20 +1,9 @@
-/*!
- * # Semantic UI - Segment
- * http://github.com/semantic-org/semantic-ui/
- *
- *
- * Copyright 2015 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*******************************
             Theme
 *******************************/
 
-@type    : 'element';
-@element : 'segment';
+@type: 'element';
+@element: 'segment';
 
 @import (multiple) '../../theme.config';
 
@@ -33,18 +22,18 @@
 }
 
 .ui.segment:first-child {
-  margin-top: 0em;
+  margin-top: 0;
 }
 .ui.segment:last-child {
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 
 /* Vertical */
 .ui.vertical.segment {
-  margin: 0em;
-  padding-left: 0em;
-  padding-right: 0em;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
 
   background: none transparent;
   border-radius: 0px;
@@ -68,20 +57,20 @@
 
 /* Label */
 .ui[class*="bottom attached"].segment > [class*="top attached"].label {
-  border-top-left-radius: 0em;
-  border-top-right-radius: 0em;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 .ui[class*="top attached"].segment > [class*="bottom attached"].label {
-  border-bottom-left-radius: 0em;
-  border-bottom-right-radius: 0em;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .ui.attached.segment:not(.top):not(.bottom) > [class*="top attached"].label {
-  border-top-left-radius: 0em;
-  border-top-right-radius: 0em;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 .ui.attached.segment:not(.top):not(.bottom) > [class*="bottom attached"].label {
-  border-bottom-left-radius: 0em;
-  border-bottom-right-radius: 0em;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* Grid */
@@ -117,15 +106,15 @@
 
 .ui.piled.segments,
 .ui.piled.segment {
-  margin: @piledMargin 0em;
+  margin: @piledMargin 0;
   box-shadow: @piledBoxShadow;
   z-index: @piledZIndex;
 }
 .ui.piled.segment:first-child {
-  margin-top: 0em;
+  margin-top: 0;
 }
 .ui.piled.segment:last-child {
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 .ui.piled.segments:after,
 .ui.piled.segments:before,
@@ -158,17 +147,17 @@
 /* Piled Attached */
 .ui[class*="top attached"].piled.segment {
   margin-top: @piledMargin;
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 .ui.piled.segment[class*="top attached"]:first-child {
-  margin-top: 0em;
+  margin-top: 0;
 }
 .ui.piled.segment[class*="bottom attached"] {
-  margin-top: 0em;
+  margin-top: 0;
   margin-bottom: @piledMargin;
 }
 .ui.piled.segment[class*="bottom attached"]:last-child {
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 /*-------------------
@@ -254,7 +243,7 @@
   padding: @circularPadding;
   text-align: center;
   vertical-align: middle;
-  border-radius: 500em;
+  border-radius: 500;
 }
 
 /*-------------------
@@ -281,10 +270,10 @@
   border-radius: @groupedBorderRadius;
 }
 .ui.segments:first-child {
-  margin-top: 0em;
+  margin-top: 0;
 }
 .ui.segments:last-child {
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 
@@ -304,21 +293,21 @@
   top: @attachedTopOffset;
   bottom: 0px;
   border-top: none;
-  margin-top: 0em;
+  margin-top: 0;
   bottom: 0px;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   top: @attachedTopOffset;
-  border-radius: @borderRadius @borderRadius 0em 0em;
+  border-radius: @borderRadius @borderRadius 0 0;
 }
 
 /* Bottom */
 .ui.segments:not(.horizontal) > .segment:last-child {
   top: @attachedBottomOffset;
   bottom: 0px;
-  margin-top: 0em;
-  margin-bottom: 0em;
+  margin-top: 0;
+  margin-bottom: 0;
   box-shadow: @attachedBottomBoxShadow;
-  border-radius: 0em 0em @borderRadius @borderRadius;
+  border-radius: 0 0 @borderRadius @borderRadius;
 }
 
 
@@ -331,7 +320,7 @@
   border-top: none;
 }
 .ui.segments > .segment + .segments:not(.horizontal) {
-  margin-top: 0em;
+  margin-top: 0;
 }
 
 /* Horizontal Group */
@@ -340,7 +329,7 @@
   flex-direction: row;
   background-color: transparent;
   border-radius: 0px;
-  padding: 0em;
+  padding: 0;
   background-color: @background;
   box-shadow: @boxShadow;
   margin: @margin;
@@ -350,7 +339,7 @@
 
 /* Nested Horizontal Group */
 .ui.segments > .horizontal.segments {
-  margin: 0em;
+  margin: 0;
   background-color: transparent;
   border-radius: 0px;
   border: none;
@@ -362,7 +351,7 @@
 .ui.horizontal.segments > .segment {
   flex: 1 1 auto;
   -ms-flex: 1 1 0px; /* Solves #2550 MS Flex */
-  margin: 0em;
+  margin: 0;
   min-width: 0px;
   background-color: transparent;
   border-radius: 0px;
@@ -689,7 +678,7 @@
   top: 0px;
   bottom: 0px;
   border-radius: 0px;
-  margin: 0em @attachedHorizontalOffset;
+  margin: 0 @attachedHorizontalOffset;
   width: @attachedWidth;
   max-width: @attachedWidth;
   box-shadow: @attachedBoxShadow;
@@ -702,25 +691,25 @@
 /* Top */
 .ui[class*="top attached"].segment {
   bottom: 0px;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   top: @attachedTopOffset;
   margin-top: @verticalMargin;
-  border-radius: @borderRadius @borderRadius 0em 0em;
+  border-radius: @borderRadius @borderRadius 0 0;
 }
 .ui.segment[class*="top attached"]:first-child {
-  margin-top: 0em;
+  margin-top: 0;
 }
 
 /* Bottom */
 .ui.segment[class*="bottom attached"] {
   bottom: 0px;
-  margin-top: 0em;
+  margin-top: 0;
   top: @attachedBottomOffset;
   margin-bottom: @verticalMargin;
   box-shadow: @attachedBottomBoxShadow;
-  border-radius: 0em 0em @borderRadius @borderRadius;
+  border-radius: 0 0 @borderRadius @borderRadius;
 }
 .ui.segment[class*="bottom attached"]:last-child {
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 

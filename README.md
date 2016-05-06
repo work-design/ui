@@ -7,13 +7,9 @@
 #### 浏览器支持详细
 
 | 功能 | 支持情况 | 涉及组件 |
-|--|--|--|
-| flex | | |
+|---|---|---|
+| flex | IE 10 | items, side |
 
-* Last 2 Versions FF, Chrome, Safari Mac
-* IE 11+
-* Android 4.4+, Chrome for Android 44+
-* iOS Safari 7+
 
 
 ### 使用方法

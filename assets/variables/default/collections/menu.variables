@@ -437,6 +437,7 @@
   @boxShadow,
   @attachedBoxShadow
 ;
+@attachedBorderTop: 2px solid @borderColor;
 
 /* Sizes */
 @smallWidth: 13rem;

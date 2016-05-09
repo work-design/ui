@@ -1838,7 +1838,7 @@ Floated Menu / Item
   top: @attachedTopOffset;
   margin-top: @verticalMargin;
   border-top: @attachedBorderTop;
-  border-radius: @borderRadius @borderRadius 0 0;
+  border-radius: 0 0 0 0;
 }
 .ui.menu[class*="top attached"]:first-child {
   margin-top: 0;
@@ -1851,7 +1851,7 @@ Floated Menu / Item
   top: @attachedBottomOffset;
   margin-bottom: @verticalMargin;
   box-shadow: @attachedBottomBoxShadow;
-  border-radius: 0 0 @borderRadius @borderRadius;
+  border-radius: 0 0 0 0;
 }
 .ui[class*="bottom attached"].menu:last-child {
   margin-bottom: 0;
@@ -1866,9 +1866,9 @@ Floated Menu / Item
 }
 
 /* Tabular Attached */
-.ui.attached.menu:not(.tabular) {
-  border: @attachedBorder;
-}
+//.ui.attached.menu:not(.tabular) {
+  //border: @attachedBorder;
+//}
 .ui.attached.inverted.menu {
   border: none;
 }

@@ -4,14 +4,13 @@
 - 基于 [Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) 改造;
 
 
-#### Browser Support
+#### 浏览器支持详细
 
-* Last 2 Versions FF, Chrome, Safari Mac
-* IE 11+
-* Android 4.4+, Chrome for Android 44+
-* iOS Safari 7+
+| 功能 | 支持情况 | 涉及组件 |
+|---|---|---|
+| flex | IE 10 | items, side |
 
-Although some components will work in IE9, [grids](http://semantic-ui.com/collections/grid.html) and other [flexbox](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes) components are not supported by IE9 and may not appear correctly.
+
 
 ### 使用方法
 - 安装less: `npm install -g less`, less命令为`lessc`
@@ -23,3 +22,6 @@ Although some components will work in IE9, [grids](http://semantic-ui.com/collec
 
 ### 优化改造
 - 不让语义话标签影响样式
+
+#### 参考文档
+[flexbox](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes)

@@ -28,7 +28,8 @@
 /*--------------
       Item
 ---------------*/
-.ui.items > .item {
+.ui.items > .item,
+.ui.items > li {
   display: @display;
   margin: @itemSpacing 0;
   width: @width;
@@ -453,13 +454,31 @@
 --------------------*/
 
 .ui.items a.item:hover,
-.ui.link.items > .item:hover {
+.ui.link.items > .item:hover,
+.ui.link.items > li:hover {
   cursor: pointer;
 }
 
 .ui.items a.item:hover .content .header,
-.ui.link.items > .item:hover .content .header {
+.ui.link.items > .item:hover .content .header,
+.ui.link.items > li:hover .content .header {
   color: @headerLinkHoverColor;
+}
+
+/* Compatible for old browsers */
+
+.ui.old.items > .item,
+.ui.old.items > li {
+  display: table;
+  table-layout: fixed;
+}
+.ui.old.items > .item > .image,
+.ui.old.items > li > .image {
+  display: table-cell;
+  vertical-align: top;
+}
+.ui.old.items > .item > .image + .content {
+  display: table-cell;
 }
 
 

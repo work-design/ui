@@ -6,7 +6,7 @@ layout: default
 <div class="ui side">
 
   <div class="sidebar">
-    <div class="ui vertical fluid accordion menu">
+    <div class="ui vertical inverted fluid accordion menu">
       <div class="item">
         <a class="title">
           <i class="dropdown icon"></i>
@@ -72,7 +72,7 @@ layout: default
         <td>2016-05-03 11:01:26</td>
         <td></td>
         <td>
-          <a class="ui blue label" href="" id="test_side">详细</a>
+          <a class="ui blue label" href="#" id="test_side">详细</a>
           <a class="ui pink label" href="">编辑</a>
           <a data-confirm="Are you sure?" class="ui red label" rel="nofollow" data-method="delete" href="">删除</a>
         </td>
@@ -216,11 +216,12 @@ layout: default
 <script>
   $('#test_side').click(function(){
     $('.ui.side').toggleClass('invisible');
+    $('.ui.side .ui.menu').toggleClass('icon')
   });
 
   $('.ui.accordion').accordion({
     selector: {
-      trigger: '.title .icon'
+      trigger: '.title'
     }
   });
 </script>

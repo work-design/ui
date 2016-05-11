@@ -1,0 +1,54 @@
+---
+title: 首页
+layout: default
+---
+
+<div class="ui icon button" data-content="Add users to your feed">
+    <i class="add icon"></i>
+</div>
+<div class="ui divider"></div>
+<img src="../assets/images/avatar/nan.jpg" data-title="Elliot Fu" data-content="Elliot has been a member since July 2012" class="ui avatar image">
+<img src="../assets/images/avatar/tom.jpg" data-title="Stevie Feliciano" data-content="Stevie has been a member since August 2013" class="ui avatar image">
+<div class="ui divider"></div>
+<div class="ui icon button" data-content="The default theme's basic popup removes the pointing arrow." data-variation="basic">
+    <i class="add icon"></i>
+</div>
+<div class="ui divider"></div>
+<i class="circular heart icon link" data-content="Hello. This is a mini popup" data-variation="mini"></i>
+<i class="circular heart icon link" data-content="Hello. This is a tiny popup" data-variation="tiny"></i>
+<i class="circular heart icon link" data-content="Hello. This is a small popup" data-variation="small"></i>
+<i class="circular heart icon link" data-content="Hello. This is a large popup" data-variation="large"></i>
+<i class="circular heart icon link" data-content="Hello. This is a huge popup" data-variation="huge"></i>
+<i class="circular heart icon link" data-content="Hello. This is an inverted popup" data-variation="inverted"></i>
+<div class="ui divider"></div>
+<div class="ui button">Show flowing popup</div>
+<div class="ui flowing popup top left transition hidden">
+    <div class="ui three column divided center aligned grid">
+        <div class="column">
+            <h4 class="ui header">Basic Plan</h4>
+            <p><b>2</b> projects, $10 a month</p>
+            <div class="ui button">Choose</div>
+        </div>
+        <div class="column">
+            <h4 class="ui header">Business Plan</h4>
+            <p><b>5</b> projects, $20 a month</p>
+            <div class="ui button">Choose</div>
+        </div>
+        <div class="column">
+            <h4 class="ui header">Premium Plan</h4>
+            <p><b>8</b> projects, $25 a month</p>
+            <div class="ui button">Choose</div>
+        </div>
+    </div>
+</div>
+<script>
+    $('.button')
+            .popup()
+    ;
+    $('.link')
+            .popup()
+    ;
+    $('.image')
+            .popup()
+    ;
+</script>

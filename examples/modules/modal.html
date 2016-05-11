@@ -3,55 +3,89 @@ title: 首页
 layout: default
 ---
 
-<div class="ui modal">
-  <i class="close icon"></i>
-  <div class="header">
-    Profile Picture
-  </div>
-  <div class="image content">
-    <div class="ui medium image">
-      <img src="/images/avatar/large/chris.jpg">
-    </div>
-    <div class="description">
-      <div class="ui header">We've auto-chosen a profile image for you.</div>
-      <p>We've grabbed the following image from the <a href="https://www.gravatar.com" target="_blank">gravatar</a> image associated with your registered e-mail address.</p>
-      <p>Is it okay to use this photo?</p>
-    </div>
-  </div>
+<div class="ui united modal" id="modal1">
+  <div class="header">Modal 1</div>
+  <div class="content">Some info will go here...</div>
   <div class="actions">
-    <div class="ui black deny button">
-      Nope
-    </div>
-    <div class="ui positive right labeled icon button">
-      Yep, that's me
-      <i class="checkmark icon"></i>
-    </div>
+    <div class="ui blue labeled icon button" id="btn-modal-1">关闭</div>
   </div>
 </div>
-<div class="ui divider"></div>
-<div class="ui basic modal">
+
+<div class="ui united fullscreen modal" id="modal2">
+  <div class="header"> Modal 2 </div>
+  <div class="content">If you want to close previous modals before show the next modal, you should disable the parameter <b>'allowMultiple'</b>.  </div>
+  <div class="actions">
+    <div class="ui red labeled icon button" id="btn-modal-2"><i class="arrow sign left icon"></i>继续</div>
+  </div>
+</div>
+
+
+<div class="ui united small modal" id="modal3">
+  <div class="header"> Modal 3 </div>
+  <div class="content"> Hello World </div>
+  <div class="actions">
+    <div class="ui blue labeled icon button" id="btn-modal-3"> <i class="checkmark icon"></i> 关闭 </div> </div>
+</div>
+
+<div class="ui fullscreen modal" id="modal4">
   <i class="close icon"></i>
   <div class="header">
-    Archive Old Messages
+    更新你的设置
   </div>
-  <div class="image content">
-    <div class="image">
-      <i class="archive icon"></i>
-    </div>
-    <div class="description">
-      <p>Your inbox is getting full, would you like us to enable automatic archiving of old messages?</p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="two fluid ui inverted buttons">
-      <div class="ui red basic inverted button">
-        <i class="remove icon"></i>
-        No
+  <div class="content">
+    <div class="ui form">
+      <h4 class="ui dividing header">给我们您的反馈</h4>
+      <div class="field">
+        <label>反馈</label>
+        <textarea></textarea>
       </div>
-      <div class="ui green basic inverted button">
-        <i class="checkmark icon"></i>
-        Yes
+      <div class="field">
+        <div class="ui checkbox">
+          <input type="checkbox" checked="checked" name="contact-me">
+          <label>可以联系我.</label>
+        </div>
       </div>
     </div>
   </div>
+  <div class="actions">
+    <div class="ui button">取消</div>
+    <div class="ui green button">发送</div>
+  </div>
 </div>
+
+
+<div style="padding: 30px;">
+  <button data-modal="modal1" id="call-modal-1" class="ui green button">标准弹出层</button>
+  <button data-modal="modal2" id="call-modal-2" class="ui red button">多个弹出层</button>
+  <button data-modal="modal3" id="call-modal-3" class="ui orange button">文本框弹出层</button>
+</div>
+
+<script>
+  $('.united.modal').modal({
+    //allowMultiple如果设置为true在打开一个新的弹出层时不会关闭其他可见的弹出层.
+    allowMultiple: false
+  });
+  //attach events后面的值表示接受事件的一方
+  $('#modal3').modal('attach events', '#btn-modal-2');
+  $('div .green.button').on('click',function () {
+    $('#modal1')
+            .modal('show')
+  });
+  $('#btn-modal-1').on('click', function () {
+    $('#modal1')
+            .modal('hide')
+  });
+  $('div .red.button').on('click',function () {
+    $('#modal2')
+            .modal('show')
+  });
+  $('#btn-modal-3').on('click', function () {
+    $('#modal2').modal('hide');
+    $('#modal3').modal('hide');
+  });
+  $('div .orange.button').on('click', function () {
+    $('#modal4').modal('show')
+  })
+</script>
+
+

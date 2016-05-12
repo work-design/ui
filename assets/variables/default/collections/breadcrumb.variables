@@ -6,8 +6,8 @@
      Breadcrumb
 --------------------*/
 
-@verticalMargin: 0em;
-@display: inline-block;
+@verticalMargin: 0;
+@display: block;
 @verticalAlign: middle;
 
 @dividerSpacing: @3px;
@@ -20,8 +20,8 @@
 @iconDividerSize: @relativeTiny;
 @iconDividerVerticalAlign: baseline;
 
-@sectionMargin: 0em;
-@sectionPadding: 0em;
+@sectionMargin: 0;
+@sectionPadding: 0;
 
 /* Coupling */
 @segmentPadding: @relativeMini @relativeMedium;

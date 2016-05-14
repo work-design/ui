@@ -1,0 +1,321 @@
+---
+title: 首页
+layout: default
+---
+
+<div class="ui side">
+
+    <div class="sidebar">
+        <div class="ui vertical inverted fluid accordion menu">
+            <div class="item">
+                <a class="title">
+                    <i class="dropdown icon"></i>
+                    <span>用户系统</span>
+                </a>
+                <div class="menu content">
+                    <a class="item active" href="">
+                        <i class="alarm icon"></i>
+                        <span>用户管理</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="edit icon"></i>
+                        <span>微信用户</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="edit icon"></i>
+                        <span>微信解绑</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="edit icon"></i>
+                        <span>角色管理</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="thirteen wide column">
+            <h3>Customer   Management</h3>
+
+            <div class="ui blue segment">
+                <div class="ui grid">
+                    <div class="three wide column">
+                        <div class="ui search dropdown selection  visible">
+                            <select>
+                                <option value="">Organization</option>
+                                <option value="user">blank</option>
+                                <option value="user">smith</option>
+                            </select>
+                            <i class="dropdown icon"></i>
+                            <input class="search" tabindex="0">
+                            <div class="default text">Organization</div>
+                            <div class="menu" tabindex="-1">
+                                <div class="item" data-value="user">blank</div>
+                                <div class="item" data-value="user">smith</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three wide column">
+                        <div class="ui search dropdown selection  visible">
+                            <select>
+                                <option value="">Org Type</option>
+                                <option value="role">A</option>
+                                <option value="role">B</option>
+                            </select>
+                            <i class="dropdown icon"></i>
+                            <input class="search" tabindex="0">
+                            <div class="default text">Org Type</div>
+                            <div class="menu" tabindex="-1">
+                                <div class="item" data-value="role">A</div>
+                                <div class="item" data-value="role">B</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three wide column">
+                        <div class="ui search dropdown selection visible">
+                            <select>
+                                <option value="">Country</option>
+                                <option value="AL">A</option>
+                                <option value="AL">B</option>
+                            </select>
+                            <i class="dropdown icon"></i>
+                            <input class="search" tabindex="0">
+                            <div class="default text">Country</div>
+                            <div class="menu" tabindex="-1">
+                                <div class="item" data-value="AL">A</div>
+                                <div class="item" data-value="AL">B</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three wide column">
+                        <div class="ui search dropdown selection visible">
+                            <select>
+                                <option value="">BD</option>
+                                <option value="bd">A</option>
+                                <option value="bd">B</option>
+                            </select>
+                            <i class="dropdown icon"></i>
+                            <input class="search" tabindex="0">
+                            <div class="default text">BD</div>
+                            <div class="menu" tabindex="-1">
+                                <div class="item" data-value="bd">A</div>
+                                <div class="item" data-value="bd">B</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three wide column">
+                        <div class="ui search dropdown selection visible">
+                            <select>
+                                <option value="">Account Manager</option>
+                                <option value="am">A</option>
+                                <option value="am">B</option>
+                            </select>
+                            <i class="dropdown icon"></i>
+                            <input class="search" tabindex="0">
+                            <div class="default text">Account Manager</div>
+                            <div class="menu" tabindex="-1">
+                                <div class="item" data-value="am">A</div>
+                                <div class="item" data-value="am">B</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three wide column">
+                        <div class="ui search dropdown selection visible">
+                            <select>
+                                <option value="">Account period</option>
+                                <option value="ap">A</option>
+                                <option value="ap">B</option>
+                            </select>
+                            <i class="dropdown icon"></i>
+                            <input class="search" tabindex="0">
+                            <div class="default text">Account period</div>
+                            <div class="menu" tabindex="-1">
+                                <div class="item" data-value="ap">A</div>
+                                <div class="item" data-value="ap">B</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three wide column">
+                        <div class="ui primary button">SEARCH</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui segments">
+            <div class="ui blue segment">
+                <button class="ui button" id="call-modal-1"><i class="sign out icon"></i>Extract to Excel</button>
+                <table class="ui celled table">
+                    <thead>
+                    <tr>
+                        <th class="left aligned"><input type="checkbox" id="selectall"></th>
+                        <th class="center aligned">Organization</th>
+                        <th class="center aligned">Last inquiry time</th>
+                        <th class="center aligned">Last order time</th>
+                        <th class="center aligned">BD</th>
+                        <th class="center aligned">Account Manager</th>
+                        <th class="center aligned">BD handover status</th>
+                        <th class="center aligned">Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="left aligned">
+                            <input type="checkbox" class="check1" name="foo" value="bar1">
+                            <span>1</span>
+                        </td>
+                        <td class="left aligned">
+                            <i class="info blue icon" data-content="~~~~~~" data-variation="basic"></i>
+                            <a class="item" href="#link">OVBioteck Ltd.co</a>
+                        </td>
+                        <td class="center aligned">2016-05-04</td>
+                        <td class="center aligned">2016-05-05</td>
+                        <td class="center aligned">Kystal Zhou</td>
+                        <td class="center aligned">Suri Cruise</td>
+                        <td class="center aligned">Suri Cruise</td>
+                        <td class="left aligned">
+                            <button class="ui icon blue button" id="test_side" data-content="Edit Info" data-variation="inverted"><i class="center aligned user white icon"></i></button>
+                            <button class="ui icon grey button" data-content="Track Record" data-variation="inverted"><i class="center aligned calendar outline icon"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left aligned">
+                            <input type="checkbox" class="check1" name="foo" value="bar1">
+                            <span>2</span>
+                        </td>
+                        <td class="left aligned">
+                            <i class="info blue icon" data-content="~~~~~~" data-variation="basic"></i>
+                            <a class="item" href="#link">Rocher</a>
+                        </td>
+                        <td class="center aligned">2016-05-04</td>
+                        <td class="center aligned">2016-05-05</td>
+                        <td class="center aligned">Kystal Zhou</td>
+                        <td class="center aligned">Suri Cruise</td>
+                        <td class="center aligned">Suri Cruise</td>
+                        <td class="left aligned">
+                            <button class="ui icon blue button" data-content="Edit Info" data-variation="inverted"><i class="center aligned user white icon"></i></button>
+                            <button class="ui icon grey button" data-content="Track Record" data-variation="inverted"><i class="center aligned calendar outline icon"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left aligned">
+                            <input type="checkbox" class="check1" name="foo" value="bar1">
+                            <span>3</span>
+                        </td>
+                        <td class="left aligned">
+                            <i class="info blue icon" data-content="~~~~~~" data-variation="basic"></i>
+                            <a class="item" href="#link">Bosch</a>
+                        </td>
+                        <td class="center aligned">2016-05-04</td>
+                        <td class="center aligned">2016-05-05</td>
+                        <td class="center aligned">Kystal Zhou</td>
+                        <td class="center aligned">Suri Cruise</td>
+                        <td class="center aligned">Suri Cruise</td>
+                        <td class="left aligned">
+                            <button class="ui icon blue button" data-content="Edit Info" data-variation="inverted"><i class="center aligned user white icon"></i></button>
+                            <button class="ui icon grey button" data-content="Track Record" data-variation="inverted"><i class="center aligned calendar outline icon"></i></button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ui modal" id="modal1">
+                <i class="close icon"></i>
+                <div class="header">
+                    <span style="color: #0d71bb">Edit</span>
+                </div>
+                <div class="content">
+                    <div class="ui small form">
+                        <div class="divider"></div>
+                        <div class="field">
+                            <label>Organization:</label>
+                            <input type="text" name="organization">
+                        </div>
+                        <div class="two fields">
+                            <div class="field">
+                                <label>Org Name:</label>
+                                <select class="ui search dropdown">
+                                    <option value="">CRO</option>
+                                    <option value="org_t">a</option>
+                                    <option value="org_t">b</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label>Org Name:</label>
+                                <select class="ui search dropdown">
+                                    <option value="">Hot</option>
+                                    <option value="org_g">a</option>
+                                    <option value="org_g">b</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="two fields">
+                            <div class="field">
+                                <label>Payment Terms:</label>
+                                <select class="ui search dropdown">
+                                    <option value="">Conference</option>
+                                    <option value="org">a</option>
+                                    <option value="org">b</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label>Showing quotation in main page:</label>
+                                <select class="ui search dropdown">
+                                    <option value="">America</option>
+                                    <option value="con">a</option>
+                                    <option value="con">b</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>Abstract:</label>
+                            <textarea rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="actions">
+                    <div class="ui button">Cancel</div>
+                    <div class="ui blue button">Confirm</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $('#test_side').click(function(){
+        $('.ui.side').toggleClass('invisible');
+        $('.ui.side .ui.menu').toggleClass('icon')
+    });
+
+    $('.ui.accordion').accordion({
+        selector: {
+            trigger: '.title'
+        }
+    });
+    $('.search.dropdown')
+            .dropdown()
+    ;
+    $('.button')
+            .popup()
+    ;
+    $('i.icon')
+            .popup()
+    ;
+    $('#selectall').click(function(event) {
+        if(this.checked) {
+            $('.check1').each(function() {
+                this.checked = true;
+            });
+        }else{
+            $('.check1').each(function() {
+                this.checked = false;
+            });
+        }
+    });
+    $('#call-modal-1').on('click', function () {
+        $('#modal1').modal('show')
+    })
+</script>

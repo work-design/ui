@@ -1,0 +1,391 @@
+---
+title: 首页
+layout: default
+---
+
+<div class="ui side">
+
+    <div class="sidebar">
+        <div class="ui vertical inverted fluid accordion menu">
+            <div class="item">
+                <a class="title">
+                    <i class="dropdown icon"></i>
+                    <span>用户系统</span>
+                </a>
+                <div class="menu content">
+                    <a class="item active" href="">
+                        <i class="alarm icon"></i>
+                        <span>用户管理</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="edit icon"></i>
+                        <span>微信用户</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="edit icon"></i>
+                        <span>微信解绑</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="edit icon"></i>
+                        <span>角色管理</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="thirteen wide column">
+            <h3>Leads   Management</h3>
+
+            <div class="ui blue segment">
+                <div class="ui grid">
+                    <div class="four wide column">
+                        <div class="ui search dropdown selection  visible">
+                            <select>
+                                <option value="">Customer</option>
+                                <option value="user">blank</option>
+                                <option value="user">smith</option>
+                            </select>
+                            <i class="dropdown icon"></i>
+                            <input class="search" tabindex="0">
+                            <div class="default text">Customer</div>
+                            <div class="menu" tabindex="-1">
+                                <div class="item" data-value="user">blank</div>
+                                <div class="item" data-value="user">smith</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four wide column">
+                        <div class="ui search dropdown selection  visible">
+                            <select>
+                                <option value="">BD Representative</option>
+                                <option value="role">A</option>
+                                <option value="role">B</option>
+                            </select>
+                            <i class="dropdown icon"></i>
+                            <input class="search" tabindex="0">
+                            <div class="default text">BD Representative </div>
+                            <div class="menu" tabindex="-1">
+                                <div class="item" data-value="role">A</div>
+                                <div class="item" data-value="role">B</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four wide column">
+                        <div class="ui search dropdown selection visible">
+                            <select>
+                                <option value="">Create On</option>
+                                <option value="AL">2016-03-23  11:33:21</option>
+                                <option value="AL">2016-03-23  11:33:22</option>
+                            </select>
+                            <i class="dropdown icon"></i>
+                            <input class="search" tabindex="0">
+                                <div class="default text">Create On</div>
+                            <div class="menu" tabindex="-1">
+                                <div class="item" data-value="AL">2016-03-23  11:33:21</div>
+                                <div class="item" data-value="AL">2016-03-23  11:33:22</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four wide column">
+                        <div class="ui primary button">SEARCH</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui segments">
+            <div class="ui secondary segment">
+                <p>Status:
+                    <button class="ui basic blue button">All Leads</button>
+                    <button class="ui basic white button">Unassigned Leads</button>
+                    <button class="ui basic button">New Leads</button>
+                    <button class="ui basic button">Quoted Leads</button>
+                    <button class="ui basic button">Closed Leads</button>
+                </p>
+            </div>
+            <div class="ui blue segment">
+                <button class="ui button" id="call-modal-1"><i class="add circle icon"></i>Add New Leads</button>
+                <button class="ui green button"><i class="share icon"></i>Assign</button>
+                <button class="ui button"><i class="upload icon"></i>Uploads Leads</button>
+                <button class="ui button"><i class="download icon"></i>Extract Leads</button>
+                <table class="ui celled table">
+                    <thead>
+                        <tr>
+                            <th class="center aligned"><input type="checkbox" id="selectall"></th>
+                            <th class="center aligned">BD</th>
+                            <th class="center aligned">Created by</th>
+                            <th class="center aligned">Leads informations</th>
+                            <th class="center aligned">Origin</th>
+                            <th class="center aligned">First Contact</th>
+                            <th class="center aligned">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="center aligned"><input type="checkbox" class="check1" name="foo" value="bar1"></td>
+                            <td class="center aligned">
+                                Krystal zhou
+                            </td>
+                            <td class="center aligned">Jessica Zheng</td>
+                            <td class="center aligned"><i class="info blue icon" data-content="San Zhang, jenny@renyoung.com,15827513512 Xi'an Chemical Research Institute" data-variation="basic"></i>San Zhang</td>
+                            <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                            <td class="center aligned">2016-04-19</td>
+                            <td class="left aligned">
+                                <button class="ui icon green button" id="test_side"  data-content="Assign" data-variation="inverted"><i class="center aligned share white icon"></i></button>
+                                <button class="ui icon blue button" data-content="Edit Info" data-variation="inverted"><i class="center aligned user white icon"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="center aligned"><input type="checkbox" class="check1" name="foo" value="bar2"></td>
+                            <td class="center aligned">
+                                Krystal zhou
+                            </td>
+                            <td class="center aligned">Jessica Zheng</td>
+                            <td class="center aligned"><i class="info blue icon" data-content="San Zhang, jenny@renyoung.com,15827513512 Xi'an Chemical Research Institute" data-variation="basic"></i>San Zhang</td>
+                            <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                            <td class="center aligned">2016-04-19</td>
+                            <td class="left aligned">
+                                <button class="ui icon brown button" data-content="Account Info" data-variation="inverted"><i class="folder outline white icon"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="center aligned"><input type="checkbox" class="check1" name="foo" value="bar3"></td>
+                            <td class="center aligned">
+                                Krystal zhou
+                            </td>
+                            <td class="center aligned">Jessica Zheng</td>
+                            <td class="center aligned"><i class="info blue icon" data-content="San Zhang, jenny@renyoung.com,15827513512 Xi'an Chemical Research Institute" data-variation="basic"></i>San Zhang</td>
+                            <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                            <td class="center aligned">2016-04-19</td>
+                            <td class="left aligned">
+                                <button class="ui icon green button" data-content="Assign" data-variation="inverted"><i class="center aligned share white icon"></i></button>
+                                <button class="ui icon blue button" data-content="Edit Info" data-variation="inverted"><i class="center aligned user white icon"></i></button>
+                                <button class="ui icon orange button" data-content="Abandon" data-variation="inverted"><i class="trash white icon"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="center aligned"><input type="checkbox" class="check1" name="foo" value="bar4"></td>
+                            <td class="center aligned">
+                                Krystal zhou
+                            </td>
+                            <td class="center aligned">Jessica Zheng</td>
+                            <td class="center aligned"><i class="info blue icon" data-content="San Zhang, jenny@renyoung.com,15827513512 Xi'an Chemical Research Institute" data-variation="basic"></i>San Zhang</td>
+                            <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                            <td class="center aligned">2016-04-19</td>
+                            <td class="left aligned">
+                                <button class="ui icon teal button" data-content="Revive" data-variation="inverted"><i class="undo white icon"></i></button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                <table class="ui celled table">
+                    <thead>
+                        <tr>
+                            <th class="center aligned"></th>
+                            <th class="center aligned">Organization</th>
+                            <th class="center aligned">Contact</th>
+                            <th class="center aligned">Email</th>
+                            <th class="center aligned">Phone</th>
+                            <th class="center aligned">Origin</th>
+                            <th class="center aligned">First Contact</th>
+                            <th class="center aligned">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="center aligned">1</td>
+                            <td class="center aligned">
+                                Xi'an Chemical Research Institute
+                            </td>
+                            <td class="center aligned">San Zhang</td>
+                            <td class="center aligned">jenny@renyoung.com</td>
+                            <td class="center aligned">+001 15827513512</td>
+                            <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                            <td class="center aligned">2016-04-19</td>
+                            <td class="left aligned">
+                                <button class="ui icon blue button" data-content="Edit Info" data-variation="inverted"><i class="center aligned user white icon"></i></button>
+                                <button class="ui icon orange button" data-content="Abandon" data-variation="inverted"><i class="trash white icon"></i></button>
+                                <button class="ui icon green button" data-content="Add Inquiry" data-variation="inverted"><i class="edit white icon"></i></button>
+                                <button class="ui icon grey button" data-content="Communication log" data-variation="inverted"><i class="calendar outline icon"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="center aligned">2</td>
+                            <td class="center aligned">
+                                Xi'an Chemical Research Institute
+                            </td>
+                            <td class="center aligned">San Zhang</td>
+                            <td class="center aligned">jenny@renyoung.com</td>
+                            <td class="center aligned">+001 15827513512</td>
+                            <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                            <td class="center aligned">2016-04-19</td>
+                            <td class="left aligned">
+                                <button class="ui icon brown button" data-content="Account Info" data-variation="inverted"><i class="folder outline white icon"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="center aligned">3</td>
+                            <td class="center aligned">
+                                Xi'an Chemical Research Institute
+                            </td>
+                            <td class="center aligned">San Zhang</td>
+                            <td class="center aligned">jenny@renyoung.com</td>
+                            <td class="center aligned">+001 15827513512</td>
+                            <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                            <td class="center aligned">2016-04-19</td>
+                            <td class="left aligned">
+                                <button class="ui icon teal button" data-content="Revive" data-variation="inverted"><i class="undo white icon"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="center aligned">4</td>
+                            <td class="center aligned">
+                                Xi'an Chemical Research Institute
+                            </td>
+                            <td class="center aligned">San Zhang</td>
+                            <td class="center aligned">jenny@renyoung.com</td>
+                            <td class="center aligned">+001 15827513512</td>
+                            <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                            <td class="center aligned">2016-04-19</td>
+                            <td class="left aligned">
+                                <button class="ui icon brown button" data-content="Account Info" data-variation="inverted"><i class="folder outline white icon"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="center aligned">5</td>
+                            <td class="center aligned">
+                                Xi'an Chemical Research Institute
+                            </td>
+                            <td class="center aligned">San Zhang</td>
+                            <td class="center aligned">jenny@renyoung.com</td>
+                            <td class="center aligned">+001 15827513512</td>
+                            <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                            <td class="center aligned">2016-04-19</td>
+                            <td class="left aligned">
+                                <button class="ui icon brown button" data-content="Account Info" data-variation="inverted"><i class="folder outline white icon"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ui modal" id="modal1">
+                <i class="close icon"></i>
+                <div class="header">
+                    <span style="color: #0d71bb">Add New Lead</span>
+                </div>
+                <div class="content">
+                    <div class="ui small form">
+                        <div class="divider"></div>
+                        <div class="field">
+                            <label>Organization:</label>
+                            <input type="text" name="organization">
+                        </div>
+                        <div class="two fields">
+                            <div class="field">
+                                <label>Org Type:</label>
+                                <select class="ui search dropdown">
+                                    <option value="">CRO</option>
+                                    <option value="org_t">a</option>
+                                    <option value="org_t">b</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label>Org Grande:</label>
+                                <select class="ui search dropdown">
+                                    <option value="">Hot</option>
+                                    <option value="org_g">a</option>
+                                    <option value="org_g">b</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="two fields">
+                            <div class="field">
+                                <label>Origin:</label>
+                                <select class="ui search dropdown">
+                                    <option value="">Conference</option>
+                                    <option value="org">a</option>
+                                    <option value="org">b</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label>country:</label>
+                                <select class="ui search dropdown">
+                                    <option value="">America</option>
+                                    <option value="con">a</option>
+                                    <option value="con">b</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="two fields">
+                            <div class="field">
+                                <label>Contact:</label>
+                                <input type="text" name="contact">
+                            </div>
+                            <div class="field">
+                                <label>Phone:</label>
+                                <input type="text" name="phone">
+                            </div>
+                        </div>
+                        <div class="two fields">
+                            <div class="field">
+                                <label>Email:</label>
+                                <input type="text" name="email">
+                            </div>
+                            <div class="field">
+                                <label>Date:</label>
+                                <input type="date" name="date">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>Note:</label>
+                            <textarea rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="actions">
+                    <div class="ui button">Reset</div>
+                    <div class="ui blue button">Confirm</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $('#test_side').click(function(){
+        $('.ui.side').toggleClass('invisible');
+        $('.ui.side .ui.menu').toggleClass('icon')
+    });
+
+    $('.ui.accordion').accordion({
+        selector: {
+            trigger: '.title'
+        }
+    });
+    $('.search.dropdown')
+            .dropdown()
+    ;
+    $('.button')
+            .popup()
+    ;
+    $('i.icon')
+            .popup()
+    ;
+    $('#selectall').click(function(event) {
+        if(this.checked) {
+            $('.check1').each(function() {
+                this.checked = true;
+            });
+        }else{
+            $('.check1').each(function() {
+                this.checked = false;
+            });
+        }
+    });
+    $('#call-modal-1').on('click', function () {
+        $('#modal1').modal('show')
+    })
+</script>

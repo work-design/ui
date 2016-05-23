@@ -1,0 +1,687 @@
+---
+title: 首页
+layout: default
+---
+<link rel="stylesheet" type="text/css" class="ui" href="./menu.css">
+<style type="text/css">
+    .w-125-text-align-r{
+        width: 125px !important;
+        text-align: right;
+    }
+    #archives .ui .form input, #archives .ui .form textarea{
+        display: none ;
+    }
+</style>
+<div class="ui side">
+    <div class="sidebar">
+        <div class="ui vertical inverted fluid accordion menu">
+            <div class="item">
+                <a class="title">
+                    <i class="dropdown icon"></i>
+                    <span>用户系统</span>
+                </a>
+                <div class="menu content">
+                    <a class="item active" href="">
+                        <i class="alarm icon"></i>
+                        <span>用户管理</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="edit icon"></i>
+                        <span>微信用户</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="edit icon"></i>
+                        <span>微信解绑</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="edit icon"></i>
+                        <span>角色管理</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="thirteen wide column">
+            <h3>Customer   Management</h3>
+            <div class="ui blue segment">
+                <!-- 标题开始 -->
+                <h5><a class="item">
+                        Bosch Biotechnology Inc 
+                        <div class="ui olive label">Authenticated</div>
+                </a></h5><!-- 标题结束 -->
+                 <!-- 头部信息开始 -->
+                <div class="row column">
+                    <div class="ui three column ignored info message grid">
+                        <div class="column">BD Specilist: Krystal Zhou </div>
+                        <div class="column">Account Mger: Suri Cruise </div>
+                        <div class="column">Krystal: Zhou Bosch Holding  Setting</div>
+                        <div class="column">corporation:Bosch Holding  Setting</div>
+                    </div>
+                </div> <!-- 头部信息结束 -->
+                <!-- tab切换开始 -->
+                <div class="ui tab segment active " data-tab="second">
+                  <div class="ui attached tabular menu archives">
+                    <a class="item active" data-tab="second/a">2A</a>
+                    <a class="item" data-tab="second/b">2B</a>
+                    <a class="item" data-tab="second/c">2C</a>
+                  </div>
+                 <!--  <div class="ui bottom attached tab segment active" data-tab="second/a">2A</div>
+                  <div class="ui bottom attached tab segment" data-tab="second/b">2B</div> -->
+                    <!-- 第一个tab -->
+                    <div class="ui bottom attached  segment" id="archives">
+                        <div class="ui form">
+                          <div class="fields">
+                            <div class="inline field">
+                              <label class="w-125-text-align-r">Company Name:</label>
+                              <span>Bosch Biotechnology Inc</span>
+                              <input type="text" placeholder="Username" value="Bosch Biotechnology Inc">
+                            </div>
+                          </div>
+                          <div class="equal width fields">
+                            <div class="inline field">
+                              <label class="w-125-text-align-r">Nation:</label>
+                              
+                              <span><i class="china flag"></i>China</span>
+                              <input type="text" placeholder="First Name" value="China">
+                            </div>
+                            <div class="inline field">
+                              <label class="w-125-text-align-r">Telephone:</label>
+                              <span>87236727</span>
+                              <input type="text" placeholder="87236727">
+                            </div>
+                          </div>
+                          <div class="equal width fields">
+                            <div class="inline field">
+                              <label class="w-125-text-align-r">Account period:</label>
+                              <span>T/T 60</span>
+                              <input type="text" placeholder="First Name" value="T/T 60">
+                            </div>
+                            <div class="inline field">
+                              <label class="w-125-text-align-r">Address:</label>
+                              <span>15 Bode ave Berlin Germany</span>
+                              <input type="text" placeholder="15 Bode ave Berlin Germany">
+                            </div>
+                          </div>
+                          <div class="equal width fields">
+                            <div class="inline field">
+                              <label class="w-125-text-align-r">BD handover status:</label>
+                              <span>Handover/ Not Handover</span>
+                              <input type="text" placeholder="First Name" value="Handover/ Not Handover">
+                            </div>
+                            <div class="inline field">
+                              <label class="w-125-text-align-r">Post Code:</label>
+                              <span>2410</span>
+                              <input type="text" placeholder="2410">
+                            </div>
+                          </div>
+                            <div class="inline equal width field">
+                            <div >
+                                <label class="w-125-text-align-r">Abstract:</label>
+                            </div>
+                              <div class="content">
+                                <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam interdum pulvinar nibh. Maecenas eget nunc in justo rhoncus aliquam. Phasellus nisl mi, convallis ut, lacinia vel, sodales tempus, ante. Praesent eros. Aenean feugiat fringilla odio. Donec porttitor volutpat elit. Proin metus justo, accumsan vitae, egestas nec, porttitor nec, felis. Nam vel odio a arcu consectetuer fringilla. Vivamus eget arcu eget nisi adipiscing egestas. Donec venenatis pretium sem. Etiam nec sapien. Cras mauris. Maecenas vitae dui quis nisl tincidunt faucibus. Curabitur ut elit. Pellentesque vel lacus vulputate mauris sodales imperdiet. Donec vitae ipsum. Duis volutpat tincidunt velit. Nulla facilisi. </span>
+                              </div>
+                              <textarea>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam interdum pulvinar nibh. Maecenas eget nunc in justo rhoncus aliquam. Phasellus nisl mi, convallis ut, lacinia vel, sodales tempus, ante. Praesent eros. Aenean feugiat fringilla odio. Donec porttitor volutpat elit. Proin metus justo, accumsan vitae, egestas nec, porttitor nec, felis. Nam vel odio a arcu consectetuer fringilla. Vivamus eget arcu eget nisi adipiscing egestas. Donec venenatis pretium sem. Etiam nec sapien. Cras mauris. Maecenas vitae dui quis nisl tincidunt faucibus. Curabitur ut elit. Pellentesque vel lacus vulputate mauris sodales imperdiet. Donec vitae ipsum. Duis volutpat tincidunt velit. Nulla facilisi. </textarea>
+                            </div>
+                        </div>
+                         <div class="ui grid">
+                            <div class="right floated six wide column">
+                                <button class="ui primary button right floated" id="J_basic_edit">Edit </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 第二tab -->
+                    <div class="ui bottom attached  segment" id="sys_account">
+                        <div class="ui form">
+                            <div class="ui grid">
+                                 <div class="left floated six wide column">
+                                    <div class="inline field">
+                                      <label>Org Name:</label>
+                                      <input type="text" placeholder="Username" value="Bosch Biotechnology Inc">
+                                    </div>
+                                </div>
+                                <div class="right floated six wide column">
+                                    <button  class="ui primary button right floated"  type="button"  id="J_sys_account_add">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <h5>Target Org Information:</h5>
+                        <table class="ui celled table">
+                            <thead>
+                                <tr>
+                                    <th class="left aligned"><input type="checkbox" id="selectall"></th>
+                                    <th class="center aligned">BD</th>
+                                    <th class="center aligned">Created by</th>
+                                    <th class="center aligned">Leads informations</th>
+                                    <th class="center aligned">Origin</th>
+                                    <th class="center aligned">First Contact</th>
+                                    <th class="center aligned">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="left aligned">
+                                        <input type="checkbox" class="check1" name="foo" value="bar1">
+                                        <span>3</span>
+                                    </td>
+                                    <td class="center aligned">CMO</td>
+                                    <td class="center aligned">Jack</td>
+                                    <td class="center aligned">0086-86597548</td>
+                                    <td class="center aligned">alexzhang@gmail.com</td>
+                                    <td class="center aligned">Kystal Zhou</td>
+                                    <td class="left aligned">
+                                       Suri Cruise
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                         <h5>Target Org Information:</h5>
+                        <table class="ui celled table">
+                            <thead>
+                                <tr>
+                                    <th class="left aligned"><input type="checkbox" id="selectall"></th>
+                                    <th class="center aligned">BD</th>
+                                    <th class="center aligned">Created by</th>
+                                    <th class="center aligned">Leads informations</th>
+                                    <th class="center aligned">Origin</th>
+                                    <th class="center aligned">First Contact</th>
+                                    <th class="center aligned">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="left aligned">
+                                        <input type="checkbox" class="check1" name="foo" value="bar1">
+                                        <span>1</span>
+                                    </td>
+                                    <td class="center aligned">
+                                        Krystal zhou
+                                    </td>
+                                    <td class="center aligned">Jessica Zheng</td>
+                                    <td class="center aligned"><i class="info blue icon" data-content="San Zhang, jenny@renyoung.com,15827513512 Xi'an Chemical Research Institute" data-variation="basic"></i>San Zhang</td>
+                                    <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                                    <td class="center aligned">2016-04-19</td>
+                                    <td class="left aligned">
+                                        <button class="ui icon red button" id="test_side" data-content="Assign" data-variation="inverted"><i class="center aligned ban white icon"></i></button>
+                                        <button class="ui icon green  button" data-content="Edit Info" data-variation="inverted" id="J_sys_account_edit"><i class="center aligned edit white icon"></i></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="left aligned">
+                                        <input type="checkbox" class="check1" name="foo" value="bar1">
+                                        <span>4</span>
+                                    </td>
+                                    <td class="center aligned">
+                                        Krystal zhou
+                                    </td>
+                                    <td class="center aligned">Jessica Zheng</td>
+                                    <td class="center aligned"><i class="info blue icon" data-content="San Zhang, jenny@renyoung.com,15827513512 Xi'an Chemical Research Institute" data-variation="basic"></i>San Zhang</td>
+                                    <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                                    <td class="center aligned">2016-04-19</td>
+                                    <td class="left aligned">
+                                        <button class="ui icon teal button" data-content="Revive" data-variation="inverted"><i class="check circle outline icon white icon"></i></button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="ui grid">
+                            <div class="right floated six wide column">
+                                <button class="ui primary button right floated" id="J_merge">Merge </button>
+                                <button class="ui primary button right floated" id="J_merge_and_continue">Merge and continue </button>
+                                <button class="ui button right floated" id="J_cancel">Cancel </button>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- 第三个tab -->
+                    <div class="ui bottom attached  segment" >
+                        <div class="ui cards">
+                            <div class="card">
+                                <div class="content">
+                                  <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg">
+                                  <div class="header">Elliot Fu </div>
+                                  <div class="meta">Friends of Veronika </div>
+                                  <div class="description">
+                                  <b>Bosch Biotechnology Inc</b>
+                                  <p>ABC Ave, Suite 14  </p>
+                                  <p>BucketLand, Australia</p>
+                                  <p>P: (123)-4568789</p>
+                                  <p>M: 008</p>
+                                  </div>
+                                </div>
+                                <div class="extra content">
+                                  <div class="ui two buttons">
+                                    <div class="ui basic green button">Approve</div>
+                                    <div class="ui basic red button">Decline</div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="content">
+                                  <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg">
+                                  <div class="header">Elliot Fu </div>
+                                  <div class="meta">Friends of Veronika </div>
+                                  <div class="description">Elliot requested permission to view your contact details </div>
+                                </div>
+                                <div class="extra content">
+                                  <div class="ui two buttons">
+                                    <div class="ui basic green button">Approve</div>
+                                    <div class="ui basic red button">Decline</div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="content">
+                                  <img class="right floated mini ui image" src="/images/avatar/large/jenny.jpg">
+                                  <div class="header">Jenny Hess </div>
+                                  <div class="meta">New Member </div>
+                                  <div class="description">Jenny wants to add you to the group <b>best friends</b> </div>
+                                </div>
+                                <div class="extra content">
+                                  <div class="ui two buttons">
+                                    <div class="ui basic green button">Approve</div>
+                                    <div class="ui basic red button">Decline</div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui grid">
+                            <div class="right floated six wide column">
+                                <button class="ui primary button right floated" id="J_contacts_add">New Contacts</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 第四个tab -->
+                    <div class="ui bottom attached  segment archives" >
+                        <div class="ui secondary menu">
+                          <a class="item active" data-tab="first">First</a>
+                          <a class="item" data-tab="second">Second</a>
+                          <a class="item" data-tab="third">Third</a>
+                        </div>
+                        <div class="ui tab segment active" data-tab="first">
+                            <div class="ui form">
+                              <div class="fields">
+                                <div class="inline field required ">
+                                  <label>Org Name:</label>
+                                  <span>Bosch Biotechnology Inc</span>
+                                </div>
+                              </div>
+                              <div class="equal width fields">
+                                <div class="inline field">
+                                  <label>Phone:</label>
+                                  <span>China</span>
+                                </div>
+                                <div class="inline field">
+                                  <label>Fax:</label>
+                                  <span>87236727</span>
+                                </div>
+                              </div>
+                              <div class="equal width fields">
+                                <div class="inline field">
+                                  <label>Deposit Bank:</label>
+                                  <span>T/T 60</span>
+                                </div>
+                                <div class="inline field">
+                                  <label>Bank Account:</label>
+                                  <span>15 Bode ave Berlin Germany</span>
+                                </div>
+                              </div>
+                              <div class="fields">
+                                <div class="inline field ">
+                                  <label>Org Address:</label>
+                                  <span>Bosch Biotechnology Inc</span>
+                                </div>
+                              </div>
+                            <div class="ui grid">
+                                <div class="right floated six wide column">
+                                    <button class="ui primary button right floated" id="J_edit_account_info">Edit Account Info </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- 第五个tab -->
+                    <div class="ui bottom attached  segment" >
+                        <div class="inline field">
+                            <label>Orgnization's System Account:</label>
+                            <div class="ui search dropdown selection">
+                                <select>
+                                    <option value="">Country</option>
+                                    <option value="AL">A</option>
+                                    <option value="AL">B</option>
+                                </select>
+                                <i class="dropdown icon"></i>
+                                <input class="search" tabindex="0">
+                                <div class="default text">Country</div>
+                                <div class="menu transition hidden" tabindex="-1">
+                                    <div class="item selected" data-value="AL">A</div>
+                                    <div class="item" data-value="AL">B</div>
+                                </div>
+                            </div>
+                        </div>
+                        <table class="ui blue table">
+                            <thead>
+                                <tr>
+                                  <th colspan="4">
+                                        <div class="ui grid">
+                                            <div class="left floated ten wide column">
+                                                Name: Jack001　Contact: John Mayer / 0086-13587999765
+                                                <div class="ui green label">default address</div>
+                                            </div>
+                                            <div class="right floated four wide column">
+                                                <button class="ui icon green  button right floated" data-content="Edit Info" data-variation="inverted"> <i class="center aligned edit white icon"></i> </button>
+                                                <button class="ui icon orange button right floated" data-content="Edit Info" data-variation="inverted"><i class="trash outline icon"></i>  </button>
+                                            </div>
+                                        </div>
+                                  </th>
+                                </tr>
+                            </thead>
+                            <tr>
+                              <td class="active right aligned collapsing"> Consignee: </td>
+                              <td>Jack001</td>
+                              <td class="active right aligned collapsing">Logistic Company:</td>
+                              <td>Jack001</td>
+                            </tr>
+                            <tr>
+                              <td class="active right aligned collapsing"> Country: </td>
+                              <td>Jack001</td>
+                              <td class="active right aligned collapsing">Province/State:</td>
+                              <td>Jack001</td>
+                            </tr>
+                            <tr>
+                              <td class="active right aligned collapsing">City:</td>
+                              <td>Jack001</td>
+                              <td class="active right aligned collapsing">Code:</td>
+                              <td>Jack001</td>
+                            </tr>
+                            <tr>
+                              <td class="active right aligned collapsing">Address:</td>
+                              <td colspan="3">Jack001</td>
+                            </tr>
+                        </table>
+                        <table class="ui blue table">
+                            <thead>
+                                <tr>
+                                  <th colspan="4">
+                                    <div class="ui grid">
+                                        <div class="left floated ten wide column">
+                                             Name: Jack001　Contact: John Mayer / 0086-13587999765
+                                            <div class="ui green label">default address</div>
+                                        </div>
+                                        <div class="right floated four wide column">
+                                            <button class="ui icon blue  button right floated" data-content="Edit Info" data-variation="inverted"> <i class="center aligned setting icon white"></i> </button>
+                                            <button class="ui icon green  button  right floated" data-content="Edit Info" data-variation="inverted"> <i class="center aligned edit white icon"></i> </button>
+                                            <button class="ui icon orange button right floated" data-content="Edit Info" data-variation="inverted"><i class="trash outline icon"></i>  </button>
+                                        </div>
+                                    </div>
+                                  </th>
+                                </tr>
+                            </thead>
+                            <tr>
+                              <td class="active right aligned collapsing"> Consignee: </td>
+                              <td>Jack001</td>
+                              <td class="active right aligned collapsing">Logistic Company:</td>
+                              <td>Jack001</td>
+                            </tr>
+                            <tr>
+                              <td class="active right aligned collapsing"> Country: </td>
+                              <td>Jack001</td>
+                              <td class="active right aligned collapsing">Province/State:</td>
+                              <td>Jack001</td>
+                            </tr>
+                            <tr>
+                              <td class="active right aligned collapsing">City:</td>
+                              <td>Jack001</td>
+                              <td class="active right aligned collapsing">Code:</td>
+                              <td>Jack001</td>
+                            </tr>
+                            <tr>
+                              <td class="active right aligned collapsing">Address:</td>
+                              <td colspan="3">Jack001</td>
+                            </tr>
+                        </table>
+                        <div class="ui grid">
+                            <div class="right floated six wide column">
+                                <button class="ui primary button right floated" id="J_add_logistics">New Logistic Address</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- tab切换结束 -->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="ui dimmer modals page transition hidden">
+    <div class="ui modal scrolling transition hidden" id="sys_account_modal" style="top: 0px;">
+        <i class="close icon"></i>
+        <div class="header">
+            <span style="color: #0d71bb">Edit</span>
+        </div>
+        <div class="content">
+            <div class="ui small form">
+                <div class="divider"></div>
+                <div class="field">
+                    <label>名字:</label>
+                    <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>职位:</label>
+                     <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>电话:</label>
+                     <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>手机:</label>
+                     <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>Email:</label>
+                     <input type="text" name="organization">
+                </div>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui button" id="cancel_sys_account_modal">Cancel</div>
+            <div class="ui blue button" id="save_sys_account_modal">Confirm</div>
+        </div>
+    </div>
+</div>
+<div class="ui dimmer modals page transition hidden">
+    <div class="ui modal scrolling transition hidden" id="contacts_add_modal" style="top: 0px;">
+        <i class="close icon"></i>
+        <div class="header">
+            <span style="color: #0d71bb">Add</span>
+        </div>
+        <div class="content">
+            <div class="ui small form">
+                <div class="divider"></div>
+                <div class="field">
+                    <label>名字:</label>
+                    <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>职位:</label>
+                     <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>地址:</label>
+                     <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>电话:</label>
+                     <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>手机:</label>
+                     <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>Email:</label>
+                     <input type="text" name="organization">
+                </div>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui button" id="cancel_contacts_add_modal">Cancel</div>
+            <div class="ui blue button" id="save_contacts_add_modal">Save</div>
+        </div>
+    </div>
+</div>
+<!-- 物流信息弹出窗 -->
+<div class="ui dimmer modals page transition hidden">
+    <div class="ui modal scrolling transition hidden" id="logistics_add_modal" style="top: 0px;">
+        <i class="close icon"></i>
+        <div class="header">
+            <span style="color: #0d71bb">Add</span>
+        </div>
+        <div class="content">
+            <div class="ui small form">
+                <div class="divider"></div>
+                <div class="field">
+                    <label>名字:</label>
+                    <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>职位:</label>
+                     <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>地址:</label>
+                     <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>电话:</label>
+                     <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>手机:</label>
+                     <input type="text" name="organization">
+                </div>
+                <div class="field">
+                    <label>Email:</label>
+                     <input type="text" name="organization">
+                </div>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui button" id="cancel_logistics_add_modal">Cancel</div>
+            <div class="ui blue button" id="save_logistics_add_modal">Save</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(' .menu .item').tab({
+        context : '.archives',
+        history : true
+    });
+    $('.ui.menu a.item').on('click', function() {
+      $(this)
+        .addClass('active')
+        .siblings()
+        .removeClass('active');
+    });
+
+    //Edit按钮
+   $('#J_basic_edit').on('click',function(){
+        $('#archives ').find('span').hide();
+        $('#archives ').find('input').show();
+    });
+  
+     /*$("#J_edit").toggle(
+      function () {
+        console.log("1");
+        $('#archives ').find('span').hide();
+        $('#archives ').find('input').show();
+      },
+      function () {
+        console.log("2");
+        $('#archives ').find('span').show();
+        $('#archives ').find('input').hide();
+      });*/
+
+      $('#test_side').click(function(){
+        $('.ui.side').toggleClass('invisible');
+        $('.ui.side .ui.menu').toggleClass('icon')
+    });
+      /*菜单选择*/
+    $('.ui.accordion').accordion({
+        selector: {
+            trigger: '.title'
+        }
+    });
+    /*selsect下拉框*/
+    $('.search.dropdown').dropdown();
+    /*checkbox全选*/
+    $('#selectall').click(function(event) {
+        if(this.checked) {
+            $('.check1').each(function() {
+                this.checked = true;
+            });
+        }else{
+            $('.check1').each(function() {
+                this.checked = false;
+            });
+        }
+    });
+    /*弹出窗*/
+    $('#call-modal-1').on('click', function () {
+        $('#modal1').modal('show')
+    });
+     $('.ui.accordion').accordion({
+        selector: {
+            trigger: '.title'
+        }
+    });
+    $('.search.dropdown')
+            .dropdown()
+    ;
+    $('.button')
+            .popup()
+    ;
+    $('i.icon')
+            .popup()
+    ;
+
+    /*J_sys_account_edit弹出框*/
+    $('#J_sys_account_edit').on('click',function(){
+        $('#sys_account_modal').modal('show')
+    });
+    /*关闭J_sys_account_edit弹出框*/
+    $('#cancel_sys_account_modal').on('click', function () {
+        $('#sys_account_modal').modal('hide');
+    });
+    /*保存按钮J_sys_account_edit*/
+    $('#save_sys_account_modal').on('click', function () {
+        $('#sys_account_modal').modal('hide');
+    });
+    
+     /*联系人弹出框*/
+    $('#J_contacts_add').on('click',function(){
+        $('#contacts_add_modal').modal('show')
+    });
+     /*关闭联系人弹出框*/
+    $('#cancel_contacts_add_modal').on('click', function () {
+        $('#contacts_add_modal').modal('hide');
+    });
+    /*保存联系人弹出框*/
+    $('#save_contacts_add_modal').on('click', function () {
+        $('#contacts_add_modal').modal('hide');
+    });
+
+    /*物流信息弹出框*/
+     $('#J_add_logistics').on('click',function(){
+        $('#logistics_add_modal').modal('show')
+    });
+     /*关闭联系人弹出框*/
+    $('#cancel_logistics_add_modal').on('click', function () {
+        $('#logistics_add_modal').modal('hide');
+    });
+    /*保存联系人弹出框*/
+    $('#save_logistics_add_modal').on('click', function () {
+        $('#logistics_add_modal').modal('hide');
+    });
+</script>

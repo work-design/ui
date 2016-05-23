@@ -1,0 +1,176 @@
+---
+title: 首页
+layout: default
+---
+<link rel="stylesheet" type="text/css" class="ui" href="./main.css">
+<div class="ui container">
+    <h4 class="ui header">Quotation Input</h4>
+    <div class="ui orange segment">
+        <h4 class="ui header top attached block header">Customer Info Input</h4>
+       
+             <div class="ui form ">
+                    <div class="ui six column ignored info grid">
+                        <div class="column right aligned">BD Specilist:</div>
+                        <div class="column">Krystal Zhou </div>
+                        <div class="column right aligned">Account Mger:</div>
+                        <div class="column">Suri Cruise </div>
+                        <div class="column right aligned">Krystal:</div>
+                        <div class="column">Zhou Bosch Holding  Setting</div>
+                        <div class="column right aligned">corporation:</div>
+                        <div class="column">Bosch Holding  Setting</div>
+                    </div>
+                </div>
+    </div>
+    <div class="footer_btn">
+        <div class="ui blue button">Select</div>
+    </div>
+    <div class="ui blue segment">
+        <h4 class="ui header top attached block header">Quotation Product Info</h4>
+        <table class="ui table table_color_f8ffff">
+            <thead>
+                <tr>
+                  <th colspan="4" class="table_color_f8ffff">
+                        <div class="ui grid">
+                            <div class="left floated ten wide column">
+                            <a class="color_a9d5de mr_w_5">EDS02131</a>
+                                 2380-45-4, Permangante
+                            </div>
+                            <div class="right floated four wide column">
+                                <button class="ui icon orange button right floated" data-content="Edit Info" data-variation="inverted"><i class="trash outline icon"></i></button>
+                                <button class="ui icon green  button right floated" data-content="Edit Info" data-variation="inverted"> <i class="center aligned edit white icon"></i> </button>
+                            </div>
+                        </div>
+                  </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td class="table_color_e6f7fa right aligned collapsing ">Logistic Address:</td>
+                  <td>Jack001</td>
+                  <td class="table_color_e6f7fa right aligned collapsing ">Package Speci:</td>
+                  <td>Jack001</td>
+                </tr>
+                <tr>
+                  <td class="table_color_e6f7fa right aligned collapsing ">Note:</td>
+                  <td colspan="3">Jack001</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="ui table table_color_f8ffff">
+            <thead>
+                <tr>
+                  <th colspan="4" class="table_color_f8ffff">
+                        <div class="ui grid">
+                            <div class="left floated ten wide column">
+                            <a class="color_a9d5de mr_w_5">EDS02131</a>
+                                 2380-45-4, Permangante
+                            </div>
+                            <div class="right floated four wide column">
+                                <button class="ui icon orange button right floated" data-content="Edit Info" data-variation="inverted"><i class="trash outline icon"></i></button>
+                                <button class="ui icon green  button right floated" data-content="Edit Info" data-variation="inverted"> <i class="center aligned edit white icon"></i> </button>
+                            </div>
+                        </div>
+                  </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td class="table_color_e6f7fa right aligned collapsing ">Logistic Address:</td>
+                  <td>Jack001</td>
+                  <td class="table_color_e6f7fa right aligned collapsing ">Package Speci:</td>
+                  <td>Jack001</td>
+                </tr>
+                <tr>
+                  <td class="table_color_e6f7fa right aligned collapsing ">Note:</td>
+                  <td colspan="3">Jack001</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+     <div class="footer_btn">
+        <div class="ui  button">Import Files</div>
+        <div class="ui blue button">Input And Next</div>
+    </div>
+    <div class="ui middle center aligned grid">
+        <div class="column">
+            <div class="ui blue button">Confirm</div>
+        </div>
+    </div>
+</div>
+<!-- 弹出层 -->
+<div class="ui dimmer modals page transition hidden"><div class="ui modal scrolling transition hidden" id="enquiry_modal" style="top: 1000px;">
+        <i class="close icon"></i>
+        <div class="header">
+            <span style="color: #0d71bb">Edit</span>
+        </div>
+        <div class="content">
+            <div class="ui ignored info message">
+                <div class="ui form">
+                    <div class="ui three column grid">
+                        <div class="column">
+                          <label>公司名称:</label>
+                          <input placeholder="First Name" type="text">
+                        </div>
+                        <div class="column">
+                          <label> Email:</label>
+                          <input placeholder="中间名" type="text">
+                        </div>
+                        <div class="column">
+                           <button class="ui icon teal button mt_20" data-content="Revive" data-variation="inverted">搜索</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <table class="ui celled table">
+                <thead>
+                    <tr>
+                        <th class="left aligned">公司名称</th>
+                        <th class="center aligned">账号</th>
+                        <th class="center aligned">地区</th>
+                        <th class="center aligned">客户负责人</th>
+                        <th class="center aligned">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="center aligned">
+                            Krystal zhou
+                        </td>
+                        <td class="center aligned">
+                            Krystal zhou
+                        </td>
+                        <td class="center aligned">
+                            Krystal zhou
+                        </td>
+                        <td class="center aligned">
+                            Krystal zhou
+                        </td>
+                        <td>
+                            <button class="ui icon teal button" data-content="Revive" data-variation="inverted"><i class="check circle outline icon white icon"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="actions">
+            <div class="ui button" id="cancel_enquiry_add_modal">Cancel</div>
+            <div class="ui blue button" id="save_enquiry_add_modal">Confirm</div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" >
+    $('.search.dropdown').dropdown();
+    /*询单录入*/
+    $('#J_add_enquiry').on('click',function(){
+        $('#enquiry_modal').modal('show');
+    });
+     /*关闭询单录入弹出框*/
+    $('#cancel_enquiry_add_modal').on('click', function () {
+        $('#enquiry_modal').modal('hide');
+    });
+    /*保存询单录入出框*/
+    $('#save_enquiry_add_modal').on('click', function () {
+        $('#enquiry_modal').modal('hide');
+    });
+</script>
+

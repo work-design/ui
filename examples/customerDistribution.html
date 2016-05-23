@@ -1,0 +1,195 @@
+---
+title: 首页
+layout: default
+---
+<link rel="stylesheet" type="text/css" class="ui" href="./main.css">
+ <!-- date -->
+<link rel="stylesheet" type="text/css" href="./daterangepicker/daterangepicker-bs3.css">
+<script src="./daterangepicker/moment.min.js"></script>
+ <script src="./daterangepicker/daterangepicker.js"></script>
+<div class="ui container">
+    <div class="ui grid">
+        <div class="left floated fourteen wide column">
+            Clients Allocation 
+        </div>
+    </div>
+    <div class="ui blue segment">
+        <div class="ui form ">
+            <div class="ui four column grid">
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Account Manager</option>
+                            <option value="am">A</option>
+                            <option value="am">B</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">Account Manager</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">A</div>
+                            <div class="item" data-value="am">B</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Task Classification</option>
+                            <option value="am">communication task</option>
+                            <option value="am">inquiry checking</option>
+                            <option value="am">assistance t</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">Task Classification</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">communication task</div>
+                            <div class="item" data-value="am">inquiry checking</div>
+                            <div class="item" data-value="am">assistance t</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Account Manager</option>
+                            <option value="am">A</option>
+                            <option value="am">B</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">Account Manager</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">A</div>
+                            <div class="item" data-value="am">B</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui blue button">Search</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table class="ui blue celled table">
+        <thead>
+            <tr>
+                <th class="center aligned">No.</th>
+                <th class="center aligned">Representative</th>
+                <th class="center aligned">Region</th>
+                <th class="center aligned">Country</th></th>
+                <th class="center aligned">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="center aligned">1</td>
+                <td class="center aligned">Jessica Zheng</td>
+                <td class="center aligned">Jessica Zheng</td>
+                <td class="center aligned">Jessica Zheng</td>
+                <td class="center aligned">
+                    <button class="ui icon green button" id="J_edit" data-content="Edit" data-variation="inverted"><i class="edit icon"></i></button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="ui dimmer modals page transition hidden">
+    <div class="ui modal scrolling transition hidden" id="add_modal" style="top: 0px;">
+        <i class="close icon"></i>
+        <div class="header">
+            <span style="color: #0d71bb">Please Select The Presided Country</span>
+        </div>
+        <div class="content">
+            <div class="row column">
+                <div class="ui form four column grid">
+                    <div class="sixteen  column row">
+                        <div class="two column right aligned">
+                             <label>Choosing Country:</label>
+                        </div>
+                        <div class="twelve wide  column">
+                            <select class="ui fluid search dropdown" multiple="">
+  <option value="">State</option>
+  <option value="AL">Alabama</option>
+  <option value="AK">Alaska</option>
+  <option value="AZ">Arizona</option>
+  <option value="AR">Arkansas</option>
+  <option value="CA">California</option>
+  <option value="CO">Colorado</option>
+  <option value="CT">Connecticut</option>
+  <option value="DE">Delaware</option>
+  <option value="DC">District Of Columbia</option>
+  <option value="FL">Florida</option>
+  <option value="GA">Georgia</option>
+  <option value="HI">Hawaii</option>
+  <option value="ID">Idaho</option>
+  <option value="IL">Illinois</option>
+  <option value="IN">Indiana</option>
+  <option value="IA">Iowa</option>
+  <option value="KS">Kansas</option>
+  <option value="KY">Kentucky</option>
+  <option value="LA">Louisiana</option>
+  <option value="ME">Maine</option>
+  <option value="MD">Maryland</option>
+  <option value="MA">Massachusetts</option>
+  <option value="MI">Michigan</option>
+  <option value="MN">Minnesota</option>
+  <option value="MS">Mississippi</option>
+  <option value="MO">Missouri</option>
+  <option value="MT">Montana</option>
+  <option value="NE">Nebraska</option>
+  <option value="NV">Nevada</option>
+  <option value="NH">New Hampshire</option>
+  <option value="NJ">New Jersey</option>
+  <option value="NM">New Mexico</option>
+  <option value="NY">New York</option>
+  <option value="NC">North Carolina</option>
+  <option value="ND">North Dakota</option>
+  <option value="OH">Ohio</option>
+  <option value="OK">Oklahoma</option>
+  <option value="OR">Oregon</option>
+  <option value="PA">Pennsylvania</option>
+  <option value="RI">Rhode Island</option>
+  <option value="SC">South Carolina</option>
+  <option value="SD">South Dakota</option>
+  <option value="TN">Tennessee</option>
+  <option value="TX">Texas</option>
+  <option value="UT">Utah</option>
+  <option value="VT">Vermont</option>
+  <option value="VA">Virginia</option>
+  <option value="WA">Washington</option>
+  <option value="WV">West Virginia</option>
+  <option value="WI">Wisconsin</option>
+  <option value="WY">Wyoming</option>
+</select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui button" id="J_cancel_customerDistribution">Cancel</div>
+            <div class="ui blue button" id="J_save_customerDistribution">Save</div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" >
+    $('.search.dropdown').dropdown();
+    $('.button').popup();
+    $('i.icon').popup();
+
+    /*客户分配弹出窗*/
+    $('#J_edit').on('click',function(){
+        $('#add_modal').modal('show');
+    });
+     /*关闭客户分配弹出框*/
+    $('#J_cancel_customerDistribution').on('click', function () {
+        $('#add_modal').modal('hide');
+    });
+    /*保存客户分配弹出框*/
+    $('#J_save_customerDistribution').on('click', function () {
+        $('#add_modal').modal('hide');
+    });
+</script>
+

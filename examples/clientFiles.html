@@ -1,0 +1,650 @@
+---
+title: 首页
+layout: default
+---
+<link rel="stylesheet" type="text/css" class="ui" href="./menu.css">
+<link rel="stylesheet" type="text/css" class="ui" href="./main.css">
+<div class="ui container">
+    <div class="ui grid">
+        <div class="left floated fourteen wide column">
+            P.O.  Details
+        </div>
+        <div class="right floated two wide column text_align_right">
+            <i class="backward icon color_8c8d8d"></i>Back
+        </div>
+    </div>
+    <div class="ui blue segment">
+        <div class="ui ignored info message">
+            <div class="left floated eight wide column">
+               P.O. No.: 12345678999
+            </div>
+        </div>
+        <div class="ui top attached tabular menu">
+          <a class="active item" data-tab="first">Basic Info</a>
+          <a class="item" data-tab="second">Sys Account</a>
+          <a class="item" data-tab="third">Contacts</a>
+          <a class="item" data-tab="fourth">Billing Info</a>
+          <a class="item" data-tab="fifth">Logistics Info</a>
+          <a class="item" data-tab="sixth">Tracking Log</a>
+          <a class="item" data-tab="seventh">Transaction Record</a>
+          <a class="item" data-tab="eighth">Transaction Statistic</a>
+        </div>
+        <div class="ui bottom attached active tab segment" data-tab="first">
+            <!-- <div class="ui form ">
+                <div class="ui four column grid">
+                    <div class="right aligned column">
+                        <label>Company Name:</label>
+                    </div>
+                    <div class="column">
+                        <span>Bosch Biotechnology Inc</span>
+                    </div>
+                </div>
+                <div class="ui four column grid">
+                    <div class="right aligned column">
+                        <label>Nation:</label>
+                    </div>
+                    <div class="column">
+                        <span><i class="china flag"></i>China</span>
+                    </div>
+                    <div class="right aligned column">
+                       <label>Telephone:</label>
+                    </div>
+                    <div class="column">
+                       <span>87236727</span>
+                    </div>
+                </div>
+                <div class="ui four column grid">
+                    <div class="right aligned column">
+                        <label>Account period:</label>
+                    </div>
+                    <div class="column">
+                        <span><i class="china flag"></i>China</span>
+                    </div>
+                    <div class="right aligned column">
+                       <label>Post Code:</label>
+                    </div>
+                    <div class="column">
+                       <span>87236727</span>
+                    </div>
+                </div>
+                <div class="ui sixteen column grid">
+                    <div class="four right aligned column">
+                        <label>Abstract:</label>
+                    </div>
+                    <div class="twelve wide  column">
+                        <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam interdum pulvinar nibh. Maecenas eget nunc in justo rhoncus aliquam. Phasellus nisl mi, convallis ut, lacinia vel, sodales tempus, ante. Praesent eros. Aenean feugiat fringilla odio. Donec porttitor volutpat elit. Proin metus justo, accumsan vitae, egestas nec, porttitor nec, felis. Nam vel odio a arcu consectetuer fringilla. Vivamus eget arcu eget nisi adipiscing egestas. Donec venenatis pretium sem. Etiam nec sapien. Cras mauris. Maecenas vitae dui quis nisl tincidunt faucibus. Curabitur ut elit. Pellentesque vel lacus vulputate mauris sodales imperdiet. Donec vitae ipsum. Duis volutpat tincidunt velit. Nulla facilisi. </span>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row column">
+                <div class="ui form four column grid">
+                    <div class="column right aligned">
+                        <label>Company Name:</label>
+                    </div>
+                    <div class="column">
+                        <!-- <span>Bosch Biotechnology Inc</span> -->
+                        <input type="text" placeholder="Username" value="Bosch Biotechnology Inc">
+                    </div>
+                    <div class="four column row">
+                        <div class="column right aligned">
+                            <label>Nation:</label>
+                        </div>
+                        <div class="column">
+                           <!--  <span><i class="china flag"></i>China</span> -->
+                            <input type="text" placeholder="First Name" value="China">
+                        </div>
+                        <div class="column right aligned">
+                            <label>Telephone:</label>
+                        </div>
+                        <div class="column">
+                            <span>87236727</span>
+                           <!--  <input type="text" placeholder="87236727"> -->
+                        </div>
+                    </div>
+                    <div class="four column row">
+                        <div class="column right aligned">
+                            <label>Account period:</label>
+                        </div>
+                        <div class="column">
+                            <span>T/T 60</span>
+                           <!--  <input type="text" placeholder="First Name" value="T/T 60"> -->
+                        </div>
+                        <div class="column right aligned">
+                            <label>Post Code:</label>
+                        </div>
+                        <div class="column">
+                            <span>2410</span>
+                            <!-- <input type="text" placeholder="2410"> -->
+                        </div>
+                    </div>
+                    <div class="sixteen  column row">
+                        <div class="two column right aligned">
+                             <label>Abstract:</label>
+                        </div>
+                        <div class="twelve wide  column">
+                           <!--  <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam interdum pulvinar nibh. Maecenas eget nunc in justo rhoncus aliquam. Phasellus nisl mi, convallis ut, lacinia vel, sodales tempus, ante. Praesent eros. Aenean feugiat fringilla odio. Donec porttitor volutpat elit. Proin metus justo, accumsan vitae, egestas nec, porttitor nec, felis. Nam vel odio a arcu consectetuer fringilla. Vivamus eget arcu eget nisi adipiscing egestas. Donec venenatis pretium sem. Etiam nec sapien. Cras mauris. Maecenas vitae dui quis nisl tincidunt faucibus. Curabitur ut elit. Pellentesque vel lacus vulputate mauris sodales imperdiet. Donec vitae ipsum. Duis volutpat tincidunt velit. Nulla facilisi. </span> -->
+                           <textarea name="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam interdum pulvinar nibh. Maecenas eget nunc in justo rhoncus aliquam. Phasellus nisl mi, convallis ut, lacinia vel, sodales tempus, ante. Praesent eros. Aenean feugiat fringilla odio. Donec porttitor volutpat elit. Proin metus justo, accumsan vitae, egestas nec, porttitor nec, felis. Nam vel odio a arcu consectetuer fringilla. Vivamus eget arcu eget nisi adipiscing egestas. Donec venenatis pretium sem. Etiam nec sapien. Cras mauris. Maecenas vitae dui quis nisl tincidunt faucibus. Curabitur ut elit. Pellentesque vel lacus vulputate mauris sodales imperdiet. Donec vitae ipsum. Duis volutpat tincidunt velit. Nulla facilisi. </textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui grid">
+                <div class="right floated six wide column">
+                    <button class="ui blue button right floated">Edit</button>
+                </div>
+            </div>
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="second">
+            <div class="ui form">
+                <div class="ui grid">
+                     <div class="left floated six wide column">
+                        <div class="inline field">
+                          <label>Org Name:</label>
+                          <input type="text" placeholder="Username" value="Bosch Biotechnology Inc">
+                        </div>
+                    </div>
+                    <div class="right floated six wide column">
+                        <button class="ui primary button right floated" type="button" id="J_sys_account_add">Add</button>
+                    </div>
+                </div>
+            </div>
+            <h4>Target Org Information:</h4>
+            <table class="ui celled table">
+                <thead>
+                    <tr>
+                        <th class="left aligned"><input type="checkbox" id="selectall"></th>
+                        <th class="center aligned">BD</th>
+                        <th class="center aligned">Created by</th>
+                        <th class="center aligned">Leads informations</th>
+                        <th class="center aligned">Origin</th>
+                        <th class="center aligned">First Contact</th>
+                        <th class="center aligned">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="left aligned">
+                            <input type="checkbox" class="check1" name="foo" value="bar1">
+                            <span>3</span>
+                        </td>
+                        <td class="center aligned">CMO</td>
+                        <td class="center aligned">Jack</td>
+                        <td class="center aligned">0086-86597548</td>
+                        <td class="center aligned">alexzhang@gmail.com</td>
+                        <td class="center aligned">Kystal Zhou</td>
+                        <td class="left aligned">
+                           Suri Cruise
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+             <h4>Target Org Information:</h4>
+            <table class="ui celled table">
+                <thead>
+                    <tr>
+                        <th class="left aligned"><input type="checkbox" id="selectall"></th>
+                        <th class="center aligned">BD</th>
+                        <th class="center aligned">Created by</th>
+                        <th class="center aligned">Leads informations</th>
+                        <th class="center aligned">Origin</th>
+                        <th class="center aligned">First Contact</th>
+                        <th class="center aligned">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="left aligned">
+                            <input type="checkbox" class="check1" name="foo" value="bar1">
+                            <span>1</span>
+                        </td>
+                        <td class="center aligned">
+                            Krystal zhou
+                        </td>
+                        <td class="center aligned">Jessica Zheng</td>
+                        <td class="center aligned"><i class="info blue icon" data-content="San Zhang, jenny@renyoung.com,15827513512 Xi'an Chemical Research Institute" data-variation="basic"></i>San Zhang</td>
+                        <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                        <td class="center aligned">2016-04-19</td>
+                        <td class="left aligned">
+                            <button class="ui icon red button" id="test_side" data-content="Assign" data-variation="inverted"><i class="center aligned ban white icon"></i></button>
+                            <button class="ui icon green  button" data-content="Edit Info" data-variation="inverted" id="J_sys_account_edit"><i class="center aligned edit white icon"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left aligned">
+                            <input type="checkbox" class="check1" name="foo" value="bar1">
+                            <span>4</span>
+                        </td>
+                        <td class="center aligned">
+                            Krystal zhou
+                        </td>
+                        <td class="center aligned">Jessica Zheng</td>
+                        <td class="center aligned"><i class="info blue icon" data-content="San Zhang, jenny@renyoung.com,15827513512 Xi'an Chemical Research Institute" data-variation="basic"></i>San Zhang</td>
+                        <td class="center aligned"><i class="info blue icon" data-title="Conference, America" data-content=" University research and development institutions"></i>America</td>
+                        <td class="center aligned">2016-04-19</td>
+                        <td class="left aligned">
+                            <button class="ui icon teal button" data-content="Revive" data-variation="inverted"><i class="check circle outline icon white icon"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="ui grid">
+                <div class="right floated six wide column">
+                    <button class="ui button right floated" id="J_cancel">Cancel </button>
+                    <button class="ui primary button right floated" id="J_merge_and_continue">Merge and continue </button>
+                    <button class="ui primary button right floated" id="J_merge">Merge </button>
+                </div>
+            </div>
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="third">
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                      <img class="right floated mini ui image" src="./famale.jpg">
+                      <div class="header">Elliot Fu </div>
+                      <div class="meta">Friends of Veronika </div>
+                      <div class="description">
+                      <b>Bosch Biotechnology Inc</b>
+                      <p>ABC Ave, Suite 14  </p>
+                      <p>BucketLand, Australia</p>
+                      <p>P: (123)-4568789</p>
+                      <p>M: 008</p>
+                      </div>
+                    </div>
+                    <div class="extra content">
+                      <div class="ui two buttons">
+                        <div class="ui basic green button">Edit</div>
+                        <div class="ui basic red button">Unbundling</div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                      <img class="right floated mini ui image" src="./male.jpg">
+                      <div class="header">Elliot Fu </div>
+                      <div class="meta">Friends of Veronika </div>
+                      <div class="description">Elliot requested permission to view your contact details </div>
+                    </div>
+                    <div class="extra content">
+                      <div class="ui two buttons">
+                        <div class="ui basic green button">Edit</div>
+                        <div class="ui basic red button">Unbundling</div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui grid">
+                <div class="right floated six wide column">
+                    <button class="ui primary button right floated" id="J_contacts_add">New Contacts</button>
+                </div>
+            </div>
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="fourth">
+            <div class="ui secondary menu">
+              <a class="item active" data-tab="first1">First</a>
+              <a class="item" data-tab="second2">Second</a>
+              <a class="item" data-tab="third3">Third</a>
+            </div>
+            <div class="ui tab segment active" data-tab="first1">
+                <div class="ui form">
+                    <div class="fields">
+                        <div class="inline field required ">
+                          <label>Org Name:</label>
+                          <span>Bosch Biotechnology Inc</span>
+                        </div>
+                    </div>
+                    <div class="equal width fields">
+                        <div class="inline field">
+                          <label>Phone:</label>
+                          <span>China</span>
+                        </div>
+                        <div class="inline field">
+                          <label>Fax:</label>
+                          <span>87236727</span>
+                        </div>
+                    </div>
+                    <div class="equal width fields">
+                        <div class="inline field">
+                          <label>Deposit Bank:</label>
+                          <span>T/T 60</span>
+                        </div>
+                        <div class="inline field">
+                          <label>Bank Account:</label>
+                          <span>15 Bode ave Berlin Germany</span>
+                        </div>
+                    </div>
+                    <div class="fields">
+                        <div class="inline field ">
+                          <label>Org Address:</label>
+                          <span>Bosch Biotechnology Inc</span>
+                        </div>
+                    </div>
+                    <div class="ui grid">
+                        <div class="right floated six wide column">
+                            <button class="ui primary button right floated" id="J_edit_account_info">Edit Account Info </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui tab segment" data-tab="second2">
+            2
+            </div>
+            <div class="ui tab segment" data-tab="third3">
+            3
+            </div>
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="fifth">
+            <div class="inline field">
+                <label>Orgnization's System Account:</label>
+                <div class="ui search dropdown selection">
+                    <select>
+                        <option value="">Country</option>
+                        <option value="AL">A</option>
+                        <option value="AL">B</option>
+                    </select>
+                    <i class="dropdown icon"></i>
+                    <input class="search" tabindex="0">
+                    <div class="default text">Country</div>
+                    <div class="menu transition hidden" tabindex="-1">
+                        <div class="item selected" data-value="AL">A</div>
+                        <div class="item" data-value="AL">B</div>
+                    </div>
+                </div>
+            </div>
+            <table class="ui blue table">
+                <thead>
+                    <tr>
+                      <th colspan="4">
+                            <div class="ui grid">
+                                <div class="left floated ten wide column">
+                                    Name: Jack001　Contact: John Mayer / 0086-13587999765
+                                    <div class="ui green label">default address</div>
+                                </div>
+                                <div class="right floated four wide column">
+                                    <button class="ui icon green  button right floated" data-content="Edit Info" data-variation="inverted"> <i class="center aligned edit white icon"></i> </button>
+                                    <button class="ui icon orange button right floated" data-content="Edit Info" data-variation="inverted"><i class="trash outline icon"></i>  </button>
+                                </div>
+                            </div>
+                      </th>
+                    </tr>
+                </thead>
+                <tbody><tr>
+                  <td class="active right aligned collapsing"> Consignee: </td>
+                  <td>Jack001</td>
+                  <td class="active right aligned collapsing">Logistic Company:</td>
+                  <td>Jack001</td>
+                </tr>
+                <tr>
+                  <td class="active right aligned collapsing"> Country: </td>
+                  <td>Jack001</td>
+                  <td class="active right aligned collapsing">Province/State:</td>
+                  <td>Jack001</td>
+                </tr>
+                <tr>
+                  <td class="active right aligned collapsing">City:</td>
+                  <td>Jack001</td>
+                  <td class="active right aligned collapsing">Code:</td>
+                  <td>Jack001</td>
+                </tr>
+                <tr>
+                  <td class="active right aligned collapsing">Address:</td>
+                  <td colspan="3">Jack001</td>
+                </tr>
+            </tbody></table>
+            <table class="ui blue table">
+                <thead>
+                    <tr>
+                      <th colspan="4">
+                        <div class="ui grid">
+                            <div class="left floated ten wide column">
+                                 Name: Jack001　Contact: John Mayer / 0086-13587999765
+                                <div class="ui orange label">default address</div>
+                            </div>
+                            <div class="right floated four wide column">
+                                <button class="ui icon blue  button right floated" data-content="Edit Info" data-variation="inverted"> <i class="center aligned setting icon white"></i> </button>
+                                <button class="ui icon green  button  right floated" data-content="Edit Info" data-variation="inverted"> <i class="center aligned edit white icon"></i> </button>
+                                <button class="ui icon orange button right floated" data-content="Edit Info" data-variation="inverted"><i class="trash outline icon"></i>  </button>
+                            </div>
+                        </div>
+                      </th>
+                    </tr>
+                </thead>
+                <tbody><tr>
+                  <td class="active right aligned collapsing"> Consignee: </td>
+                  <td>Jack001</td>
+                  <td class="active right aligned collapsing">Logistic Company:</td>
+                  <td>Jack001</td>
+                </tr>
+                <tr>
+                  <td class="active right aligned collapsing"> Country: </td>
+                  <td>Jack001</td>
+                  <td class="active right aligned collapsing">Province/State:</td>
+                  <td>Jack001</td>
+                </tr>
+                <tr>
+                  <td class="active right aligned collapsing">City:</td>
+                  <td>Jack001</td>
+                  <td class="active right aligned collapsing">Code:</td>
+                  <td>Jack001</td>
+                </tr>
+                <tr>
+                  <td class="active right aligned collapsing">Address:</td>
+                  <td colspan="3">Jack001</td>
+                </tr>
+            </tbody></table>
+            <div class="ui grid">
+                <div class="right floated six wide column">
+                    <button class="ui primary button right floated" id="J_add_logistics">New Logistic Address</button>
+                </div>
+            </div>
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="sixth">
+            <table class="ui blue table">
+                <thead>
+                        <tr>
+                          <th colspan="3">
+                                <div class="ui grid">
+                                    <div class="left floated ten wide column">Tracking log</div>
+                                    <div class="right floated four wide column">
+                                        <button class="ui icon green  button right floated" data-content="Edit Info" data-variation="inverted">Tracking log</button>
+                                    </div>
+                                </div>
+                          </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                          <td class="center aligned collapsing">operator</td>
+                          <td class="center aligned ">communiction log</td>
+                          <td class="center aligned collapsing">time</td>
+                        </tr>
+                        <tr>
+                          <td class="center aligned collapsing">Jack</td>
+                          <td class="center aligned ">创建客户</td>
+                          <td class="center aligned collapsing">2015-12-16 09:32:49</td>
+                        </tr>
+                        <tr>
+                          <td class="center aligned collapsing">Jack</td>
+                          <td class="center aligned ">创建询盘记录</td>
+                          <td class="center aligned collapsing">2015-12-16 09:32:49</td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="seventh">
+            <div class="ui form">
+                <div class="ui four column grid">
+                    <div class="column">
+                        <div class="ui left icon input">
+                            <i class="calendar icon"></i>
+                          <input type="text" class="form-control pull-right active" id="reservation" placeholder="Transaction Date">
+                        </div>
+                    </div>
+                    <div class="column">
+                      <input placeholder="CAS No. / Product Name" type="text">
+                    </div>
+                    <div class="column">
+                      <input placeholder="PO No." type="text">
+                    </div>
+                    <div class="column">
+                      <div class="ui primary button right floated">SEARCH</div>
+                    </div>
+                </div>
+            </div>
+            <table class="ui table">
+              <thead>
+                <tr>
+                  <th>
+                        <div class="ui grid">
+                            <div class="left floated eight wide column ">
+                                <span class="mr_w_20 color_9c9c9d">2016-05-18 11:33:21</span>
+                              <span class="color_3c8dbc mr_w_20 ">PO No.: 12345678999</span>
+                              <span class="color_666">Ready Stock</span>
+                            </div>
+                            <div class="right floated eight wide column text_align_right">
+                                <span class="mr_w_20 color_666">T/T 30</span>
+                                <span class="color_ff0000">$500.00</span>
+                            </div>
+                        </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                       <div class="ui grid">
+                            <div class="left floated eight wide column ">
+                                <span class="mr_w_15 ">CAS No.: 215-45-6</span>
+                                <span class="color_3c8dbc mr_w_15">Potassium Sorbate</span>
+                                <span class="mr_w_15">45g, $200.00</span>
+                            </div>
+                            <div class="right floated eight wide column text_align_right">
+                               未收款，已发货
+                            </div>
+                        </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="ui table">
+              <thead>
+                <tr>
+                  <th>
+                        <div class="ui grid">
+                            <div class="left floated eight wide column ">
+                                <span class="mr_w_20 color_9c9c9d">2016-05-18 11:33:21</span>
+                                <span class="color_3c8dbc mr_w_20">PO No.: 12345678999</span>
+                                <span class="color_666">In Stock</span>
+                            </div>
+                            <div class="right floated eight wide column text_align_right">
+                                <span class="mr_w_20 color_666">T/T 30</span>
+                                <span class="color_ff0000">$500.00</span>
+                            </div>
+                        </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                       <div class="ui grid">
+                            <div class="left floated eight wide column ">
+                                <span class="mr_w_15">CAS No.: 215-45-6</span>
+                                <span class="color_3c8dbc mr_w_15">Potassium Sorbate</span>
+                                <span class="mr_w_15">45g, $200.00</span>
+                            </div>
+                            <div class="right floated eight wide column text_align_right">
+                               未收款，已发货
+                            </div>
+                        </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="eighth">
+        8
+        </div>
+    </div>
+</div>
+<script type="text/javascript" >
+    $('.search.dropdown').dropdown();
+    $('.button').popup();
+    $('i.icon').popup();
+    /*切换*/
+    $('.menu .item').tab();
+
+    /*selsect下拉框*/
+    $('.search.dropdown').dropdown();
+    /*checkbox全选*/
+    $('#selectall').click(function(event) {
+        if(this.checked) {
+            $('.check1').each(function() {
+                this.checked = true;
+            });
+        }else{
+            $('.check1').each(function() {
+                this.checked = false;
+            });
+        }
+    });
+    /*弹出窗*/
+    $('#call-modal-1').on('click', function () {
+        $('#modal1').modal('show')
+    });
+     $('.ui.accordion').accordion({
+        selector: {
+            trigger: '.title'
+        }
+    });
+    $('.search.dropdown')
+            .dropdown()
+    ;
+    $('.button')
+            .popup()
+    ;
+    $('i.icon')
+            .popup()
+    ;
+
+    /*J_sys_account_edit弹出框*/
+    $('#J_sys_account_edit').on('click',function(){
+        $('#sys_account_modal').modal('show')
+    });
+    /*关闭J_sys_account_edit弹出框*/
+    $('#cancel_sys_account_modal').on('click', function () {
+        $('#sys_account_modal').modal('hide');
+    });
+    /*保存按钮J_sys_account_edit*/
+    $('#save_sys_account_modal').on('click', function () {
+        $('#sys_account_modal').modal('hide');
+    });
+    
+     /*联系人弹出框*/
+    $('#J_contacts_add').on('click',function(){
+        $('#contacts_add_modal').modal('show')
+    });
+     /*关闭联系人弹出框*/
+    $('#cancel_contacts_add_modal').on('click', function () {
+        $('#contacts_add_modal').modal('hide');
+    });
+    /*保存联系人弹出框*/
+    $('#save_contacts_add_modal').on('click', function () {
+        $('#contacts_add_modal').modal('hide');
+    });
+
+    /*物流信息弹出框*/
+     $('#J_add_logistics').on('click',function(){
+        $('#logistics_add_modal').modal('show')
+    });
+     /*关闭联系人弹出框*/
+    $('#cancel_logistics_add_modal').on('click', function () {
+        $('#logistics_add_modal').modal('hide');
+    });
+    /*保存联系人弹出框*/
+    $('#save_logistics_add_modal').on('click', function () {
+        $('#logistics_add_modal').modal('hide');
+    });
+    /*时间控件*/
+    $('#reservation').daterangepicker();
+</script>
+

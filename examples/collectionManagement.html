@@ -1,0 +1,225 @@
+---
+title: 首页
+layout: default
+---
+<link rel="stylesheet" type="text/css" class="ui" href="./main.css">
+ <!-- date -->
+<link rel="stylesheet" type="text/css" href="./daterangepicker/daterangepicker-bs3.css">
+<script src="./daterangepicker/moment.min.js"></script>
+ <script src="./daterangepicker/daterangepicker.js"></script>
+<div class="ui container">
+    <div class="ui grid">
+        <div class="left floated fourteen wide column">
+            My Assignments
+        </div>
+    </div>
+    <div class="ui blue segment">
+        <div class="ui form ">
+            <div class="ui three column grid">
+                <div class="column">
+                    <div class="ui left icon input fluid">
+                        <i class="calendar icon"></i>
+                      <input type="text" class="form-control pull-right active" id="reservation" placeholder="Transaction Date">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Client Info</option>
+                            <option value="am">communication task</option>
+                            <option value="am">inquiry checking</option>
+                            <option value="am">assistance t</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">Client Info</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">communication task</div>
+                            <div class="item" data-value="am">inquiry checking</div>
+                            <div class="item" data-value="am">assistance t</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <input placeholder="PO No." type="text">
+                </div>
+            </div>
+            <div class="ui three column grid">
+                <div class="column">
+                   <input placeholder="Inquiry Chemical" type="text">
+                </div>
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Order Status</option>
+                            <option value="am">communication task</option>
+                            <option value="am">inquiry checking</option>
+                            <option value="am">assistance t</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">Order Status</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">communication task</div>
+                            <div class="item" data-value="am">inquiry checking</div>
+                            <div class="item" data-value="am">assistance t</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Billing Terms</option>
+                            <option value="am">communication task</option>
+                            <option value="am">inquiry checking</option>
+                            <option value="am">assistance t</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">Billing Terms</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">communication task</div>
+                            <div class="item" data-value="am">inquiry checking</div>
+                            <div class="item" data-value="am">assistance t</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui three column grid">
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">cs</option>
+                            <option value="am">communication task</option>
+                            <option value="am">inquiry checking</option>
+                            <option value="am">assistance t</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">cs</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">communication task</div>
+                            <div class="item" data-value="am">inquiry checking</div>
+                            <div class="item" data-value="am">assistance t</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Payment Status</option>
+                            <option value="am">communication task</option>
+                            <option value="am">inquiry checking</option>
+                            <option value="am">assistance t</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">Payment Status</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">communication task</div>
+                            <div class="item" data-value="am">inquiry checking</div>
+                            <div class="item" data-value="am">assistance t</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui blue button">Search</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui blue segment">
+        <div class="ui grid bg_F3F4F5 mb_14">
+            <div class="left floated ten wide column">
+               <span>Status:</span>
+               <div class="ui white basic button">All</div>
+               <div class="ui white basic button">Overdue</div>
+               <div class="ui white basic button">Unpaid</div>
+               <div class="ui white basic button actives">Paid</div>
+            </div>
+        </div>
+        <div class="ui grid">
+             <div class="left floated  wide column">
+                <button class="ui icon grey button" id="test_side" data-content="Order Details" data-variation="inverted"><i class="send outline icon"></i>Sending Dunning Email</button>
+                <button class="ui icon yellow button" id="test_side" data-content="Tracking Log" data-variation="inverted"><i class="sign in icon"></i>Collecting Receivable by P.O.</button>
+            </div>
+        </div>
+        <table class="ui celled table">
+            <thead>
+                <tr>
+                    <th class="left aligned"><input type="checkbox" id="selectall"></th>
+                    <th class="center aligned">Contact</th>
+                    <th class="center aligned">Email</th>
+                    <th class="center aligned">Phone</th>
+                    <th class="center aligned">Task Date</th>
+                    <th class="center aligned">Task Classification</th>
+                    <th class="center aligned">Task Content</th>
+                    <th class="center aligned">Note</th>
+                    <th class="center aligned">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="left aligned">
+                        <input type="checkbox" class="check1">2
+                    </td>
+                    <td class="center aligned">
+                        <i class="info blue icon" data-html="<p><span class='color_2185d0'>Product Name:</span>Potassium sorbate 24634-61-5 CAS</p><p><span class='color_2185d0'>No.:</span>24634-61-5</p><p><span class='color_2185d0'>Transaction Time:</span>2016-03-23  11:33:21</p>" data-variation="basic"></i>1234567899
+                    </td>
+                    <td class="center aligned">
+                         <i class="info blue icon" data-html="<p><span class='color_2185d0'>Contact:</span>LisaDavis</p><p><span class='color_2185d0'>Email:</span>gfrrui@163.com</p><p><span class='color_2185d0'>Telephone:</span>15618492376</p>" data-variation="basic"></i>OVBioteck Ltd.co
+                    </td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="left aligned">
+                        <button class="ui icon grey button" id="test_side" data-content="Order Details" data-variation="inverted"><i class="calendar outline icon"></i></button>
+                        <button class="ui icon green button" id="test_side" data-content="Tracking Log" data-variation="inverted"><i class="list icon"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left aligned">
+                        <input type="checkbox" class="check1">1
+                    </td>
+                    <td class="center aligned">
+                        <i class="info blue icon" data-html="<p><span class='color_2185d0'>Product Name:</span>Potassium sorbate 24634-61-5 CAS</p><p><span class='color_2185d0'>No.:</span>24634-61-5</p><p><span class='color_2185d0'>Transaction Time:</span>2016-03-23  11:33:21</p>" data-variation="basic"></i>1234567899
+                    </td>
+                    <td class="center aligned">
+                         <i class="info blue icon" data-html="<p><span class='color_2185d0'>Contact:</span>LisaDavis</p><p><span class='color_2185d0'>Email:</span>gfrrui@163.com</p><p><span class='color_2185d0'>Telephone:</span>15618492376</p>" data-variation="basic"></i>OVBioteck Ltd.co
+                    </td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="left aligned">
+                        <button class="ui icon red button" id="test_side" data-content="Payment Received Confirmation" data-variation="inverted"><i class="checkmark icon"></i></button>
+                        <button class="ui icon grey button" id="test_side" data-content="Order Details" data-variation="inverted"><i class="calendar outline icon"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script type="text/javascript" >
+    $('.search.dropdown').dropdown();
+    $('.button').popup();
+    $('i.icon').popup();
+    /*时间控件*/
+    $('#reservation').daterangepicker();
+
+    $('#selectall').click(function(event) {
+        if(this.checked) {
+            $('.check1').each(function() {
+                this.checked = true;
+            });
+        }else{
+            $('.check1').each(function() {
+                this.checked = false;
+            });
+        }
+    });
+</script>
+

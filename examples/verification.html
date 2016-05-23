@@ -1,0 +1,234 @@
+---
+title: 首页
+layout: default
+---
+<link rel="stylesheet" type="text/css" class="ui" href="./menu.css">
+<link rel="stylesheet" type="text/css" class="ui" href="./main.css">
+ <!-- date -->
+<link rel="stylesheet" type="text/css" href="./daterangepicker/daterangepicker-bs3.css">
+<script src="./daterangepicker/moment.min.js"></script>
+ <script src="./daterangepicker/daterangepicker.js"></script>
+<div class="ui container">
+    <div class="ui grid">
+        <div class="left floated fourteen wide column">
+            My Assignments
+        </div>
+    </div>
+    <div class="ui blue segment">
+        <form class="ui form segment user1">
+        <p>告诉我们你的信息</p>
+        <div class="two fields">
+          <div class="field">
+            <label>Name</label>
+            <input placeholder="First Name" name="name" type="text">
+          </div>
+          <div class="field">
+            <label>Gender</label>
+            <div class="ui dropdown selection" tabindex="0"><select name="gender">
+              <option value="">Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select><i class="dropdown icon"></i><div class="default text">Gender</div><div class="menu" tabindex="-1"><div class="item" data-value="male">Male</div><div class="item" data-value="female">Female</div></div></div>
+          </div>
+        </div>
+        <div class="two fields">
+          <div class="field">
+            <label>Username</label>
+            <input placeholder="Username" name="username" type="text">
+          </div>
+          <div class="field">
+            <label>Password</label>
+            <input type="password" name="password">
+          </div>
+        </div>
+       <!--  <div class="field">
+            <label>email</label>
+            <input type="text" name="email" placeholder="email">
+          </div> -->
+        <div class="field">
+          <label>Skills</label>
+          <div class="ui dropdown selection multiple" tabindex="0"><select name="skills" multiple="">
+            <option value="">Select Skills</option>
+            <option value="css">CSS</option>
+            <option value="html">HTML</option>
+            <option value="javascript">Javascript</option>
+            <option value="design">Graphic Design</option>
+            <option value="plumbing">Plumbing</option>
+            <option value="mech">Mechanical Engineering</option>
+            <option value="repair">Kitchen Repair</option>
+          </select><i class="dropdown icon"></i><div class="default text">Select Skills</div><div class="menu" tabindex="-1"><div class="item" data-value="css">CSS</div><div class="item" data-value="html">HTML</div><div class="item" data-value="javascript">Javascript</div><div class="item" data-value="design">Graphic Design</div><div class="item" data-value="plumbing">Plumbing</div><div class="item" data-value="mech">Mechanical Engineering</div><div class="item" data-value="repair">Kitchen Repair</div></div></div>
+        </div>
+        <div class="inline field">
+          <div class="ui checkbox">
+            <input type="checkbox" name="terms" tabindex="0" class="hidden">
+            <label>我同意上述条款以及条件。</label>
+          </div>
+        </div>
+        <div class="ui blue submit button">Submit</div>
+        <div class="ui error message"></div>
+      </form>
+        <form class="ui form segment success test">
+            <div class="field">
+            <label>测试字段</label>
+            <input placeholder="测试字段" name="test" type="text" data-validate="name">
+          </div>
+          <div class="ui blue submit button">Submit</div>
+          <div class="ui reset button">重置</div>
+          <div class="ui clear button">Clear</div>
+        </form>
+        <form class="ui form test2">
+          <div class="two fields ">
+            <div class="field">
+              <label>Match 1</label>
+              <input name="match1" type="text" value="same">
+            </div>
+            <div class="field">
+              <label>Match 2</label>
+              <input name="match2" type="text" value="different">
+            </div>
+          </div>
+          <div class="two fields">
+            <div class="field">
+              <label>Different 1</label>
+              <input name="different1" type="text" value="same">
+            </div>
+            <div class="field">
+              <label>Different 2</label>
+              <input name="different2" type="text" value="same">
+            </div>
+          </div>
+          <div class="ui submit button">Submit</div>
+          <div class="ui error message"></div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" >
+    /*时间控件*/
+    $('#reservation').daterangepicker();
+
+    $('.search.dropdown').dropdown();
+
+    //设置表单的值 
+ /*   $('.writing.example form')
+      // set one value
+      .form('set value', 'name', 'Jack')
+       // set several values
+      .form('set values', {
+        name     : 'Jack',
+        gender   : 'male',
+        colors   : ['red', 'grey'],
+        username : 'jlukic',
+        password : 'youdliketoknow',
+        terms    : true
+      });
+      */
+    //添加验证信息
+    $('.user1').form({
+        fields: {
+          name     : 'regExp[/^[a-z0-9_-]{4,16}$/]',
+          gender   : 'empty',
+          username : 'integer[1..100]',
+          password : ['minLength[6]', 'empty'],
+          skills   : ['minCount[2]', 'empty'],
+          terms    : 'checked'
+        },
+        inline : true,   //显示位置 （行内）
+        on     : 'blur'  //失去焦点验证 
+    });
+    //通过自定义字段验证data-validate
+    $('.test').form({
+        fields: {
+            name: {
+                identifier : 'name',
+                rules: [
+                  {
+                    type   : 'empty'
+                  }
+                ]
+            }
+        },
+        inline : true,
+        on     : 'blur'
+    });
+
+//自定义错误信息的验证
+$('.ui.form').form({
+    fields: {
+      gender: {
+        identifier  : 'gender',
+        rules: [
+          {
+            type   : 'empty',
+            prompt : 'Please enter a gender' //自定义错误信息 
+          }
+        ]
+      },
+      name: {
+        identifier  : 'name',
+        rules: [
+          {
+            type   : 'empty',
+            prompt : 'Please enter your name'
+          }
+        ]
+      }
+    }
+  });
+//判断2个字段值否一样
+$('.test2').form({
+    on: 'blur',
+    fields: {
+      match: {
+        identifier  : 'match2',
+        rules: [
+          {
+            type   : 'match[match1]',
+            prompt : 'Please put the same value in both fields'
+          }
+        ]
+      },
+      different: {
+        identifier  : 'different2',
+        rules: [
+          {
+            type   : 'different[different1]',
+            prompt : 'Please put different values for each field'
+          }
+        ]
+      }
+    }
+  });
+
+
+/*$.fn.form.settings.defaults = {
+  email: {
+    identifier : 'email',
+    rules: [
+      {
+        type   : 'email',
+        prompt : 'Please enter a valid e-mail'
+      }
+    ]
+  },name: {
+    identifier : 'name',
+    rules: [
+      {
+        type   : 'text',
+        prompt : 'aaaaaaaaaaa'
+      }
+    ]
+  },
+  // this form doesn't have a cc email but it will not produce an error
+  ccEmail: {
+    identifier : 'cc-email',
+    optional   : true,
+    rules: [
+      {
+        type   : 'email',
+        prompt : 'Please enter a valid second e-mail'
+      }
+    ]
+  },
+};*/
+</script>
+

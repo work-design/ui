@@ -1,0 +1,173 @@
+---
+title: 首页
+layout: default
+---
+<link rel="stylesheet" type="text/css" class="ui" href="./main.css">
+ <!-- date -->
+<link rel="stylesheet" type="text/css" href="./daterangepicker/daterangepicker-bs3.css">
+<script src="./daterangepicker/moment.min.js"></script>
+ <script src="./daterangepicker/daterangepicker.js"></script>
+<div class="ui container">
+    <div class="ui grid">
+        <div class="left floated fourteen wide column">
+            Order Generation
+        </div>
+        <div class="right floated two wide column text_align_right">
+            <i class="backward icon color_8c8d8d"></i>Back
+        </div>
+    </div>
+    <div class="ui blue segment">
+        <div class="ui form ">
+            <div class="ui four column grid">
+                <div class="column">
+                    <div class="ui left icon input fluid">
+                        <i class="calendar icon"></i>
+                      <input type="text" class="form-control pull-right active" id="reservation" placeholder="Transaction Date">
+                    </div>
+                </div>
+                <div class="column">
+                  <input placeholder="Customer" type="text">
+                </div>
+                <div class="column">
+                  <input placeholder="P.O. No." type="text">
+                </div>
+                <div class="column">
+                   <input placeholder="Chemical Info" type="text">
+                </div>
+            </div>
+            <div class="ui four column grid">
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Account Manager</option>
+                            <option value="am">A</option>
+                            <option value="am">B</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">Billing Terms</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">A</div>
+                            <div class="item" data-value="am">B</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Account Manager</option>
+                            <option value="am">A</option>
+                            <option value="am">B</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">cs</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">A</div>
+                            <div class="item" data-value="am">B</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Account Manager</option>
+                            <option value="am">A</option>
+                            <option value="am">B</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">Account Manager</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">A</div>
+                            <div class="item" data-value="am">B</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui blue button">Select</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui blue segment">
+        <div class="ui grid bg_F3F4F5 mb_14">
+            <div class="left floated ten wide column">
+               <span>Status:</span>
+               <div class="ui white basic button">All</div>
+               <div class="ui white basic button">Active</div>
+               <div class="ui white basic button">Completed</div>
+               <div class="ui white basic button actives">Canceled</div>
+            </div>
+        </div>
+        <table class="ui celled structured table">
+            <thead>
+                <tr>
+                  <th colspan="2">
+                        <div class="ui grid">
+                            <div class="left floated eight wide column ">
+                                <span class="mr_w_20 color_9c9c9d">2016-05-18 11:33:21</span>
+                              <span class="color_3c8dbc mr_w_20 ">PO No.: 12345678999</span>
+                              <span class="color_666">In Stock</span>
+                            </div>
+                            <div class="right floated eight wide column text_align_right">
+                                <span class="mr_w_20 color_666">T/T 30</span>
+                                <span class="color_ff0000">$500.00</span><i class="help circle icon color_9c9c9d"  data-html="<p>FOB:$400.00Profit(10%):$40.00 </p><p>Shipping:$10.00 </p><p>Insurance:$10.00 </p><p>Other Fee:$40.00</p>"></i>
+                            </div>
+                        </div>
+                  </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>
+                       <div class="ui grid">
+                            <div class="left floated eight wide column ">
+                                <span class="mr_w_15 ">CAS No.: 215-45-6</span>
+                                <span class="mr_w_15">Potassium Sorbate</span>
+                                <span class="mr_w_15">45g, $200.00</span>
+                            </div>
+                            <div class="right floated eight wide column text_align_right">
+                               Unpaid, Undispatched
+                            </div>
+                        </div>
+                  </td>
+                  <td rowspan="2">
+                    <button class="ui icon blue button right floated" data-content="Detail Info" data-variation="inverted"> <i class="info circle icon"></i> </button>
+                    <button class="ui icon orange button right floated" data-content="Confirm Received" data-variation="inverted"><i class="checkmark icon"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                       <div class="ui grid">
+                            <div class="left floated eight wide column ">
+                                <span class="mr_w_15 ">CAS No.: 215-45-6</span>
+                                <span class="mr_w_15">Potassium Sorbate</span>
+                                <span class="mr_w_15">45g, $200.00</span>
+                            </div>
+                            <div class="right floated eight wide column text_align_right">
+                              Paid, Dispatched
+                            </div>
+                        </div>
+                  </td>
+                </tr>
+                 <tr>
+                  <td colspan="2" class="bg_F3F4F5">
+                       <i class="user icon color_9c9c9d"></i><span class="mr_w_20">Buyer: John Doe</span>
+                       <i class="home icon color_9c9c9d"></i><span class="mr_w_20">Company: Bosch Biotechnology Inc</span>
+                       <i class="mail icon color_9c9c9d"></i><span class="mr_w_20">Email: JohnDoe@a.com</span>
+                       <i class="phone icon color_9c9c9d"></i><span>Tel: 0086-12345646</span>
+                  </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script type="text/javascript" >
+    $('.search.dropdown').dropdown();
+    $('.button').popup();
+    $('i.icon').popup();
+    /*时间控件*/
+    $('#reservation').daterangepicker();
+</script>
+

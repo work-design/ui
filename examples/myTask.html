@@ -1,0 +1,165 @@
+---
+title: 首页
+layout: default
+---
+<link rel="stylesheet" type="text/css" class="ui" href="./main.css">
+ <!-- date -->
+<link rel="stylesheet" type="text/css" href="./daterangepicker/daterangepicker-bs3.css">
+<script src="./daterangepicker/moment.min.js"></script>
+ <script src="./daterangepicker/daterangepicker.js"></script>
+<div class="ui container">
+    <div class="ui grid">
+        <div class="left floated fourteen wide column">
+            My Assignments
+        </div>
+    </div>
+    <div class="ui blue segment">
+        <div class="ui form ">
+            <div class="ui three column grid">
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Account Manager</option>
+                            <option value="am">A</option>
+                            <option value="am">B</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">Account Manager</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">A</div>
+                            <div class="item" data-value="am">B</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Task Classification</option>
+                            <option value="am">communication task</option>
+                            <option value="am">inquiry checking</option>
+                            <option value="am">assistance t</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">Task Classification</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">communication task</div>
+                            <div class="item" data-value="am">inquiry checking</div>
+                            <div class="item" data-value="am">assistance t</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid search dropdown selection">
+                        <select>
+                            <option value="">Account Manager</option>
+                            <option value="am">A</option>
+                            <option value="am">B</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <input class="search" tabindex="0">
+                        <div class="default text">Account Manager</div>
+                        <div class="menu transition hidden" tabindex="-1">
+                            <div class="item selected" data-value="am">A</div>
+                            <div class="item" data-value="am">B</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui three column grid">
+                <div class="column">
+                    <div class="ui left icon input fluid">
+                        <i class="calendar icon"></i>
+                      <input type="text" class="form-control pull-right active" id="reservation" placeholder="Transaction Date">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui blue button">Search</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui blue segment">
+        <div class="ui grid bg_F3F4F5 mb_14">
+            <div class="left floated ten wide column">
+               <span>Status:</span>
+               <div class="ui white basic button">All</div>
+               <div class="ui white basic button">Pending</div>
+               <div class="ui white basic button">Completed</div>
+               <div class="ui white basic button actives">Closed</div>
+            </div>
+        </div>
+        <table class="ui celled table">
+            <thead>
+                <tr>
+                    <th class="left aligned">Organization</th>
+                    <th class="center aligned">Contact</th>
+                    <th class="center aligned">Email</th>
+                    <th class="center aligned">Phone</th>
+                    <th class="center aligned">Task Date</th>
+                    <th class="center aligned">Task Classification</th>
+                    <th class="center aligned">Task Content</th>
+                    <th class="center aligned">Note</th>
+                    <th class="center aligned">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="left aligned">
+                        <i class="info blue icon" data-html="<p><span class='color_2185d0'>Org Type:</span>Academic Institute</p><p><span class='color_2185d0'>by:</span>Jack Jones</p>" data-variation="basic"></i>Rocher
+                    </td>
+                    <td class="center aligned">
+                        Krystal zhou
+                    </td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">
+                        <i class="info blue icon" data-html="<p><span class='color_2185d0'>上次沟通时间:</span>2016-03-17</p><p><span class='color_2185d0'>询单概率:</span>80%</p><p><span class='color_2185d0'>预估询单日期:</span>2016-03-18</p>" data-variation="basic"></i>
+                    </td>
+                    <td class="center aligned">
+                        <i class="comment outline icon" data-title="Conference, America" data-content=" University research and development institutions"></i>
+                    </td>
+                    <td class="left aligned">
+                        <button class="ui icon grey button" id="test_side" data-content="communication log" data-variation="inverted"><i class="calendar outline icon"></i></button>
+                        <button class="ui icon green button" id="test_side" data-content="view" data-variation="inverted"><i class="list icon"></i></button>
+                        <button class="ui icon orange  button" data-content="close" data-variation="inverted" id="J_sys_account_edit"><i class="trash outline icon"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left aligned">
+                        <i class="info blue icon" data-html="<p><span class='color_2185d0'>Org Type:</span>Academic Institute</p><p><span class='color_2185d0'>by:</span>Jack Jones</p>" data-variation="basic"></i>Rocher
+                    </td>
+                    <td class="center aligned">
+                        Krystal zhou
+                    </td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">Jessica Zheng</td>
+                    <td class="center aligned">
+                        <i class="info blue icon" data-html="<p><span class='color_2185d0'>上次沟通时间:</span>2016-03-17</p><p><span class='color_2185d0'>询单概率:</span>80%</p><p><span class='color_2185d0'>预估询单日期:</span>2016-03-18</p>" data-variation="basic"></i>
+                    </td>
+                    <td class="center aligned">
+                        <i class="comment outline icon" data-title="Conference, America" data-content=" University research and development institutions"></i>
+                    </td>
+                    <td class="left aligned">
+                        <button class="ui icon red button" id="test_side" data-content="inquiry checking" data-variation="inverted"><i class="checkmark icon"></i></button>
+                        <button class="ui icon blue button" id="test_side" data-content="leads management" data-variation="inverted"><i class="users icon"></i></button>
+                        <button class="ui icon grey button" id="test_side" data-content="communication log" data-variation="inverted"><i class="calendar outline icon"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script type="text/javascript" >
+    $('.search.dropdown').dropdown();
+    $('.button').popup();
+    $('i.icon').popup();
+    /*时间控件*/
+    $('#reservation').daterangepicker();
+</script>
+

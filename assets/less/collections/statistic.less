@@ -2,8 +2,8 @@
             Theme
 *******************************/
 
-@type    : 'collection';
-@element : 'statistic';
+@type: 'collection';
+@element: 'statistic';
 
 @import (multiple) '../../theme.config';
 
@@ -20,14 +20,14 @@
 }
 
 .ui.statistic + .ui.statistic {
-  margin: 0em 0em 0em @horizontalSpacing;
+  margin: 0 0 0 @horizontalSpacing;
 }
 
 .ui.statistic:first-child {
-  margin-top: 0em;
+  margin-top: 0;
 }
 .ui.statistic:last-child {
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 
@@ -58,17 +58,17 @@
 .ui.statistics:after {
   display: block;
   content: ' ';
-  height: 0px;
+  height: 0;
   clear: both;
   overflow: hidden;
   visibility: hidden;
 }
 
 .ui.statistics:first-child {
-  margin-top: 0em;
+  margin-top: 0;
 }
 .ui.statistics:last-child {
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 
@@ -132,7 +132,7 @@
 .ui.statistic > .value .icon {
   opacity: 1;
   width: auto;
-  margin: 0em;
+  margin: 0;
 }
 
 /*--------------
@@ -266,7 +266,7 @@
 }
 .ui.horizontal.statistics {
   flex-direction: column;
-  margin: 0em;
+  margin: 0;
   max-width: none;
 }
 .ui.horizontal.statistics .statistic {
@@ -278,7 +278,7 @@
 
 .ui.horizontal.statistic > .text.value,
 .ui.horizontal.statistics > .statistic > .text.value {
-  min-height: 0em !important;
+  min-height: 0 !important;
 }
 .ui.horizontal.statistics .statistic > .value .icon,
 .ui.horizontal.statistic > .value .icon {
@@ -294,7 +294,7 @@
 .ui.horizontal.statistic > .label {
   display: inline-block;
   vertical-align: middle;
-  margin: 0em 0em 0em @horizontalLabelDistance;
+  margin: 0 0 0 @horizontalLabelDistance;
 }
 
 /*--------------
@@ -449,7 +449,7 @@
   margin: @rightFloatedMargin;
 }
 .ui.floated.statistic:last-child {
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 

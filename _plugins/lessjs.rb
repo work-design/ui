@@ -5,9 +5,7 @@ module Jekyll
       # do nothing
     end
   end
-  
-# Expects a lessc: key in your _config.yml file with the path to a local less.js/bin/lessc
-# Less.js will require node.js to be installed
+
   class LessJsGenerator < Generator
     safe true
     priority :low
@@ -17,9 +15,6 @@ module Jekyll
       dest_root = site.config['destination']
       less_ext = /\.less$/i
       
-      raise "Missing 'lessc' path in site configuration" if !site.config['lessc']
-      
-      # static_files have already been filtered against excludes, etc.
       site.static_files.each do |sf|
         next if not sf.path =~ less_ext
         
@@ -32,7 +27,7 @@ module Jekyll
         FileUtils.mkdir_p(css_dir)
 
         begin
-          command = [site.config['lessc'], 
+          command = ['lessc',
                      less_path, 
                      css_path
                      ].join(' ')

@@ -1,5 +1,5 @@
 include: ['assets/', 'CNAME']
-exclude: ['.ruby-version', 'README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock']
+exclude: ['dist/', '.ruby-version', 'README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock']
 encoding: UTF-8
 
 permalink: /:categories/:title
@@ -15,3 +15,5 @@ navigation:
    title: 模块
  - url: /examples
    title: 示例
+
+lessc: 'lessc --clean-css src/whmall-css.less dist/whmall-ui.css'

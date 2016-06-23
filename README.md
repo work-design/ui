@@ -17,7 +17,7 @@
 - 安装: `npm install -g less-plugin-clean-css`
 
 ### 生成
-- `lessc --clean-css whmall-ui.less whmall-ui.css`
+- `lessc --clean-css src/whmall-ui.less dist/whmall-ui.css`
 
 ### 本地开发
 - `bundle install`

@@ -1,5 +1,5 @@
 GEM
-  remote: http://gems.ruby-china.org/
+  remote: https://rubygems.org/
   specs:
     colorator (0.1)
     ffi (1.9.10)

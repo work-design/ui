@@ -1,5 +1,4 @@
-# source 'https://rubygems.org/'
-source 'http://gems.ruby-china.org'
+source 'https://rubygems.org/'
 
 gem 'jekyll', '3.1.6'
 gem 'mercenary'

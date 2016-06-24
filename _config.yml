@@ -1,5 +1,6 @@
 include: ['assets/', 'CNAME']
-exclude: ['dist/', '.ruby-version', 'README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock']
+exclude: ['.ruby-version', 'README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock']
+watch_exclude: ['dist/']
 encoding: UTF-8
 
 permalink: /:categories/:title

@@ -12,6 +12,8 @@ production_url : http://www.xinshengyin.com
 navigation:
  - url: /
    title: 组件
+ - url: /collections
+   title: 集合
  - url: /modules
    title: 模块
  - url: /examples

@@ -6,31 +6,35 @@ GIT
       listen (~> 3.0, < 3.1)
 
 GEM
-  remote: https://rubygems.org/
+  remote: https://gems.ruby-china.org/
   specs:
     coderay (1.1.1)
-    colorator (0.1)
+    colorator (1.1.0)
     ffi (1.9.10)
     ffi (1.9.10-x64-mingw32)
-    jekyll (3.1.6)
-      colorator (~> 0.1)
+    forwardable-extended (2.6.0)
+    jekyll (3.2.1)
+      colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
       kramdown (~> 1.3)
       liquid (~> 3.0)
       mercenary (~> 0.3.3)
+      pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     json (1.8.3)
-    kramdown (1.11.1)
+    kramdown (1.12.0)
     liquid (3.0.6)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
     method_source (0.8.2)
+    pathutil (0.14.0)
+      forwardable-extended (~> 2.6)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -48,11 +52,11 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll (= 3.1.6)
+  jekyll (= 3.2.1)
   jekyll-watch!
   json
   mercenary
   pry
 
 BUNDLED WITH
-   1.12.5
+   1.13.1

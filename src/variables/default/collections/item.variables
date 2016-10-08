@@ -10,12 +10,12 @@
 @groupMargin: 1.5em 0;
 
 /* Item */
-@display: flex;
 @background: transparent;
 @borderRadius: 0rem;
 @minHeight: 0;
 @padding: 0;
 @width: 100%;
+@medium: 1em;
 @boxShadow: none;
 @border: none;
 @zIndex: '';
@@ -155,6 +155,3 @@
 
 @dividedFirstLastMargin: 0;
 @dividedFirstLastPadding: 0;
-
-/* Sizes */
-@medium: 1em;

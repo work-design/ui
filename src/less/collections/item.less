@@ -30,7 +30,7 @@
 ---------------*/
 .ui.items > .item,
 .ui.items > li {
-  display: @display;
+  display: flex;
   flex-wrap: wrap;
   margin: @itemSpacing 0;
   width: @width;
@@ -38,13 +38,15 @@
   background: @background;
   padding: @padding;
 
+  font-size: @medium;
   border: @border;
   border-radius: @borderRadius;
   box-shadow: @boxShadow;
   transition: @transition;
   z-index: @zIndex;
 }
-.ui.items > .item:after {
+.ui.items > .item:after,
+.ui.items > li:after {
   display: block;
   content: ' ';
   height: 0;
@@ -52,9 +54,11 @@
   overflow: hidden;
   visibility: hidden;
 }
-.ui.items > .item:first-child {
+.ui.items > .item:first-child,
+.ui.items > li:first-child {
   margin-top: 0;
 }
+.ui.items > .item:last-child
 .ui.items > .item:last-child {
   margin-bottom: 0;
 }
@@ -62,7 +66,6 @@
 /*--------------------
     Nested items
 ---------------------*/
-
 .ui.items .item .items {
   margin: @nestedItemsMargin;
   padding: @nestedItemsPadding;
@@ -78,19 +81,15 @@
   background: @nestedItemBackground;
 }
 
-/*--------------
-     Links
----------------*/
-
-.ui.items > .item a {
+/* Links */
+.ui.items > .item a,
+.ui.items > li a {
   cursor: pointer;
 }
 
-/*--------------
-     Images
----------------*/
-
-.ui.items > .item > .image {
+/* Images */
+.ui.items > .item > .image
+.ui.items > li > .image {
   position: relative;
   flex: 0 0 auto;
   display: @imageDisplay;
@@ -113,11 +112,9 @@
 }
 
 
-/*--------------
-     Content
----------------*/
-
-.ui.items > .item > .content {
+/* Content */
+.ui.items > .item > .content
+.ui.items > li > .content {
   display: block;
   flex: 1 1 auto;
   background: @contentBackground;
@@ -158,9 +155,7 @@
   font-size: @headerFontSize;
 }
 
-/*--------------
-     Floated
----------------*/
+/* Floated */
 
 .ui.items > .item [class*="left floated"] {
   float: left;
@@ -186,10 +181,7 @@
 }
 
 
-/*--------------
-   Description
----------------*/
-
+/* Description */
 .ui.items > .item > .content > .description {
   margin-top: @descriptionDistance;
   max-width: @descriptionMaxWidth;
@@ -198,10 +190,7 @@
   color: @descriptionColor;
 }
 
-/*--------------
-    Paragraph
----------------*/
-
+/* Paragraph */
 .ui.items > .item > .content p {
   margin: 0 0 @paragraphDistance;
 }
@@ -459,29 +448,4 @@
 .ui.link.items > .item:hover .content .header,
 .ui.link.items > li:hover .content .header {
   color: @headerLinkHoverColor;
-}
-
-/* Compatible for old browsers */
-
-.ui.old.items > .item,
-.ui.old.items > li {
-  display: table;
-  table-layout: fixed;
-}
-.ui.old.items > .item > .image,
-.ui.old.items > li > .image {
-  display: table-cell;
-  vertical-align: top;
-}
-.ui.old.items > .item > .image + .content {
-  display: table-cell;
-}
-
-
-/*--------------
-      Size
----------------*/
-
-.ui.items > .item {
-  font-size: @medium;
 }

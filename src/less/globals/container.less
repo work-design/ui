@@ -2,7 +2,7 @@
             Theme
 *******************************/
 
-@type: 'element';
+@type: 'global';
 @element: 'container';
 
 @import (multiple) '../../theme.config';
@@ -97,19 +97,15 @@
 /* Text Container */
 .ui.text.container {
   font-family: @textFontFamily;
+  font-size: @textSize;
   max-width: @textWidth !important;
   line-height: @textLineHeight;
-}
-
-.ui.text.container {
-  font-size: @textSize;
 }
 
 /* Fluid */
 .ui.fluid.container {
   width: 100%;
 }
-
 
 /*******************************
            Variations

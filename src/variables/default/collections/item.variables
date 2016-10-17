@@ -101,8 +101,8 @@
 @headerLinkHoverColor: @linkHoverColor;
 @metaLinkColor: @lightTextColor;
 @metaLinkHoverColor: @textColor;
-@contentLinkColor: #eee;
-@contentLinkHoverColor: #eee;
+@contentLinkColor: '';
+@contentLinkHoverColor: '';
 @contentLinkTransition: color @defaultDuration @defaultEasing;
 
 /* Description */

@@ -5,6 +5,12 @@
   "repository": "git@github.com:whmall/whmall.github.io.git",
   "author": "qinmingyuan <mingyuan0715@foxmail.com>",
   "license": "MIT",
+
+  "scripts": {
+    "build": "postcss -c -d lib",
+    "lessc": "lessc src/whmall-ui.less dist/whmall-ui.css"
+  },
+
   "dependencies": {
     "less": "^2.7.1",
     "postcss": "^5.2.8"

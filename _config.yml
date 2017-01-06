@@ -1,5 +1,16 @@
 include: ['assets/', 'CNAME']
-exclude: ['.ruby-version', 'README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock']
+exclude:
+  - node_modules
+  - Semantic-UI
+  - src
+  - .ruby-version
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - yarn.lock
+  - package.json
+  - postcss.json
 watch_exclude: ['dist/']
 encoding: UTF-8
 
@@ -19,4 +30,4 @@ navigation:
  - url: /examples
    title: 示例
 
-lessc: 'lessc --clean-css src/whmall-css.less dist/whmall-ui.css'
+lessc: 'date'

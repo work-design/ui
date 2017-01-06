@@ -1,0 +1,16 @@
+{
+  "use": ["cssnano", "stylelint", "stylefmt"],
+  "cssnano": {
+    "core": true,
+    "discardDuplicates": true,
+    "discardOverridden": true,
+    "discardUnused": true,
+    "mergeRules": true
+  },
+  "stylelint": {
+    "rules": {
+      "declaration-block-no-duplicate-properties": true,
+      "length-zero-no-unit": true
+    }
+  }
+}

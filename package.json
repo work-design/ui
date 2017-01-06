@@ -7,7 +7,7 @@
   "license": "MIT",
 
   "scripts": {
-    "build": "postcss -c -d lib",
+    "postcss": "postcss -c -d lib",
     "lessc": "lessc src/whmall-ui.less dist/whmall-ui.css"
   },
 

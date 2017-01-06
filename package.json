@@ -8,7 +8,8 @@
 
   "scripts": {
     "postcss": "postcss -c -d lib",
-    "lessc": "lessc src/whmall-ui.less dist/whmall-ui.css"
+    "lessc": "lessc src/whmall-ui.less dist/whmall-ui.css",
+    "semantic_ui": "lessc semantic-ui/src/semantic.less dist/stylesheets/semantic.css"
   },
 
   "dependencies": {

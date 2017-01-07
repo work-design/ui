@@ -23,7 +23,7 @@ production_url : http://www.xinshengyin.com
 navigation:
  - url: /
    title: 组件
- - url: /exaples/collections
+ - url: /examples/collections
    title: 集合
  - url: /examples/modules
    title: 模块

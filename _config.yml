@@ -23,11 +23,11 @@ production_url : http://www.xinshengyin.com
 navigation:
  - url: /
    title: 组件
- - url: /collections
+ - url: /exaples/collections
    title: 集合
- - url: /modules
+ - url: /examples/modules
    title: 模块
- - url: /examples
+ - url: /examples/examples
    title: 示例
 
 lessc: 'date'

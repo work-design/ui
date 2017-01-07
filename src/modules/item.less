@@ -1,0 +1,17 @@
+/*--------------------
+    Nested items
+---------------------*/
+.ui.items .item .items {
+  margin: @nestedItemsMargin;
+  padding: @nestedItemsPadding;
+}
+.ui.items .item .items:before{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ui.items .item .items .item {
+  border: @nestedItemBorder;
+  border-top: @nestedItemDivider;
+  background: @nestedItemBackground;
+}

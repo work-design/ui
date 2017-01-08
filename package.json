@@ -9,7 +9,7 @@
   "scripts": {
     "postcss": "postcss -c -d lib",
     "lessc": "lessc src/whmall-ui.less dist/whmall-ui.css",
-    "semantic_ui": "cp src/theme.config semantic-ui/src && lessc semantic-ui/src/semantic.less dist/stylesheets/semantic.css",
+    "semantic_ui": "cp src/theme.config semantic-ui/src && lessc src/semantic.less dist/stylesheets/semantic.css",
     "test": "echo a && echo b"
   },
 

@@ -5,16 +5,19 @@
   "repository": "git@github.com:whmall/whmall.github.io.git",
   "author": "qinmingyuan <mingyuan0715@foxmail.com>",
   "license": "MIT",
-
   "scripts": {
     "postcss": "postcss -c -d lib",
+    "study": "postcss -c ./test.json -d lib test.css",
     "lessc": "lessc src/whmall-ui.less dist/whmall-ui.css",
     "semantic_ui": "cp src/theme.config semantic-ui/src && lessc src/semantic.less dist/stylesheets/semantic.css",
     "test": "echo a && echo b"
   },
-
   "dependencies": {
-    "less": "^2.7.1",
-    "postcss": "^5.2.8"
+    "cssnano": "^3.10.0",
+    "cssnano-cli": "^1.0.5",
+    "less": "^2.7.2",
+    "postcss": "^5.2.8",
+    "postcss-cli": "^4.0.0",
+    "postcss-discard-overridden": "https://github.com/qinmingyuan/postcss-discard-overridden.git"
   }
 }

@@ -14,10 +14,9 @@
 
 ### 使用方法
 - 安装less: `npm install -g less`, less命令为`lessc`
-- 安装: `npm install -g less-plugin-clean-css`
 
 ### 生成
-- `lessc --clean-css src/whmall-ui.less dist/whmall-ui.css`
+- `lessc src/semantic.less dist/semantic.css`
 
 ### 本地开发
 - `bundle install`

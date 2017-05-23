@@ -1,6 +1,7 @@
 module.exports = {
   plugins: [
     require('cssnano')({
+      filterPlugins: true,
       discardComments: true,
       minifyGradients: true,
       reduceInitial: true,
@@ -36,7 +37,6 @@ module.exports = {
       discardEmpty: true,
       uniqueSelectors: false,
       styleCache: true
-    }),
-    //require('postcss-discard-duplicates')({discardDuplicates: false})
+    })
   ]
 }

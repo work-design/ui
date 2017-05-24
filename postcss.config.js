@@ -28,7 +28,7 @@ module.exports = {
       filterOptimiser: true,
       reduceBackgroundRepeat: true,
       reducePositions: true,
-      core: true,
+      core: false,
       mergeIdents: true, //unsafe
       reduceIdents: true, //unsafe
       mergeLonghand: true,

@@ -18,6 +18,8 @@
     "less": "^2.7.2",
     "postcss": "^5.2.8",
     "postcss-cli": "^4.0.0",
-    "postcss-discard-overridden": "https://github.com/qinmingyuan/postcss-discard-overridden.git"
+    "postcss-discard-overridden": "https://github.com/qinmingyuan/postcss-discard-overridden.git",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0"
   }
 }

@@ -1,0 +1,43 @@
+/*--------------------
+    Nested items
+---------------------*/
+.ui.items .item .items {
+  margin: 0 0 .5em .5em;
+  padding: 1em 0 1em 1em;
+  width: 100%;
+}
+.ui.items .item .items:before{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ui.items .item .items .item {
+  border: none;
+  border-top: none;
+  background: 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ui.items > .item {
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.items > .item > .avatar.image + .content {
+  width: calc(100% - 2em);
+  padding-left: 0;
+}
+
+.items > .item > .avatar.image {
+  width: auto;
+}
+
+.items > .item .content.icon:hover {
+  cursor: move;
+}
+
+/* with rail */
+.ui.items > .item > .rail {
+  border: none;
+}

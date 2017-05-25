@@ -12,7 +12,7 @@
     "semantic_ui": "cp src/theme.config semantic-ui/src && lessc src/semantic.less dist/stylesheets/semantic.css",
     "test": "echo a && echo b"
   },
-  "dependencies": {
+  "devDependencies": {
     "cssnano": "^3.10.0",
     "cssnano-cli": "^1.0.5",
     "less": "^2.7.2",

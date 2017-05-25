@@ -9,7 +9,7 @@
     "postcss": "postcss -c -d lib",
     "study": "postcss -c ./test.json -d lib test.css",
     "lessc": "lessc src/whmall-ui.less dist/whmall-ui.css",
-    "semantic_ui": "cp src/theme.config semantic-ui/src && lessc src/semantic.less dist/stylesheets/semantic.css",
+    "semantic_ui": "cp assets/theme.config semantic-ui/src && lessc assets/semantic.less dist/stylesheets/semantic.css",
     "test": "echo a && echo b"
   },
   "devDependencies": {

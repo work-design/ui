@@ -6,10 +6,10 @@
   "author": "qinmingyuan <mingyuan0715@foxmail.com>",
   "license": "MIT",
   "scripts": {
-    "postcss": "postcss -c -d lib",
+    "postcss": "postcss dist/stylesheets/semantic_src.css -o dist/stylesheets/semantic.css",
     "study": "postcss -c ./test.json -d lib test.css",
     "lessc": "lessc src/whmall-ui.less dist/whmall-ui.css",
-    "semantic_ui": "cp assets/theme.config semantic-ui/src && lessc assets/semantic.less dist/stylesheets/semantic.css",
+    "semantic_ui": "cp assets/theme.config semantic-ui/src && lessc assets/semantic.less dist/stylesheets/semantic_src.css && npm run postcss",
     "test": "echo a && echo b"
   },
   "devDependencies": {

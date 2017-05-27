@@ -2,7 +2,7 @@ module.exports = {
   plugins: [
     require('cssnano')({
       filterPlugins: true,
-      discardComments: true,
+      discardComments: { removeAll: true },
       minifyGradients: true,
       reduceInitial: true,
       svgo: true,

@@ -567,9 +567,6 @@
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -1532,9 +1529,6 @@ th {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -1902,9 +1896,6 @@ th {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*******************************
              Page
 *******************************/
@@ -2602,9 +2593,6 @@ input::selection {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -6479,9 +6467,6 @@ input::selection {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -7196,9 +7181,6 @@ input::selection {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -8019,9 +8001,6 @@ input::selection {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -9258,9 +9237,6 @@ a.ui.inverted.grey.header:hover {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -9286,8 +9262,8 @@ a.ui.inverted.grey.header:hover {
 *******************************/
 @font-face {
   font-family: 'Icons';
-  src: url("../../themes/default/assets/fonts/icons.eot");
-  src: url("../../themes/default/assets/fonts/icons.eot?#iefix") format('embedded-opentype'), url("../../themes/default/assets/fonts/icons.woff2") format('woff2'), url("../../themes/default/assets/fonts/icons.woff") format('woff'), url("../../themes/default/assets/fonts/icons.ttf") format('truetype'), url("../../themes/default/assets/fonts/icons.svg#icons") format('svg');
+  src: url("/assets/themes/default/assets/fonts/icons.eot");
+  src: url("/assets/themes/default/assets/fonts/icons.eot?#iefix") format('embedded-opentype'), url("/assets/themes/default/assets/fonts/icons.woff2") format('woff2'), url("/assets/themes/default/assets/fonts/icons.woff") format('woff'), url("/assets/themes/default/assets/fonts/icons.ttf") format('truetype'), url("/assets/themes/default/assets/fonts/icons.svg#icons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -13025,9 +13001,6 @@ i.icon.times.rectangle.outline:before {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -13897,9 +13870,6 @@ img.ui.bordered.image {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -14943,9 +14913,6 @@ img.ui.bordered.image {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -16724,9 +16691,6 @@ a.ui.basic.label:hover {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -18234,9 +18198,6 @@ ol.ui.horizontal.list li:before,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -19128,9 +19089,6 @@ ol.ui.horizontal.list li:before,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -19848,9 +19806,6 @@ ol.ui.horizontal.list li:before,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -20643,9 +20598,6 @@ ol.ui.horizontal.list li:before,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -21947,9 +21899,6 @@ ol.ui.horizontal.list li:before,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -23069,9 +23018,6 @@ ol.ui.horizontal.list li:before,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -23758,9 +23704,6 @@ ol.ui.horizontal.list li:before,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -25336,9 +25279,6 @@ ol.ui.horizontal.list li:before,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -27760,9 +27700,6 @@ ol.ui.horizontal.list li:before,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -30183,9 +30120,6 @@ Floated Menu / Item
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -31202,9 +31136,6 @@ Floated Menu / Item
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -32837,9 +32768,6 @@ Floated Menu / Item
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -33628,9 +33556,6 @@ Floated Menu / Item
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -35116,9 +35041,6 @@ a.ui.card:hover,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -35956,9 +35878,6 @@ a.ui.card:hover,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -36824,9 +36743,6 @@ a.ui.card:hover,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -37882,9 +37798,6 @@ a.ui.card:hover,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -38984,9 +38897,6 @@ a.ui.card:hover,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -39799,9 +39709,6 @@ a.ui.card:hover,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -40950,9 +40857,6 @@ a.ui.card:hover,
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -41702,9 +41606,6 @@ body.dimmable > .dimmer {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -43644,9 +43545,6 @@ select.ui.dropdown {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -44379,9 +44277,6 @@ select.ui.dropdown {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -45413,9 +45308,6 @@ select.ui.dropdown {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -46143,9 +46035,6 @@ a.ui.nag {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -47397,9 +47286,6 @@ a.ui.nag {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -48446,9 +48332,6 @@ a.ui.nag {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -49252,9 +49135,6 @@ a.ui.nag {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -50217,9 +50097,6 @@ a.ui.nag {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -50920,9 +50797,6 @@ a.ui.nag {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -51979,9 +51853,6 @@ html.ios {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -52612,9 +52483,6 @@ html.ios {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -53261,9 +53129,6 @@ html.ios {
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
-/*******************************
-     User Global Variables
-*******************************/
 /*-------------------
  Component Variables
 ---------------------*/

@@ -245,6 +245,35 @@ body{
 main{
   flex:1;
 }
+.ui.side{
+  display:flex;
+  flex-wrap:nowrap;
+}
+.ui.side>.sidebar{
+  width:260px;
+  transition:width 1s ease;
+  padding-bottom:1rem;
+  padding-right:1rem;
+}
+.ui.side .menu{
+  border-radius:0;
+}
+.ui.side>.content{
+  width:100%;
+  transition:width 1s ease;
+  padding-bottom:1rem;
+  padding-right:1rem;
+}
+.ui.invisible.side>.sidebar{
+  width:80px;
+  transition:width 1s ease;
+}
+.ui.invisible.side>.sidebar .item .title>span,.ui.invisible.side>.sidebar .item>span{
+  display:none;
+}
+.ui.invisible.side>.content,.slide.down.in{
+  transition:width 1s ease;
+}
 .ui.button{
   cursor:pointer;
   display:inline-block;

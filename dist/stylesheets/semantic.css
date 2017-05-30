@@ -14775,7 +14775,6 @@ ol.ui.list li[value]:before{
   position:relative;
 }
 .items>.item>.avatar.image+.content{
-  width:98%;
   padding-left:0;
 }
 .items>.item>.avatar.image{

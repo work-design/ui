@@ -25,7 +25,6 @@
 }
 
 .items > .item > .avatar.image + .content {
-  width: calc(100% - 2em);
   padding-left: 0;
 }
 

@@ -1,4 +1,4 @@
-## WHMALL UI
+## Common UI
 
 #### 说明
 - 基于 [Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) 改造;

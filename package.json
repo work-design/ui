@@ -8,8 +8,8 @@
   "scripts": {
     "postcss": "postcss dist/stylesheets/semantic_src.css -o dist/stylesheets/semantic.css",
     "study": "postcss -c ./test.json -d lib test.css",
-    "lessc": "lessc --verbose assets/semantic.less dist/stylesheets/semantic_src.css",
-    "semantic_ui": "cp assets/theme.config semantic-ui/src && npm run lessc && npm run postcss",
+    "lessc": "lessc assets/semantic.less dist/stylesheets/semantic_src.css",
+    "semantic_ui": "cp assets/theme.config semantic-ui/src && yarn run lessc && yarn run postcss",
     "test": "echo a && echo b"
   },
   "devDependencies": {

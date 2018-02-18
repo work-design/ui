@@ -17043,7 +17043,7 @@ select.ui.dropdown{
   }
 }
 .ui.modal .scrolling.content{
-  max-height:70vh;
+  max-height:calc(80vh - 10em);
   overflow:auto;
 }
 .ui.fullscreen.modal{

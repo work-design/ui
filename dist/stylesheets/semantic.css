@@ -320,6 +320,42 @@ main{
 .ui.invisible.side>.content,.slide.down.in{
   transition:width 1s ease;
 }
+.red.text{
+  color:#db2828 !important;
+}
+.orange.text{
+  color:#f2711c !important;
+}
+.olive.text{
+  color:#b5cc18 !important;
+}
+.yellow.text{
+  color:#fbbd08 !important;
+}
+.green.text{
+  color:#21ba45 !important;
+}
+.teal.text{
+  color:#00b5ad !important;
+}
+.blue.text{
+  color:#2185d0 !important;
+}
+.violet.text{
+  color:#6435c9 !important;
+}
+.purple.text{
+  color:#a333c8 !important;
+}
+.pink.text{
+  color:#e03997 !important;
+}
+.brown.text{
+  color:#a5673f !important;
+}
+.grey.text{
+  color:#767676 !important;
+}
 .ui.button{
   cursor:pointer;
   display:inline-block;

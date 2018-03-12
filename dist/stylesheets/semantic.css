@@ -11255,6 +11255,9 @@ ol.ui.list li[value]:before{
 .ui.form .inline.fields>label.field{
   justify-content:flex-end;
 }
+.ui.form .inline.fields>.ui.labels.field{
+  flex-wrap:wrap;
+}
 .ui.form .inline.fields .field>.selection.dropdown{
   width:100%;
 }

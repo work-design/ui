@@ -12,3 +12,7 @@
 .ui.menu > .right.item {
   text-align: right;
 }
+
+.ui.pagination.menu {
+  margin-top: 10px;
+}

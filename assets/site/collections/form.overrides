@@ -9,3 +9,11 @@
 .ui.form .inline.fields .field > .selection.dropdown {
   width: 100%;
 }
+
+.ui.form .required.inline.fields > label.field:after {
+  margin: -0.2em 0em 0em 0.2em;
+  content: '*';
+  color: #DB2828;
+  display: inline-block;
+  vertical-align: top;
+}

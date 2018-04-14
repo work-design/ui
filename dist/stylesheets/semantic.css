@@ -11370,6 +11370,13 @@ ol.ui.list li[value]:before{
 .ui.form .inline.fields .field>.selection.dropdown{
   width:100%;
 }
+.ui.form .required.inline.fields>label.field:after{
+  margin:-.2em 0 0 .2em;
+  content:"*";
+  color:#db2828;
+  display:inline-block;
+  vertical-align:top;
+}
 .ui.grid{
   display:flex;
   flex-direction:row;

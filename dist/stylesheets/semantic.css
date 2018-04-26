@@ -160,6 +160,23 @@ canvas{
 template,[hidden]{
   display:none;
 }
+body{
+  overflow-y:scroll;
+}
+dl{
+  display:table-row;
+}
+dd{
+  display:table-cell;
+}
+dd .ui.button{
+  margin-bottom:8px;
+}
+dt{
+  display:table-cell;
+  padding:15px;
+  text-align:right;
+}
 body,html{
   height:100%;
 }

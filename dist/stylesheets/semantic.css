@@ -370,7 +370,7 @@ main{
   color:#767676 !important;
 }
 .white.text{
-  color:#fff;
+  color:#fff !important;
 }
 .ui.button{
   cursor:pointer;

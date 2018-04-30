@@ -369,6 +369,9 @@ main{
 .grey.text{
   color:#767676 !important;
 }
+.white.text{
+  color:#fff;
+}
 .ui.button{
   cursor:pointer;
   display:inline-block;

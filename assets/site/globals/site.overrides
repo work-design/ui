@@ -92,3 +92,7 @@ main {
 .grey.text {
   color: @grey !important;
 }
+
+.white.text {
+  color: #fff;
+}

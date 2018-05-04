@@ -10,7 +10,7 @@
     "study": "postcss -c ./test.json -d lib test.css",
     "lessc": "lessc assets/semantic.less dist/stylesheets/semantic_src.css",
     "semantic_ui": "cp assets/theme.config semantic-ui/src && yarn run lessc && yarn run postcss",
-    "semantic_js": "cp semantic-ui/dist/semantic.js dist/javascripts/semantic.js",
+    "semantic_js": "cp semantic-ui/dist/semantic.min.js dist/javascripts/semantic.js",
     "test": "echo a && echo b"
   },
   "devDependencies": {

@@ -11393,6 +11393,15 @@ ol.ui.list li[value]:before{
   display:inline-block;
   vertical-align:top;
 }
+.ui.form .attached.inline.fields{
+  margin-top:-.5em;
+  margin-bottom:.5em;
+}
+.ui.label input{
+  width:100%;
+  height:100%;
+  opacity:0;
+}
 .ui.grid{
   display:flex;
   flex-direction:row;
@@ -14746,6 +14755,10 @@ ol.ui.list li[value]:before{
   border-left:1px solid #d4d4d5;
   border-right:1px solid #d4d4d5;
   background:none repeat scroll 0 0 #f0f0f0;
+}
+.ui.very.basic.table .right.aligned:after{
+  content:":";
+  color:#888;
 }
 .ui.ad{
   display:block;

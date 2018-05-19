@@ -30,6 +30,7 @@
 
 .items > .item > .avatar.image {
   width: auto;
+  align-self: center;
 }
 
 .items > .item .content.icon:hover {

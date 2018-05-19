@@ -17,3 +17,15 @@
   display: inline-block;
   vertical-align: top;
 }
+
+.ui.form .attached.inline.fields {
+  margin-top: -0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* avatar upload */
+.ui.label input {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}

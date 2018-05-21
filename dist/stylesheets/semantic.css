@@ -16165,7 +16165,6 @@ ol.ui.list li[value]:before{
   flex-wrap:wrap;
 }
 .ui.items>.item{
-  flex-wrap:wrap;
   position:relative;
 }
 .items>.item>.avatar.image+.content{

@@ -2,8 +2,8 @@
     Nested items
 ---------------------*/
 .ui.items .item .items {
-  margin: 0 0 .5em .5em;
-  padding: 1em 0 1em 1em;
+  margin: 0 0 .5em 0;
+  padding: 1em 0;
   width: 100%;
 }
 .ui.items .item .items:before{
@@ -16,7 +16,6 @@
   border-top: none;
   background: 0 0;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .ui.items > .item {
@@ -29,7 +28,6 @@
 
 .items > .item > .avatar.image {
   width: auto;
-  align-self: center;
 }
 
 .items > .item .content.icon:hover {

@@ -16148,8 +16148,8 @@ ol.ui.list li[value]:before{
   }
 }
 .ui.items .item .items{
-  margin:0 0 .5em .5em;
-  padding:1em 0 1em 1em;
+  margin:0 0 .5em;
+  padding:1em 0;
   width:100%;
 }
 .ui.items .item .items:before{
@@ -16162,7 +16162,6 @@ ol.ui.list li[value]:before{
   border-top:none;
   background:0 0;
   display:flex;
-  flex-wrap:wrap;
 }
 .ui.items>.item{
   position:relative;
@@ -16172,7 +16171,6 @@ ol.ui.list li[value]:before{
 }
 .items>.item>.avatar.image{
   width:auto;
-  align-self:center;
 }
 .items>.item .content.icon:hover{
   cursor:move;

@@ -16,7 +16,7 @@
 - 安装less: `npm install -g less`, less命令为`lessc`
 
 ### 生成
-* `yarn run semantic_ui`
+* `yarn run semantic_css`
 
 ### 本地开发
 - `bundle install`

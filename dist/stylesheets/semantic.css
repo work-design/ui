@@ -162,6 +162,13 @@ template,[hidden]{
 }
 body{
   overflow-y:scroll;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+main{
+  flex-grow:1;
+  flex-shrink:0;
 }
 dl{
   display:table-row;
@@ -299,14 +306,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:window-inactive{
 }
 body .ui.inverted::-webkit-scrollbar-thumb:hover{
   background:hsla(0,0%,100%,.35);
-}
-body{
-  display:flex;
-  flex-flow:column;
-  min-height:100vh;
-}
-main{
-  flex:1;
 }
 .ui.side{
   display:flex;

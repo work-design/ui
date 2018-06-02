@@ -28,6 +28,6 @@ dd .ui.button {
 
 dt {
   display: table-cell;
-  padding: 15px;
+  padding: .5em;
   text-align: right;
 }

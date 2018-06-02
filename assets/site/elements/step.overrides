@@ -5,5 +5,5 @@
 
 .ui.steps .disabled.step img {
   cursor: default;
-  opacity: .45;
+  opacity: .25;
 }

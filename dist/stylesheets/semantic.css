@@ -183,7 +183,7 @@ dd .ui.button{
 }
 dt{
   display:table-cell;
-  padding:15px;
+  padding:.5em;
   text-align:right;
 }
 body,html{
@@ -10768,7 +10768,7 @@ ol.ui.list li[value]:before{
 }
 .ui.steps .disabled.step img{
   cursor:default;
-  opacity:.45;
+  opacity:.25;
 }
 .ui.breadcrumb{
   line-height:1;

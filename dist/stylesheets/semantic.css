@@ -168,6 +168,8 @@ body{
 }
 main{
   flex-grow:1;
+}
+main,header{
   flex-shrink:0;
 }
 dl{
@@ -10761,6 +10763,13 @@ ol.ui.list li[value]:before{
   font-family:Step;
   content:"\e800";
 }
+.ui.mini.pad.step,.ui.mini.pad.steps .step{
+  padding:.5em 1em;
+}
+.ui.steps .disabled.step img{
+  cursor:default;
+  opacity:.45;
+}
 .ui.breadcrumb{
   line-height:1;
   display:inline-block;
@@ -13704,6 +13713,10 @@ ol.ui.list li[value]:before{
 .ui.menu>.right.item{
   text-align:right;
 }
+.ui.menu .item>img{
+  margin-top:-7px;
+  margin-bottom:-7px;
+}
 .ui.pagination.menu{
   margin-top:10px;
 }
@@ -14044,6 +14057,9 @@ ol.ui.list li[value]:before{
 }
 .ui.massive.message{
   font-size:1.71428571em;
+}
+.ui.message{
+  flex-shrink:0;
 }
 .ui.table{
   width:100%;

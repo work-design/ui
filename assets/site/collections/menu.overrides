@@ -13,6 +13,11 @@
   text-align: right;
 }
 
+.ui.menu .item > img {
+  margin-top: -7px;
+  margin-bottom: -7px;
+}
+
 .ui.pagination.menu {
   margin-top: 10px;
 }

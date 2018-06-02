@@ -1,3 +1,9 @@
-/*******************************
-         Site Overrides
-*******************************/
+.ui.mini.pad.steps .step,
+.ui.mini.pad.step {
+  padding: .5em 1em;
+}
+
+.ui.steps .disabled.step img {
+  cursor: default;
+  opacity: .45;
+}

@@ -1,8 +1,8 @@
 {
-  "name": "yigexiangfa_ui",
+  "name": "yougexiangfa_ui",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/yigexiangfa/yigexiangfa.github.io.git",
+  "repository": "https://github.com/yougexiangfa/yougexiangfa.github.io.git",
   "author": "qinmingyuan <mingyuan0715@foxmail.com>",
   "license": "MIT",
   "scripts": {

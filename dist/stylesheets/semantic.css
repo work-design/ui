@@ -15916,7 +15916,7 @@ ol.ui.list li[value]:before{
   margin:0;
   padding:0;
   max-height:none;
-  align-self:center;
+  align-self:auto;
 }
 .ui.items>.item>.image>img{
   display:block;
@@ -16190,6 +16190,9 @@ ol.ui.list li[value]:before{
 }
 .items>.item>.avatar.image{
   width:auto;
+}
+.ui.items>.item>.center.image{
+  align-self:center;
 }
 .items>.item .content.icon:hover{
   cursor:move;

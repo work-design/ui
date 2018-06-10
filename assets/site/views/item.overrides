@@ -30,6 +30,10 @@
   width: auto;
 }
 
+.ui.items > .item > .center.image {
+  align-self: center;
+}
+
 .items > .item .content.icon:hover {
   cursor: move;
 }

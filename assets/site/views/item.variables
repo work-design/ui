@@ -1,2 +1,2 @@
 @imageMaxHeight: none;
-@imageVerticalAlign: center;
+@imageVerticalAlign: auto;

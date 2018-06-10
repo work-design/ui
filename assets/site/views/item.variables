@@ -1,3 +1,2 @@
-/*******************************
-    User Variable Overrides
-*******************************/
+@imageMaxHeight: none;
+@imageVerticalAlign: center;

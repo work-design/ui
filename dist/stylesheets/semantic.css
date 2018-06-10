@@ -15915,8 +15915,8 @@ ol.ui.list li[value]:before{
   float:none;
   margin:0;
   padding:0;
-  max-height:"";
-  align-self:top;
+  max-height:none;
+  align-self:center;
 }
 .ui.items>.item>.image>img{
   display:block;

@@ -383,7 +383,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover{
   background:#e0e1e2 none;
   color:rgba(0,0,0,.6);
   font-family:Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
-  margin:0 .25em 0 0;
+  margin:0 .25em .25em 0;
   padding:.78571429em 1.5em;
   text-transform:none;
   text-shadow:none;
@@ -2696,7 +2696,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover{
   flex-direction:row;
   font-size:0;
   vertical-align:baseline;
-  margin:0 .25em 0 0;
+  margin:.25em .25em 0 0;
 }
 .ui.buttons:not(.basic):not(.inverted){
   box-shadow:none;

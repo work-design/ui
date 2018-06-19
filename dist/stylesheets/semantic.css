@@ -2526,6 +2526,48 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover{
 .ui.buttons:not(.vertical)>.basic.primary.button:not(:first-child){
   margin-left:-1px;
 }
+.ui.inverted.primary.button,.ui.inverted.primary.buttons .button{
+  background-color:transparent;
+  box-shadow:inset 0 0 0 2px #54c8ff !important;
+  color:#54c8ff;
+}
+.ui.inverted.primary.button.active,.ui.inverted.primary.button:active,.ui.inverted.primary.button:focus,.ui.inverted.primary.button:hover,.ui.inverted.primary.buttons .button.active,.ui.inverted.primary.buttons .button:active,.ui.inverted.primary.buttons .button:focus,.ui.inverted.primary.buttons .button:hover{
+  box-shadow:none !important;
+  color:#fff;
+}
+.ui.inverted.primary.button:hover,.ui.inverted.primary.buttons .button:hover{
+  background-color:#3ac0ff;
+}
+.ui.inverted.primary.button:focus,.ui.inverted.primary.buttons .button:focus{
+  background-color:#2bbbff;
+}
+.ui.inverted.primary.active.button,.ui.inverted.primary.buttons .active.button{
+  background-color:#3ac0ff;
+}
+.ui.inverted.primary.button:active,.ui.inverted.primary.buttons .button:active{
+  background-color:#21b8ff;
+}
+.ui.inverted.primary.basic.button,.ui.inverted.primary.basic.buttons .button,.ui.inverted.primary.buttons .basic.button{
+  background-color:transparent;
+  box-shadow:inset 0 0 0 2px hsla(0,0%,100%,.5) !important;
+  color:#fff !important;
+}
+.ui.inverted.primary.basic.button:hover,.ui.inverted.primary.basic.buttons .button:hover,.ui.inverted.primary.buttons .basic.button:hover{
+  box-shadow:inset 0 0 0 2px #3ac0ff !important;
+  color:#54c8ff !important;
+}
+.ui.inverted.primary.basic.button:focus,.ui.inverted.primary.basic.buttons .button:focus,.ui.inverted.primary.basic.buttons .button:focus{
+  box-shadow:inset 0 0 0 2px #2bbbff !important;
+  color:#54c8ff !important;
+}
+.ui.inverted.primary.basic.active.button,.ui.inverted.primary.basic.buttons .active.button,.ui.inverted.primary.buttons .basic.active.button{
+  box-shadow:inset 0 0 0 2px #3ac0ff !important;
+  color:#54c8ff !important;
+}
+.ui.inverted.primary.basic.button:active,.ui.inverted.primary.basic.buttons .button:active,.ui.inverted.primary.buttons .basic.button:active{
+  box-shadow:inset 0 0 0 2px #21b8ff !important;
+  color:#54c8ff !important;
+}
 .ui.secondary.button,.ui.secondary.buttons .button{
   background-color:#1b1c1d;
   color:#fff;
@@ -2580,6 +2622,48 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover{
 }
 .ui.buttons:not(.vertical)>.basic.primary.button:not(:first-child){
   margin-left:-1px;
+}
+.ui.inverted.secondary.button,.ui.inverted.secondary.buttons .button{
+  background-color:transparent;
+  box-shadow:inset 0 0 0 2px #545454 !important;
+  color:#545454;
+}
+.ui.inverted.secondary.button.active,.ui.inverted.secondary.button:active,.ui.inverted.secondary.button:focus,.ui.inverted.secondary.button:hover,.ui.inverted.secondary.buttons .button.active,.ui.inverted.secondary.buttons .button:active,.ui.inverted.secondary.buttons .button:focus,.ui.inverted.secondary.buttons .button:hover{
+  box-shadow:none !important;
+  color:#fff;
+}
+.ui.inverted.secondary.button:hover,.ui.inverted.secondary.buttons .button:hover{
+  background-color:#616161;
+}
+.ui.inverted.secondary.button:focus,.ui.inverted.secondary.buttons .button:focus{
+  background-color:#686868;
+}
+.ui.inverted.secondary.active.button,.ui.inverted.secondary.buttons .active.button{
+  background-color:#616161;
+}
+.ui.inverted.secondary.button:active,.ui.inverted.secondary.buttons .button:active{
+  background-color:#6e6e6e;
+}
+.ui.inverted.secondary.basic.button,.ui.inverted.secondary.basic.buttons .button,.ui.inverted.secondary.buttons .basic.button{
+  background-color:transparent;
+  box-shadow:inset 0 0 0 2px hsla(0,0%,100%,.5) !important;
+  color:#fff !important;
+}
+.ui.inverted.secondary.basic.button:hover,.ui.inverted.secondary.basic.buttons .button:hover,.ui.inverted.secondary.buttons .basic.button:hover{
+  box-shadow:inset 0 0 0 2px #616161 !important;
+  color:#545454 !important;
+}
+.ui.inverted.secondary.basic.button:focus,.ui.inverted.secondary.basic.buttons .button:focus,.ui.inverted.secondary.basic.buttons .button:focus{
+  box-shadow:inset 0 0 0 2px #686868 !important;
+  color:#545454 !important;
+}
+.ui.inverted.secondary.basic.active.button,.ui.inverted.secondary.basic.buttons .active.button,.ui.inverted.secondary.buttons .basic.active.button{
+  box-shadow:inset 0 0 0 2px #616161 !important;
+  color:#545454 !important;
+}
+.ui.inverted.secondary.basic.button:active,.ui.inverted.secondary.basic.buttons .button:active,.ui.inverted.secondary.buttons .basic.button:active{
+  box-shadow:inset 0 0 0 2px #6e6e6e !important;
+  color:#545454 !important;
 }
 .ui.positive.button,.ui.positive.buttons .button{
   background-color:#21ba45;
@@ -7584,7 +7668,7 @@ i.icon.star.empty:before{
   text-decoration:inherit;
   text-transform:none;
 }
-i.icon.\35 00px,i.icon.accessible.icon,i.icon.accusoft,i.icon.adn,i.icon.adversal,i.icon.affiliatetheme,i.icon.algolia,i.icon.amazon,i.icon.amazon.pay,i.icon.amilia,i.icon.android,i.icon.angellist,i.icon.angrycreative,i.icon.angular,i.icon.app.store,i.icon.app.store.ios,i.icon.apper,i.icon.apple,i.icon.apple.pay,i.icon.asymmetrik,i.icon.audible,i.icon.autoprefixer,i.icon.avianex,i.icon.aviato,i.icon.aws,i.icon.bandcamp,i.icon.behance,i.icon.behance.square,i.icon.bimobject,i.icon.bitbucket,i.icon.bitcoin,i.icon.bity,i.icon.black.tie,i.icon.blackberry,i.icon.blogger,i.icon.blogger.b,i.icon.bluetooth,i.icon.bluetooth.b,i.icon.btc,i.icon.buromobelexperte,i.icon.buysellads,i.icon.cc.amazon.pay,i.icon.cc.amex,i.icon.cc.apple.pay,i.icon.cc.diners.club,i.icon.cc.discover,i.icon.cc.jcb,i.icon.cc.mastercard,i.icon.cc.paypal,i.icon.cc.stripe,i.icon.cc.visa,i.icon.centercode,i.icon.chrome,i.icon.cloudscale,i.icon.cloudsmith,i.icon.cloudversify,i.icon.codepen,i.icon.codiepie,i.icon.connectdevelop,i.icon.contao,i.icon.cpanel,i.icon.creative.commons,i.icon.css3,i.icon.css3.alternate,i.icon.cuttlefish,i.icon.d.and.d,i.icon.dashcube,i.icon.delicious,i.icon.deploydog,i.icon.deskpro,i.icon.deviantart,i.icon.digg,i.icon.digital.ocean,i.icon.discord,i.icon.discourse,i.icon.dochub,i.icon.docker,i.icon.draft2digital,i.icon.dribbble,i.icon.dribbble.square,i.icon.dropbox,i.icon.drupal,i.icon.dyalog,i.icon.earlybirds,i.icon.edge,i.icon.elementor,i.icon.ember,i.icon.empire,i.icon.envira,i.icon.erlang,i.icon.ethereum,i.icon.etsy,i.icon.expeditedssl,i.icon.facebook,i.icon.facebook.f,i.icon.facebook.messenger,i.icon.facebook.square,i.icon.firefox,i.icon.first.order,i.icon.firstdraft,i.icon.flickr,i.icon.flipboard,i.icon.fly,i.icon.font.awesome,i.icon.font.awesome.alternate,i.icon.font.awesome.flag,i.icon.fonticons,i.icon.fonticons.fi,i.icon.fort.awesome,i.icon.fort.awesome.alternate,i.icon.forumbee,i.icon.foursquare,i.icon.free.code.camp,i.icon.freebsd,i.icon.get.pocket,i.icon.gg,i.icon.gg.circle,i.icon.git,i.icon.git.square,i.icon.github,i.icon.github.alternate,i.icon.github.square,i.icon.gitkraken,i.icon.gitlab,i.icon.gitter,i.icon.glide,i.icon.glide.g,i.icon.gofore,i.icon.goodreads,i.icon.goodreads.g,i.icon.google,i.icon.google.drive,i.icon.google.play,i.icon.google.plus,i.icon.google.plus.g,i.icon.google.plus.square,i.icon.google.wallet,i.icon.gratipay,i.icon.grav,i.icon.gripfire,i.icon.grunt,i.icon.gulp,i.icon.hacker.news,i.icon.hacker.news.square,i.icon.hips,i.icon.hire.a.helper,i.icon.hooli,i.icon.hotjar,i.icon.houzz,i.icon.html5,i.icon.hubspot,i.icon.imdb,i.icon.instagram,i.icon.internet.explorer,i.icon.ioxhost,i.icon.itunes,i.icon.itunes.note,i.icon.jenkins,i.icon.joget,i.icon.joomla,i.icon.js,i.icon.js.square,i.icon.jsfiddle,i.icon.keycdn,i.icon.kickstarter,i.icon.kickstarter.k,i.icon.korvue,i.icon.laravel,i.icon.lastfm,i.icon.lastfm.square,i.icon.leanpub,i.icon.less,i.icon.linechat,i.icon.linkedin,i.icon.linkedin.in,i.icon.linode,i.icon.linux,i.icon.lyft,i.icon.magento,i.icon.maxcdn,i.icon.medapps,i.icon.medium,i.icon.medium.m,i.icon.medrt,i.icon.meetup,i.icon.microsoft,i.icon.mix,i.icon.mixcloud,i.icon.mizuni,i.icon.modx,i.icon.monero,i.icon.napster,i.icon.nintendo.switch,i.icon.node,i.icon.node.js,i.icon.npm,i.icon.ns8,i.icon.nutritionix,i.icon.odnoklassniki,i.icon.odnoklassniki.square,i.icon.opencart,i.icon.openid,i.icon.opera,i.icon.optin.monster,i.icon.osi,i.icon.page4,i.icon.pagelines,i.icon.palfed,i.icon.patreon,i.icon.paypal,i.icon.periscope,i.icon.phabricator,i.icon.phoenix.framework,i.icon.php,i.icon.pied.piper,i.icon.pied.piper.alternate,i.icon.pied.piper.pp,i.icon.pinterest,i.icon.pinterest.p,i.icon.pinterest.square,i.icon.playstation,i.icon.product.hunt,i.icon.pushed,i.icon.python,i.icon.qq,i.icon.quinscape,i.icon.quora,i.icon.ravelry,i.icon.react,i.icon.rebel,i.icon.reddit,i.icon.reddit.alien,i.icon.reddit.square,i.icon.redriver,i.icon.rendact,i.icon.renren,i.icon.replyd,i.icon.resolving,i.icon.rocketchat,i.icon.rockrms,i.icon.safari,i.icon.sass,i.icon.schlix,i.icon.scribd,i.icon.searchengin,i.icon.sellcast,i.icon.sellsy,i.icon.servicestack,i.icon.shirtsinbulk,i.icon.simplybuilt,i.icon.sistrix,i.icon.skyatlas,i.icon.skype,i.icon.slack,i.icon.slack.hash,i.icon.slideshare,i.icon.snapchat,i.icon.snapchat.ghost,i.icon.snapchat.square,i.icon.soundcloud,i.icon.speakap,i.icon.spotify,i.icon.stack.exchange,i.icon.stack.overflow,i.icon.staylinked,i.icon.steam,i.icon.steam.square,i.icon.steam.symbol,i.icon.sticker.mule,i.icon.strava,i.icon.stripe,i.icon.stripe.s,i.icon.studiovinari,i.icon.stumbleupon,i.icon.stumbleupon.circle,i.icon.superpowers,i.icon.supple,i.icon.telegram,i.icon.telegram.plane,i.icon.tencent.weibo,i.icon.themeisle,i.icon.trello,i.icon.tripadvisor,i.icon.tumblr,i.icon.tumblr.square,i.icon.twitch,i.icon.twitter,i.icon.twitter.square,i.icon.typo3,i.icon.uber,i.icon.uikit,i.icon.uniregistry,i.icon.untappd,i.icon.usb,i.icon.ussunnah,i.icon.vaadin,i.icon.viacoin,i.icon.viadeo,i.icon.viadeo.square,i.icon.viber,i.icon.vimeo,i.icon.vimeo.square,i.icon.vimeo.v,i.icon.vine,i.icon.vk,i.icon.vnv,i.icon.vuejs,i.icon.weibo,i.icon.weixin,i.icon.whatsapp,i.icon.whatsapp.square,i.icon.whmcs,i.icon.wikipedia.w,i.icon.windows,i.icon.wordpress,i.icon.wordpress.simple,i.icon.wpbeginner,i.icon.wpexplorer,i.icon.wpforms,i.icon.xbox,i.icon.xing,i.icon.xing.square,i.icon.y.combinator,i.icon.yahoo,i.icon.yandex,i.icon.yandex.international,i.icon.yelp,i.icon.yoast,i.icon.youtube,i.icon.youtube.square{
+i.icon.\35 00px,i.icon.accessible.icon,i.icon.accusoft,i.icon.adn,i.icon.adversal,i.icon.affiliatetheme,i.icon.algolia,i.icon.amazon,i.icon.amazon.pay,i.icon.amilia,i.icon.android,i.icon.angellist,i.icon.angrycreative,i.icon.angular,i.icon.app.store,i.icon.app.store.ios,i.icon.apper,i.icon.apple,i.icon.apple.pay,i.icon.asymmetrik,i.icon.audible,i.icon.autoprefixer,i.icon.avianex,i.icon.aviato,i.icon.aws,i.icon.bandcamp,i.icon.behance,i.icon.behance.square,i.icon.bimobject,i.icon.bitbucket,i.icon.bitcoin,i.icon.bity,i.icon.black.tie,i.icon.blackberry,i.icon.blogger,i.icon.blogger.b,i.icon.bluetooth,i.icon.bluetooth.b,i.icon.btc,i.icon.buromobelexperte,i.icon.buysellads,i.icon.cc.amazon.pay,i.icon.cc.amex,i.icon.cc.apple.pay,i.icon.cc.diners.club,i.icon.cc.discover,i.icon.cc.jcb,i.icon.cc.mastercard,i.icon.cc.paypal,i.icon.cc.stripe,i.icon.cc.visa,i.icon.centercode,i.icon.chrome,i.icon.cloudscale,i.icon.cloudsmith,i.icon.cloudversify,i.icon.codepen,i.icon.codiepie,i.icon.connectdevelop,i.icon.contao,i.icon.cpanel,i.icon.creative.commons,i.icon.css3,i.icon.css3.alternate,i.icon.cuttlefish,i.icon.d.and.d,i.icon.dashcube,i.icon.delicious,i.icon.deploydog,i.icon.deskpro,i.icon.deviantart,i.icon.digg,i.icon.digital.ocean,i.icon.discord,i.icon.discourse,i.icon.dochub,i.icon.docker,i.icon.draft2digital,i.icon.dribbble,i.icon.dribbble.square,i.icon.dropbox,i.icon.drupal,i.icon.dyalog,i.icon.earlybirds,i.icon.edge,i.icon.elementor,i.icon.ember,i.icon.empire,i.icon.envira,i.icon.erlang,i.icon.ethereum,i.icon.etsy,i.icon.expeditedssl,i.icon.facebook,i.icon.facebook.f,i.icon.facebook.messenger,i.icon.facebook.square,i.icon.firefox,i.icon.first.order,i.icon.firstdraft,i.icon.flickr,i.icon.flipboard,i.icon.fly,i.icon.font.awesome,i.icon.font.awesome.alternate,i.icon.font.awesome.flag,i.icon.fonticons,i.icon.fonticons.fi,i.icon.fort.awesome,i.icon.fort.awesome.alternate,i.icon.forumbee,i.icon.foursquare,i.icon.free.code.camp,i.icon.freebsd,i.icon.get.pocket,i.icon.gg,i.icon.gg.circle,i.icon.git,i.icon.git.square,i.icon.github,i.icon.github.alternate,i.icon.github.square,i.icon.gitkraken,i.icon.gitlab,i.icon.gitter,i.icon.glide,i.icon.glide.g,i.icon.gofore,i.icon.goodreads,i.icon.goodreads.g,i.icon.google,i.icon.google.drive,i.icon.google.play,i.icon.google.plus,i.icon.google.plus.g,i.icon.google.plus.square,i.icon.google.wallet,i.icon.gratipay,i.icon.grav,i.icon.gripfire,i.icon.grunt,i.icon.gulp,i.icon.hacker.news,i.icon.hacker.news.square,i.icon.hips,i.icon.hire.a.helper,i.icon.hooli,i.icon.hotjar,i.icon.houzz,i.icon.html5,i.icon.hubspot,i.icon.imdb,i.icon.instagram,i.icon.internet.explorer,i.icon.ioxhost,i.icon.itunes,i.icon.itunes.note,i.icon.jenkins,i.icon.joget,i.icon.joomla,i.icon.js,i.icon.js.square,i.icon.jsfiddle,i.icon.keycdn,i.icon.kickstarter,i.icon.kickstarter.k,i.icon.korvue,i.icon.laravel,i.icon.lastfm,i.icon.lastfm.square,i.icon.leanpub,i.icon.less,i.icon.linechat,i.icon.linkedin,i.icon.linkedin.in,i.icon.linode,i.icon.linux,i.icon.lyft,i.icon.magento,i.icon.maxcdn,i.icon.medapps,i.icon.medium,i.icon.medium.m,i.icon.medrt,i.icon.meetup,i.icon.microsoft,i.icon.mix,i.icon.mixcloud,i.icon.mizuni,i.icon.modx,i.icon.monero,i.icon.napster,i.icon.nintendo.switch,i.icon.node,i.icon.node.js,i.icon.npm,i.icon.ns8,i.icon.nutritionix,i.icon.odnoklassniki,i.icon.odnoklassniki.square,i.icon.opencart,i.icon.openid,i.icon.opera,i.icon.optin.monster,i.icon.osi,i.icon.page4,i.icon.pagelines,i.icon.palfed,i.icon.patreon,i.icon.paypal,i.icon.periscope,i.icon.phabricator,i.icon.phoenix.framework,i.icon.php,i.icon.pied.piper,i.icon.pied.piper.alternate,i.icon.pied.piper.pp,i.icon.pinterest,i.icon.pinterest.p,i.icon.pinterest.square,i.icon.playstation,i.icon.product.hunt,i.icon.pushed,i.icon.python,i.icon.qq,i.icon.quinscape,i.icon.quora,i.icon.ravelry,i.icon.react,i.icon.rebel,i.icon.reddit,i.icon.reddit.alien,i.icon.reddit.square,i.icon.redriver,i.icon.rendact,i.icon.renren,i.icon.replyd,i.icon.resolving,i.icon.rocketchat,i.icon.rockrms,i.icon.safari,i.icon.sass,i.icon.schlix,i.icon.scribd,i.icon.searchengin,i.icon.sellcast,i.icon.sellsy,i.icon.servicestack,i.icon.shirtsinbulk,i.icon.simplybuilt,i.icon.sistrix,i.icon.skyatlas,i.icon.skype,i.icon.slack,i.icon.slack.hash,i.icon.slideshare,i.icon.snapchat,i.icon.snapchat.ghost,i.icon.snapchat.square,i.icon.soundcloud,i.icon.speakap,i.icon.spotify,i.icon.stack.exchange,i.icon.stack.overflow,i.icon.staylinked,i.icon.steam,i.icon.steam.square,i.icon.steam.symbol,i.icon.sticker.mule,i.icon.strava,i.icon.stripe,i.icon.stripe.s,i.icon.studiovinari,i.icon.stumbleupon,i.icon.stumbleupon.circle,i.icon.superpowers,i.icon.supple,i.icon.telegram,i.icon.telegram.plane,i.icon.tencent.weibo,i.icon.themeisle,i.icon.trello,i.icon.tripadvisor,i.icon.tumblr,i.icon.tumblr.square,i.icon.twitch,i.icon.twitter,i.icon.twitter.square,i.icon.typo3,i.icon.uber,i.icon.uikit,i.icon.uniregistry,i.icon.untappd,i.icon.usb,i.icon.ussunnah,i.icon.vaadin,i.icon.viacoin,i.icon.viadeo,i.icon.viadeo.square,i.icon.viber,i.icon.vimeo,i.icon.vimeo.square,i.icon.vimeo.v,i.icon.vine,i.icon.vk,i.icon.vnv,i.icon.vuejs,i.icon.wechat,i.icon.weibo,i.icon.weixin,i.icon.whatsapp,i.icon.whatsapp.square,i.icon.whmcs,i.icon.wikipedia.w,i.icon.windows,i.icon.wordpress,i.icon.wordpress.simple,i.icon.wpbeginner,i.icon.wpexplorer,i.icon.wpforms,i.icon.xbox,i.icon.xing,i.icon.xing.square,i.icon.y.combinator,i.icon.yahoo,i.icon.yandex,i.icon.yandex.international,i.icon.yelp,i.icon.yoast,i.icon.youtube,i.icon.youtube.square{
   font-family:brand-icons;
 }
 .ui.image{
@@ -8409,7 +8493,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#b21e1e !important;
 }
 .ui.basic.red.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#db2828 !important;
   border-color:#db2828 !important;
 }
@@ -8435,7 +8519,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#cf590c !important;
 }
 .ui.basic.orange.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#f2711c !important;
   border-color:#f2711c !important;
 }
@@ -8461,7 +8545,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#cd9903 !important;
 }
 .ui.basic.yellow.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#fbbd08 !important;
   border-color:#fbbd08 !important;
 }
@@ -8487,7 +8571,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#198f35 !important;
 }
 .ui.basic.olive.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#b5cc18 !important;
   border-color:#b5cc18 !important;
 }
@@ -8513,7 +8597,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#198f35 !important;
 }
 .ui.basic.green.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#21ba45 !important;
   border-color:#21ba45 !important;
 }
@@ -8539,7 +8623,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#00827c !important;
 }
 .ui.basic.teal.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#00b5ad !important;
   border-color:#00b5ad !important;
 }
@@ -8565,7 +8649,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#1a69a4 !important;
 }
 .ui.basic.blue.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#2185d0 !important;
   border-color:#2185d0 !important;
 }
@@ -8591,7 +8675,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#502aa1 !important;
 }
 .ui.basic.violet.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#6435c9 !important;
   border-color:#6435c9 !important;
 }
@@ -8617,7 +8701,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#82299f !important;
 }
 .ui.basic.purple.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#a333c8 !important;
   border-color:#a333c8 !important;
 }
@@ -8643,7 +8727,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#c71f7e !important;
 }
 .ui.basic.pink.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#e03997 !important;
   border-color:#e03997 !important;
 }
@@ -8669,7 +8753,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#805031 !important;
 }
 .ui.basic.brown.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#a5673f !important;
   border-color:#a5673f !important;
 }
@@ -8695,7 +8779,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#805031 !important;
 }
 .ui.basic.grey.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#767676 !important;
   border-color:#767676 !important;
 }
@@ -8721,7 +8805,7 @@ a.ui.active.label:hover,a.ui.labels .active.label:hover,.ui.labels a.active.labe
   border-color:#805031 !important;
 }
 .ui.basic.black.label{
-  background-color:#fff !important;
+  background-color:none #fff !important;
   color:#1b1c1d !important;
   border-color:#1b1c1d !important;
 }
@@ -16224,12 +16308,12 @@ ol.ui.list li[value]:before{
   display:inline-flex;
   flex:0 1 auto;
   flex-direction:column;
-  margin:0 1.5em 2em;
+  margin:0 1.5em 1em;
   max-width:auto;
 }
 .ui.statistics{
   display:flex;
-  margin:1em -1.5em -2em;
+  margin:1em -1.5em -1em;
 }
 .ui.statistics:after{
   display:block;
@@ -16241,9 +16325,6 @@ ol.ui.list li[value]:before{
 }
 .ui.statistics:first-child{
   margin-top:0;
-}
-.ui.statistics:last-child{
-  margin-bottom:0;
 }
 .ui.statistic>.value,.ui.statistics .statistic>.value{
   font-size:4rem;
@@ -16283,74 +16364,74 @@ ol.ui.list li[value]:before{
   vertical-align:baseline;
 }
 .ui.ten.statistics{
-  margin:0 0 -2em;
+  margin:0 0 -1em;
 }
 .ui.ten.statistics .statistic{
   min-width:10%;
-  margin:0 0 2em;
+  margin:0 0 1em;
 }
 .ui.nine.statistics{
-  margin:0 0 -2em;
+  margin:0 0 -1em;
 }
 .ui.nine.statistics .statistic{
   min-width:11.11111111%;
-  margin:0 0 2em;
+  margin:0 0 1em;
 }
 .ui.eight.statistics{
-  margin:0 0 -2em;
+  margin:0 0 -1em;
 }
 .ui.eight.statistics .statistic{
   min-width:12.5%;
-  margin:0 0 2em;
+  margin:0 0 1em;
 }
 .ui.seven.statistics{
-  margin:0 0 -2em;
+  margin:0 0 -1em;
 }
 .ui.seven.statistics .statistic{
   min-width:14.28571429%;
-  margin:0 0 2em;
+  margin:0 0 1em;
 }
 .ui.six.statistics{
-  margin:0 0 -2em;
+  margin:0 0 -1em;
 }
 .ui.six.statistics .statistic{
   min-width:16.66666667%;
-  margin:0 0 2em;
+  margin:0 0 1em;
 }
 .ui.five.statistics{
-  margin:0 0 -2em;
+  margin:0 0 -1em;
 }
 .ui.five.statistics .statistic{
   min-width:20%;
-  margin:0 0 2em;
+  margin:0 0 1em;
 }
 .ui.four.statistics{
-  margin:0 0 -2em;
+  margin:0 0 -1em;
 }
 .ui.four.statistics .statistic{
   min-width:25%;
-  margin:0 0 2em;
+  margin:0 0 1em;
 }
 .ui.three.statistics{
-  margin:0 0 -2em;
+  margin:0 0 -1em;
 }
 .ui.three.statistics .statistic{
   min-width:33.33333333%;
-  margin:0 0 2em;
+  margin:0 0 1em;
 }
 .ui.two.statistics{
-  margin:0 0 -2em;
+  margin:0 0 -1em;
 }
 .ui.two.statistics .statistic{
   min-width:50%;
-  margin:0 0 2em;
+  margin:0 0 1em;
 }
 .ui.one.statistics{
-  margin:0 0 -2em;
+  margin:0 0 -1em;
 }
 .ui.one.statistics .statistic{
   min-width:100%;
-  margin:0 0 2em;
+  margin:0 0 1em;
 }
 .ui.horizontal.statistic{
   flex-direction:row;

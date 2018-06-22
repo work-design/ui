@@ -1,3 +1,1 @@
-/*******************************
-    User Variable Overrides
-*******************************/
+@selectionMinWidth: 4em;

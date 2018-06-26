@@ -8,6 +8,7 @@
 
 .ui.form .inline.fields .field > .selection.dropdown {
   width: 100%;
+  min-width: 4em;
 }
 
 .ui.form .required.inline.fields > label.field:after {

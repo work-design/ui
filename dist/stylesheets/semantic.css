@@ -17339,7 +17339,7 @@ body.dimmable>.dimmer{
   white-space:normal;
   outline:0;
   transform:rotate(0deg);
-  min-width:4em;
+  min-width:14em;
   min-height:2.71428571em;
   background:#fff;
   display:inline-block;

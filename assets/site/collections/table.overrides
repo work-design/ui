@@ -6,7 +6,7 @@
   background: none repeat scroll 0 0 #f0f0f0;
 }
 
-.ui.very.basic.table .right.aligned:after {
+.ui.basic.table .right.aligned:after {
   content: ':';
   color: #888;
 }

@@ -10497,6 +10497,13 @@ ol.ui.list li[value]:before{
 .ui.massive.segment,.ui.massive.segments .segment{
   font-size:1.71428571rem;
 }
+.ui.basic.segments{
+  border:none;
+  box-shadow:none;
+}
+.ui.horizontal.segments>.segment{
+  border:none;
+}
 .ui.steps{
   display:inline-flex;
   flex-direction:row;

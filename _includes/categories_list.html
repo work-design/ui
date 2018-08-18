@@ -1,8 +1,14 @@
-<div class="ui visible left vertical sidebar menu">
+<div class="ui inverted vertical fluid icon menu">
+	<div class="header center link item" id="close_side">
+		<i class="content icon"></i>
+	</div>
 	{% for category in site.categories %}
-	<div class="item">
-		{{ category[0] }}
-		<div class="menu">
+	<div class="item ui dropdown">
+		<a class="title">
+			<i class="alarm outline icon"></i>
+			<span>{{ category[0] }}</span>
+		</a>
+		<div class="menu content">
 			{% for post in category[1] %}
 			<a href="{{ post.url }}" class="item">{{ post.title }}</a>
 			{% endfor %}

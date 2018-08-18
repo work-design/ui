@@ -18,16 +18,20 @@ permalink: /:categories/:title
 
 title: 有个想法
 tagline: Site Tagline
-production_url : http://www.xinshengyin.com
+production_url : https://www.yougexiangfa.com
 
 navigation:
  - url: /
-   title: 组件
+   title: 首页
  - url: /examples/collections
    title: 集合
  - url: /examples/modules
    title: 模块
  - url: /examples/examples
    title: 示例
+ - url: /category
+   title: 分类
+ - url: /about
+   title: 关于我
 
 lessc: 'date'

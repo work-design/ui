@@ -1,3 +1,9 @@
+---
+layout: post
+category: git
+title: Nginx 配置示例
+---
+
 # SSH 相关设置
 
 ### 通过ssh连接至服务器

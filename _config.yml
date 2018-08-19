@@ -23,15 +23,11 @@ production_url : https://www.yougexiangfa.com
 navigation:
  - url: /
    title: 首页
- - url: /examples/collections
-   title: 集合
- - url: /examples/modules
-   title: 模块
- - url: /examples/examples
-   title: 示例
  - url: /category
-   title: 分类
+   title: 文章
+ - url: /examples
+   title: UI
  - url: /about
-   title: 关于我
+   title: 关于我们
 
 lessc: 'date'

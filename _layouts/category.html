@@ -2,14 +2,9 @@
 layout: default
 ---
 
-<div class="ui invisible side">
-  <div class="sidebar">
-    {% include categories_list.html %}
-  </div>
-  <div class="content">
-    {{ content }}
-  </div>
+<div class="sidebar">
+  {% include categories_list.html %}
 </div>
-
-
-
+<div class="content">
+  {{ content }}
+</div>

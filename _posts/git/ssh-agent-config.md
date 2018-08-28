@@ -2,6 +2,7 @@
 layout: post
 category: git
 title: Nginx 配置示例
+
 ---
 
 # SSH 相关设置
@@ -18,6 +19,7 @@ title: Nginx 配置示例
 Host 123.123.123.123 114.114.114.114
   ForwardAgent yes
 ```
+
 其中, Host是你允许使用你本机ssh连接的服务器,如果有多个,用空格隔开
 
 * 确保你本机的 ssh-agent服务已经启动
@@ -35,10 +37,13 @@ ssh-add -l # 检测是否添加成功
 ```
 
 ### 远程服务器, test
+
 * 登陆到服务器, 测试ssh连接, 这一步很重要,否则将无法正常使用ssh agent，这步将会将你测试的地址添加到服务器的 known_hosts 文件中
 
 ```bash
 ssh -T git@github.com
 ```
+
 #### 参考资料
+
 [SSH agent forward](https://developer.github.com/guides/using-ssh-agent-forwarding/)

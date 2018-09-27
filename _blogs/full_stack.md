@@ -19,3 +19,5 @@
 ## 更多阅读
 
 * [前后端分裂](https://chloerei.com/2018/01/07/front-end-split/)
+* [用现代 Rails 逃离单页面应用 “兔子洞”](https://ruby-china.org/topics/37531)
+* [Escaping the SPA rabbit hole with modern Rails](https://medium.com/@jmanrubia/escaping-the-spa-rabbit-hole-with-turbolinks-903f942bf52c)

@@ -28,8 +28,8 @@
   * [default系列](_blogs/default.md)
 
 * 全栈开发，降低技术栈复杂度
-  * 全栈开发，前后端不分离
-  * [关于全栈开发](_blogs/full_stack.md)
+  * 全栈开发，前后端不分离，[关于全栈开发](_blogs/full_stack.md)
+  * 克制使用Service层 [](_blogs/concern.md)
 
 * 更多见[开发原则](_blogs/rule.md)
 

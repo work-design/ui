@@ -19,27 +19,32 @@ title: Git 不常用的好用的命令
 
 
 ### git checkout
-- `git checkout -b <branchname> <origin/branchna>` 在本地创建一个要合并的原创分支
+* `git checkout -b <branchname> <origin/branchna>` 在本地创建一个要合并的原创分支
 
 
 ### git log
-- `git log --oneline`
-- `git log -p <path>` 查看指定文件的提交历史
-- `git log --pretty=raw`  查看详细的log信息
+* `git log --oneline`
+* `git log -p <path>` 查看指定文件的提交历史
+* `git log --pretty=raw`  查看详细的log信息
 
 
 ### git cat-file
-- `git cat-file -t <object>`  查看object 类型
+* `git cat-file -t <object>`  查看object 类型
 
 
 ### git commit-tree
-- `git commit-tree <tree> -m <message>`  基于tree对象创建 commit对象
+* `git commit-tree <tree> -m <message>`  基于tree对象创建 commit对象
 
 ### git cherry-pick
-- `git cherry-pick <commit>` 将其他分支的单次commit合并到当前分支，而不是整个分支合并，也不会扰乱当前分支
+* `git cherry-pick <commit>` 将其他分支的单次commit合并到当前分支，而不是整个分支合并，也不会扰乱当前分支
 
 ### git replace
 
 ### 用远程分支覆盖本地
 
 `git reset --hard origin/master`
+
+### git submodule
+
+* update submodule: `git submodule update --init`
+

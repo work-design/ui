@@ -8,15 +8,15 @@
   "scripts": {
     "postcss": "postcss dist/stylesheets/semantic_src.css -o dist/stylesheets/semantic.css",
     "study": "postcss -c ./test.json -d lib test.css",
-    "lessc": "lessc assets/semantic.less dist/stylesheets/semantic_src.css",
-    "semantic_css": "cp assets/theme.config semantic-ui/src && yarn run lessc && yarn run postcss",
+    "less_cli": "lessc assets/semantic.less dist/stylesheets/semantic_src.css",
+    "semantic_css": "cp assets/theme.config semantic-ui/src && yarn run less_cli && yarn run postcss",
     "semantic_js": "cp semantic-ui/dist/semantic.min.js dist/javascripts/semantic.js",
     "test": "echo a && echo b"
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
     "cssnano-cli": "^1.0.5",
-    "less": "^3.0.1",
+    "less": "^3.8.1",
     "postcss": "^6.0.21",
     "postcss-cli": "^5.0.0",
     "postcss-discard-overridden": "4.0.0-rc.2",

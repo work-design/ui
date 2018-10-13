@@ -4,24 +4,24 @@
    Site Variables
 ---------------------*/
 
-@import "@{themesFolder}/default/globals/site.variables";
-@import "@{themesFolder}/@{site}/globals/site.variables";
-@import (optional) "@{themesFolder}/@{theme}/globals/site.variables";
-@import (optional) "@{siteFolder}/globals/site.variables";
+@import '@{themesFolder}/default/globals/site.variables';
+@import '@{themesFolder}/@{site}/globals/site.variables';
+@import (optional) '@{themesFolder}/@{theme}/globals/site.variables';
+@import (optional) '@{siteFolder}/globals/site.variables';
 
 /*-------------------
  Component Variables
 ---------------------*/
 
-@import "@{themesFolder}/default/@{type}s/@{element}.variables";
-@import (optional) "@{themesFolder}/@{theme}/@{type}s/@{element}.variables";
-@import (optional) "@{siteFolder}/@{type}s/@{element}.variables";
+@import '@{themesFolder}/default/@{type}s/@{element}.variables';
+@import (optional) '@{themesFolder}/@{theme}/@{type}s/@{element}.variables';
+@import (optional) '@{siteFolder}/@{type}s/@{element}.variables';
 
 .loadFonts() when (@importGoogleFonts) {
   @import url('http://fonts.useso.com/css?family=@{googleFontRequest}');
 }
 
 .loadUIOverrides() {
-  @import (optional) "@{themesFolder}/@{theme}/@{type}s/@{element}.overrides";
-  @import (optional) "@{siteFolder}/@{type}s/@{element}.overrides";
+  @import (optional) '@{themesFolder}/@{theme}/@{type}s/@{element}.overrides';
+  @import (optional) '@{siteFolder}/@{type}s/@{element}.overrides';
 }

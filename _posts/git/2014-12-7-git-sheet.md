@@ -52,5 +52,6 @@ title: Git 不常用的好用的命令
 * 查看tags: `git tag`
 * 本地删除tag: `git tag -d <tagname1> <tagname2>`
 * 删除远程tag: `git push --prune --tags`
+* 清理本地tag: `git pull --prune --tags`
 
 

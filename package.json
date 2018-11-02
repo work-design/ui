@@ -1,8 +1,8 @@
 {
-  "name": "yougexiangfa_ui",
+  "name": "work-design",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/yougexiangfa/yougexiangfa.git",
+  "repository": "https://github.com/work-design/work-design.github.io.git",
   "author": "qinmingyuan <mingyuan0715@foxmail.com>",
   "license": "GPL",
   "scripts": {

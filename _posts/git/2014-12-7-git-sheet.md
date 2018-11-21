@@ -54,4 +54,5 @@ title: Git 不常用的好用的命令
 * 删除远程tag: `git push --prune --tags`
 * 清理本地tag: `git pull --prune --tags`
 
-
+### 移除上一个提交
+* `git reset --hard HEAD~1`

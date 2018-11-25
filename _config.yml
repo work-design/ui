@@ -16,9 +16,9 @@ encoding: UTF-8
 
 permalink: /:categories/:title
 
-title: 有个想法
+title: Work Design
 tagline: Site Tagline
-production_url : https://www.yougexiangfa.com
+production_url : https://work.design
 
 navigation:
  - url: /

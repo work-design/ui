@@ -1,7 +1,7 @@
 ---
 title: Git高级技巧之忽略文件
-layout: post
 category: git
+layout: post
 ---
 
 # Git高级技巧之忽略文件

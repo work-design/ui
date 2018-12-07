@@ -1,7 +1,7 @@
 ---
-layout: post
-category: ruby
 title: 如何动态改变某个class的祖先链
+category: ruby
+layout: post
 ---
 
 在rails中，一个Controller的祖先链中定义了数个名为`process_action`的方法。

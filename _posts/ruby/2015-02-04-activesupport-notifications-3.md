@@ -1,7 +1,7 @@
 ---
 title: Rails日志实现探索（3）
+category: rails
 layout: post
-category: ruby
 ---
 
 

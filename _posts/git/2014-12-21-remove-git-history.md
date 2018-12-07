@@ -1,7 +1,7 @@
 ---
-layout: post
-category: git
 title: 如何移除某次提交之前的版本历史
+category: git
+layout: post
 ---
 
 ### step-1：查看相关提交的包含队形

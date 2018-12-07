@@ -1,7 +1,7 @@
 ---
-layout: post
-category: ruby
 title: ruby中的return
+category: ruby
+layout: post
 ---
 
 在ruby中，有三个关键字可以从一段代码中返回，分别是`return`、`next`、`break`，今天主要研究一下return。

@@ -1,7 +1,7 @@
 ---
 title: Rails中间件
 layout: post
-category: ruby
+category: rails
 ---
 
 ## rails 常见中间件介绍

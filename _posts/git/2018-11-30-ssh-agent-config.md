@@ -1,7 +1,7 @@
 ---
-layout: post
-category: git
 title: Nginx 配置示例
+category: git
+layout: post
 ---
 
 # SSH 相关设置

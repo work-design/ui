@@ -1,5 +1,6 @@
 ---
 title: 解构产品——如何分类
+category: 产品
 layout: post
 published: false
 ---

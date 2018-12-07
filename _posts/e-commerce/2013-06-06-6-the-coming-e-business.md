@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 电商的未来
+layout: post
 published: false
 ---
 

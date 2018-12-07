@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 我们应该如何做自己的B2C？
+layout: post
 published: false
 ---
 

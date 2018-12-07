@@ -1,7 +1,8 @@
 ---
 layout: post
+category: 杂谈
 title: 人生如游戏
-published: true
+published: false
 ---
 
 如果说人生像一场游戏，那我们希望这个游戏是好玩的，最好能够让我穷尽一生，乐此不疲。

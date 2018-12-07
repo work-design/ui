@@ -1,7 +1,7 @@
 ---
 title: ActiveSupport宝藏之MessageVerifier
-layout: post
 category: rails
+layout: post
 ---
 
 rails的`ActiveSupport`组件提供了很多非常有用的小功能，如果善于利用的话，可以使我们在实际项目中减少很多重复造轮子的事情。

@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Mysql数据库编码
 category: database
+layout: post
 ---
 
 ## 基本概念

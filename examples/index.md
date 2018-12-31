@@ -1,6 +1,6 @@
 ---
 title: 示例
-layout: module
+layout: example
 ---
 
 

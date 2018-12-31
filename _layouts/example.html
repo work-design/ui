@@ -1,10 +1,8 @@
 ---
-layout: shell
+layout: default
 ---
 
-{% include nav.html %}
-
-<div class="ui padded grid">
+<main class="ui padded grid">
   <div class="two wide column">
     {% include sidenav_example.html %}
   </div>
@@ -12,7 +10,4 @@ layout: shell
   <div class="fourteen wide column">
     {{ content }}
   </div>
-</div>
-
-
-{% include footer.html %}
+</main>

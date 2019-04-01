@@ -313,26 +313,12 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover{
   display:flex;
   flex-wrap:nowrap;
 }
-.ui.side>.sidebar{
-  width:260px;
-}
 .ui.side>.sidebar,.ui.side>.content{
-  transition:width 1s ease;
   padding-bottom:1rem;
   padding-right:1rem;
 }
 .ui.side>.content{
   width:100%;
-}
-.ui.invisible.side>.sidebar{
-  width:80px;
-  transition:width 1s ease;
-}
-.ui.invisible.side>.sidebar .item .title>span,.ui.invisible.side>.sidebar .item>span{
-  display:none;
-}
-.ui.invisible.side>.content,.slide.down.in{
-  transition:width 1s ease;
 }
 .red.text{
   color:#db2828 !important;

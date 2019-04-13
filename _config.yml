@@ -1,9 +1,8 @@
-include: ['assets/', 'CNAME']
 exclude:
   - node_modules
   - Semantic-UI
-  - src
-  - .ruby-version
+  - assets
+  - dist/stylesheets/semantic_src.css
   - README.md
   - Rakefile
   - Gemfile
@@ -11,6 +10,8 @@ exclude:
   - yarn.lock
   - package.json
   - postcss.json
+  - postcss.config.js
+  - LICENSE
 watch_exclude: ['dist/']
 encoding: UTF-8
 

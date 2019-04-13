@@ -1,7 +1,10 @@
 exclude:
   - node_modules
   - Semantic-UI
-  - assets
+  - assets/site
+  - assets/semantic.less
+  - assets/theme.config
+  - assets/theme.less
   - dist/stylesheets/semantic_src.css
   - README.md
   - Rakefile
@@ -12,7 +15,8 @@ exclude:
   - postcss.json
   - postcss.config.js
   - LICENSE
-watch_exclude: ['dist/']
+watch_exclude:
+  - dist
 encoding: UTF-8
 
 permalink: /:categories/:title

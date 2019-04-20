@@ -17,6 +17,9 @@
 @import (optional) '@{themesFolder}/@{theme}/@{type}s/@{element}.variables';
 @import (optional) '@{siteFolder}/@{type}s/@{element}.variables';
 
+@import '@{themesFolder}/default/globals/colors.less';
+@import (optional) '@{siteFolder}/globals/colors.less';
+
 .loadFonts() when (@importGoogleFonts) {
   @import url('http://fonts.useso.com/css?family=@{googleFontRequest}');
 }

@@ -9,7 +9,7 @@
     "postcss": "postcss dist/stylesheets/semantic_src.css -o dist/stylesheets/semantic.css",
     "study": "postcss -c ./test.json -d lib test.css",
     "less_cli": "lessc assets/semantic.less dist/stylesheets/semantic_src.css",
-    "semantic_css": "cp assets/theme.config semantic-ui/src && yarn run less_cli && yarn run postcss",
+    "semantic_css": "cp assets/theme.config Fomantic-UI/src && yarn run less_cli && yarn run postcss",
     "semantic_js": "cp semantic-ui/dist/semantic.min.js dist/javascripts/semantic.js",
     "pygment": "pygmentize -S monokai -f html -a .highlight > dist/stylesheets/syntax.css",
     "test": "echo a && echo b"

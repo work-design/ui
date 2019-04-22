@@ -1,4 +1,4 @@
-@imagePath: '/assets/themes/default/assets/images';
-@fontPath: '/assets/themes/default/assets/fonts';
+@imagePath: '/assets/images';
+@fontPath: '/assets/webfonts';
 
 @importGoogleFonts: false;

@@ -1,6 +1,10 @@
 .ui.form .inline.fields > label.field {
   justify-content: flex-end;
 }
+.ui.form .inline.fields > label.field:after {
+  content: ':';
+  color: #888;
+}
 
 .ui.form .inline.fields > .ui.labels.field {
   flex-wrap: wrap;
@@ -12,7 +16,7 @@
 }
 
 .ui.form .required.inline.fields > label.field:after {
-  margin: -0.2em 0em 0em 0.2em;
+  margin: -0.2em 0 0 0.2em;
   content: '*';
   color: #DB2828;
   display: inline-block;

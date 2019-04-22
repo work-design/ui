@@ -1,3 +1,8 @@
-@fontName: 'fa-solid-900';
-@outlineFontName: 'fa-regular-400';
-@brandFontName: 'fa-brands-400';
+@fontName: 'Font Awesome 5 Free';
+@fontFileName: 'fa-solid-900';
+@src:
+  url("@{fontPath}/@{fontFileName}.eot?#iefix") format('embedded-opentype'),
+  url("@{fontPath}/@{fontFileName}.woff2") format('woff2'),
+  url("@{fontPath}/@{fontFileName}.woff") format('woff'),
+  url("@{fontPath}/@{fontFileName}.ttf") format('truetype'),
+  url("@{fontPath}/@{fontFileName}.svg#icons") format('svg');

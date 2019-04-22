@@ -14776,7 +14776,7 @@ span.ui.massive.text{
   justify-content:flex-end;
 }
 .ui.form .inline.fields>label.field:after{
-  content:"：";
+  content:":";
   color:#888;
 }
 .ui.form .inline.fields>.ui.labels.field{

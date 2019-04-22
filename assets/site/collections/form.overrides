@@ -2,7 +2,7 @@
   justify-content: flex-end;
 }
 .ui.form .inline.fields > label.field:after {
-  content: '：';
+  content: ':';
   color: #888;
 }
 

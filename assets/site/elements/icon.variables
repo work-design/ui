@@ -6,3 +6,5 @@
   url("@{fontPath}/@{fontFileName}.woff") format('woff'),
   url("@{fontPath}/@{fontFileName}.ttf") format('truetype'),
   url("@{fontPath}/@{fontFileName}.svg#icons") format('svg');
+
+@distanceFromText: 0.25em;

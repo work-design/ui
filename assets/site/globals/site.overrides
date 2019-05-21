@@ -3,65 +3,8 @@
   flex-wrap: nowrap;
 }
 
-.ui.side > .sidebar {
-  padding-bottom: 1rem;
-  padding-right: 1rem;
-}
-
 .ui.side > .content {
   width: 100%;
   padding-bottom: 1rem;
   padding-right: 1rem;
-}
-
-.red.text {
-  color: @red !important;
-}
-
-.orange.text {
-  color: @orange !important;
-}
-
-.olive.text {
-  color: @olive !important;
-}
-
-.yellow.text {
-  color: @yellow !important;
-}
-
-.green.text {
-  color: @green !important;
-}
-
-.teal.text {
-  color: @teal !important;
-}
-
-.blue.text {
-  color: @blue !important;
-}
-
-.violet.text {
-  color: @violet !important;
-}
-
-.purple.text {
-  color: @purple !important;
-}
-
-.pink.text {
-  color: @pink !important;
-}
-
-.brown.text {
-  color: @brown !important;
-}
-
-.grey.text {
-  color: @grey !important;
-}
-
-.white.text {
-  color: #fff !important;
 }

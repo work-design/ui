@@ -19170,6 +19170,9 @@ span.ui.massive.text{
   content:":";
   color:#888;
 }
+.ui.selectable.table>tbody>tr,.ui.selectable.table>tr,.ui.table>tbody>tr>td.selectable,.ui.table>tr>td.selectable{
+  cursor:default;
+}
 .ui.ad{
   display:block;
   overflow:hidden;

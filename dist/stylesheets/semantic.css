@@ -156,6 +156,10 @@ dt{
   padding:.5em;
   text-align:right;
 }
+dt:after{
+  content:":";
+  color:#888;
+}
 body,html{
   height:100%;
 }

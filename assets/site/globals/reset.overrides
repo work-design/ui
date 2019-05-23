@@ -31,3 +31,8 @@ dt {
   padding: .5em;
   text-align: right;
 }
+
+dt:after {
+  content: ':';
+  color: #888;
+}

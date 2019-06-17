@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    main: './src/index.js'
+    main: './src/semantic.less'
   },
   output: {
     filename: 'main.js'
@@ -26,6 +26,7 @@ module.exports = {
               hmr: process.env.NODE_ENV === 'development'
             },
           },
+          'style-loader',
           'css-loader',
           'less-loader'
         ]

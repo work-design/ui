@@ -1,7 +1,9 @@
-## Common UI
+## Work Design UI
 
-#### 说明
-- 基于 [Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) 改造;
+Work Design UI 是Work Design 所使用的UI框架，是对多个UI框架的优化和改进；
+
+- [weui](https://github.com/Tencent/weui)
+- [Fomantic-UI](https://github.com/fomantic/Fomantic-UI)
 
 
 #### 浏览器支持详细
@@ -18,9 +20,7 @@
 ### 生成
 * `yarn run semantic_css`
 
-### 本地开发
-- `bundle install`
-- `jekyll s`
+
 
 ### 优化改造
 - 不让语义话标签影响样式

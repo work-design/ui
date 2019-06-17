@@ -5,6 +5,7 @@ Work Design UI 是Work Design 所使用的UI框架，是对多个UI框架的优�
 - [weui](https://github.com/Tencent/weui)
 - [Fomantic-UI](https://github.com/fomantic/Fomantic-UI)
 
+我们对原生框架采用了 可插拔，非侵入式的改进。
 
 #### 浏览器支持详细
 
@@ -20,10 +21,12 @@ Work Design UI 是Work Design 所使用的UI框架，是对多个UI框架的优�
 ### 生成
 * `yarn run semantic_css`
 
+### 本地开发
+* `yarn run dev`
 
 
 ### 优化改造
-- 不让语义话标签影响样式
+- 不让语义化标签影响样式
 
 #### 参考文档
 [flexbox](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes)

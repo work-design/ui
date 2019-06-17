@@ -1,6 +1,3 @@
 [submodule "Fomantic-UI"]
 	path = Fomantic-UI
 	url = https://github.com/fomantic/Fomantic-UI.git
-[submodule "_posts"]
-  path = _posts
-  url = https://github.com/work-design/_posts.git

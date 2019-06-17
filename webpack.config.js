@@ -4,6 +4,6 @@ module.exports = {
     main: './src/index.js'
   },
   output: {
-    filename: 'bundle.js'
+    filename: 'main.js'
   }
 };

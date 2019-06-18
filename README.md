@@ -9,9 +9,9 @@ Work Design UI 是Work Design 所使用的UI框架，是对多个UI框架的优�
 
 ### 本地开发
 1. `git submodule update --init`
-2. `yarn run prepare`
 2. `yarn install`
-3. `yarn run dev`
+3. `yarn run prepare`
+4. `yarn run dev`
 
 ### 编译与使用
 1. `yarn run build`

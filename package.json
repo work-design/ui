@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/work-design/work-design-ui.git",
   "author": "qinmingyuan <mingyuan0715@foxmail.com>",
-  "license": "GPL",
+  "license": "MIT",
   "scripts": {
     "postcss": "postcss dist/stylesheets/semantic_src.css -o dist/stylesheets/semantic.css",
     "study": "postcss -c ./test.json -d lib test.css",
@@ -13,7 +13,7 @@
     "semantic_js": "cp Fomantic-UI/dist/semantic.min.js dist/javascripts/semantic.js",
     "pygment": "pygmentize -S monokai -f html -a .highlight > dist/stylesheets/syntax.css",
     "test": "echo a && echo b",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server --config webpack/development.js --open"
   },
   "devDependencies": {
     "css-loader": "^3.0.0",
@@ -26,6 +26,7 @@
     "postcss-cli": "^5.0.0",
     "postcss-discard-overridden": "4.0.0-rc.2",
     "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
     "stylelint": "^9.2.0",
     "stylelint-config-standard": "^18.2.0",
     "webpack": "^4.34.0",

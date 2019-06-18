@@ -21,3 +21,7 @@
 .ui.pagination.menu {
   margin-top: 10px;
 }
+
+.ui.menu .item {
+  color: #0c3223;
+}

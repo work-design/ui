@@ -6,14 +6,15 @@
   "author": "qinmingyuan <mingyuan0715@foxmail.com>",
   "license": "MIT",
   "scripts": {
+    "prepare": "cp assets/theme.config Fomantic-UI/src",
     "postcss": "postcss dist/stylesheets/semantic_src.css -o dist/stylesheets/semantic.css",
     "study": "postcss -c ./test.json -d lib test.css",
     "less_cli": "lessc assets/semantic.less dist/stylesheets/semantic_src.css",
-    "semantic_css": "cp assets/theme.config Fomantic-UI/src && yarn run less_cli && yarn run postcss",
-    "semantic_js": "cp Fomantic-UI/dist/semantic.min.js dist/javascripts/semantic.js",
+    "semantic_css": "yarn run less_cli && yarn run postcss",
     "pygment": "pygmentize -S monokai -f html -a .highlight > dist/stylesheets/syntax.css",
     "test": "echo a && echo b",
-    "dev": "webpack-dev-server --config webpack/development.js --open"
+    "dev": "webpack-dev-server --config webpack/development.js --open",
+    "build": "webpack --config webpack/production.js"
   },
   "devDependencies": {
     "css-loader": "^3.0.0",

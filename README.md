@@ -22,7 +22,10 @@ Work Design UI 是Work Design 所使用的UI框架，是对多个UI框架的优�
 * `yarn run semantic_css`
 
 ### 本地开发
-* `yarn run dev`
+1. `git submodule update --init`
+2. `yarn run prepare`
+2. `yarn install`
+3. `yarn run dev`
 
 
 ### 优化改造

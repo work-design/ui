@@ -1,12 +1,12 @@
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-
 module.exports = {
   mode: 'development',
   entry: {
-    main: './src/semantic.less'
+    main_css: './src/semantic.less',
+    main_js: './src/ready.js',
+    index_js: './src/index.js'
   },
   output: {
-    filename: 'main.js',
+    filename: '[name].js',
     publicPath: '/'
   },
   devServer: {
@@ -20,6 +20,19 @@ module.exports = {
           'style-loader',
           'css-loader',
           'less-loader'
+        ]
+      },
+      {
+        test: require.resolve('jquery'),
+        use: [
+          {
+            loader: 'expose-loader',
+            options: 'jQuery'
+          },
+          {
+            loader: 'expose-loader',
+            options: '$'
+          }
         ]
       }
     ]

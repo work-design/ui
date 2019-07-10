@@ -9,7 +9,7 @@
     "prepare": "cp src/theme.config Fomantic-UI/src",
     "postcss": "postcss dist/stylesheets/semantic_src.css -o dist/stylesheets/semantic.css",
     "study": "postcss -c ./test.json -d lib test.css",
-    "less_cli": "lessc src/semantic.less dist/stylesheets/semantic_src.css",
+    "less_cli": "lessc --verbose src/semantic.less dist/stylesheets/semantic_src.css",
     "semantic_css": "yarn run less_cli && yarn run postcss",
     "pygment": "pygmentize -S monokai -f html -a .highlight > dist/stylesheets/syntax.css",
     "test": "echo a && echo b",

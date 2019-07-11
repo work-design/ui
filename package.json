@@ -1,8 +1,8 @@
 {
-  "name": "work-design-ui",
+  "name": "work-ui",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/work-design/work-design-ui.git",
+  "main": "dist",
+  "repository": "https://github.com/work-design/work-ui.git",
   "author": "qinmingyuan <mingyuan0715@foxmail.com>",
   "license": "MIT",
   "scripts": {

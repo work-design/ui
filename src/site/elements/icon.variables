@@ -1,4 +1,4 @@
-@fontName: 'Font Awesome 5 Free';
+@fontFamily: 'Font Awesome 5 Free';
 @fontFileName: 'fa-solid-900';
 @src:
   url("@{fontPath}/@{fontFileName}.eot?#iefix") format('embedded-opentype'),

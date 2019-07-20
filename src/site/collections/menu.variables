@@ -1,2 +1,2 @@
 @borderRadius: 0;
-@attachedBorder: inherit;
+@attachedBorder: unset;

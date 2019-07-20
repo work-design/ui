@@ -26,9 +26,4 @@
   color: #0c3223;
 }
 
-.ui.attached.vertical.menu {
-  margin-right: 0;
-  width: 100%;
-}
-
 

@@ -1,6 +1,6 @@
 [submodule "Fomantic-UI"]
-	path = Fomantic-UI
-	url = https://github.com/qinmingyuan/Fomantic-UI.git
+  path = Fomantic-UI
+  url = https://github.com/qinmingyuan/Fomantic-UI.git
 [submodule "weui"]
-	path = weui
-	url = https://github.com/Tencent/weui.git
+  path = weui
+  url = https://github.com/Tencent/weui.git

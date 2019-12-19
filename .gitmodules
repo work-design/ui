@@ -4,3 +4,6 @@
 [submodule "weui"]
   path = weui
   url = https://github.com/Tencent/weui.git
+[submodule "bulma"]
+	path = bulma
+	url = git@github.com:jgthms/bulma.git

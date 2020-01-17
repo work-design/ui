@@ -6,15 +6,15 @@
   "author": "qinmingyuan <mingyuan0715@foxmail.com>",
   "license": "MIT",
   "scripts": {
-    "prepare": "cp src/theme.config Fomantic-UI/src",
+    "xx": "cp src/theme.config Fomantic-UI/src",
     "postcss": "postcss dist/stylesheets/semantic_src.css -o dist/stylesheets/semantic.css",
     "study": "postcss -c ./test.json -d lib test.css",
     "less_cli": "lessc --verbose src/semantic.less dist/stylesheets/semantic_src.css",
     "semantic_css": "yarn run less_cli && yarn run postcss",
     "pygment": "pygmentize -S monokai -f html -a .highlight > dist/stylesheets/syntax.css",
     "test": "echo a && echo b",
-    "dev": "webpack-dev-server --config webpack/development.js --open",
-    "build": "webpack --config webpack/production.js"
+    "dev": "webpack-dev-server --config config/webpack/development.js --open",
+    "build": "webpack --config config/webpack/production.js"
   },
   "devDependencies": {
     "css-loader": "^3.0.0",
@@ -36,6 +36,8 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
+    "@rails/webpacker": "^4.2.2",
+    "babel-loader": "^8.0.6",
     "jquery": "^3.4.1"
   }
 }

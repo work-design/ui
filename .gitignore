@@ -1,2 +1,3 @@
 tmp/
-public/
+public/**/*.js.*
+!public/packs/index.html

@@ -61,11 +61,6 @@ test:
   <<: *default
   compile: true
   public_output_path: packs-test
-staging:
-  <<: *default
-  compile: false
-  extract_css: true
-  cache_manifest: true
 production:
   <<: *default
   compile: false

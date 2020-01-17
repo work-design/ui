@@ -12,7 +12,6 @@
     "less_cli": "lessc --verbose src/semantic.less dist/stylesheets/semantic_src.css",
     "semantic_css": "yarn run less_cli && yarn run postcss",
     "pygment": "pygmentize -S monokai -f html -a .highlight > dist/stylesheets/syntax.css",
-    "test": "echo a && echo b",
     "dev": "webpack-dev-server --config config/webpack/development.js --open",
     "build": "webpack --config config/webpack/production.js"
   },

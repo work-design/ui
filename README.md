@@ -1,9 +1,11 @@
 ## Work Design UI
 
-Work Design UI 是Work Design 所使用的UI框架，是对多个UI框架的优化和改进；
+Work UI 是 Work Design 所使用的UI框架，是对多个 UI 框架的优化和改进；
 
-- [weui](https://github.com/Tencent/weui)
-- [Fomantic-UI](https://github.com/fomantic/Fomantic-UI)
+* [weui](https://github.com/Tencent/weui)
+* [Fomantic-UI](https://github.com/fomantic/Fomantic-UI)
+* [bulma](https://github.com/jgthms/bulma)
+* [markdown css](https://github.com/sindresorhus/github-markdown-css)
 
 我们对原生框架采用了 可插拔，非侵入式的改进。
 

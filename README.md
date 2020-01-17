@@ -1,4 +1,4 @@
-## Work Design UI
+## Work UI
 
 Work UI 是 Work Design 所使用的UI框架，是对多个 UI 框架的优化和改进；
 
@@ -7,7 +7,7 @@ Work UI 是 Work Design 所使用的UI框架，是对多个 UI 框架的优化�
 * [bulma](https://github.com/jgthms/bulma)
 * [markdown css](https://github.com/sindresorhus/github-markdown-css)
 
-我们对原生框架采用了 可插拔，非侵入式的改进。
+我们对原生框架采用了可插拔，非侵入式的改进。
 
 ### 本地开发
 1. `git submodule update --init`

@@ -1,8 +1,17 @@
 const { environment } = require('@rails/webpacker')
 const { resolve } = require('path')
 const less = require('./loaders/less')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 environment.loaders.prepend('less', less)
+environment.plugins.delete('MiniCssExtract')
+environment.plugins.append(
+  'MiniCssExtract',
+  new MiniCssExtractPlugin({
+    filename: 'css/[name].css',
+    chunkFilename: 'css/[name].chunk.css'
+  })
+)
 
 const env = environment.toWebpackConfig()
 env.resolve.modules = env.resolve.modules.concat(resolve('node_modules'))

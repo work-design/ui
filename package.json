@@ -6,7 +6,7 @@
   "author": "qinmingyuan <mingyuan0715@foxmail.com>",
   "license": "MIT",
   "scripts": {
-    "xx": "cp src/theme.config Fomantic-UI/src",
+    "xx": "cp assets/theme.config Fomantic-UI/src",
     "postcss": "postcss dist/stylesheets/semantic_src.css -o dist/stylesheets/semantic.css",
     "study": "postcss -c ./test.json -d lib test.css",
     "less_cli": "lessc --verbose src/semantic.less dist/stylesheets/semantic_src.css",

@@ -5,6 +5,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 environment.loaders.prepend('less', less)
 environment.plugins.delete('MiniCssExtract')
+environment.plugins.delete('Compression')
+environment.plugins.delete('Compression Brotli')
 environment.plugins.append(
   'MiniCssExtract',
   new MiniCssExtractPlugin({

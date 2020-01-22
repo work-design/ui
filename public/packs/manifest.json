@@ -1,0 +1,38 @@
+{
+  "entrypoints": {
+    "index": {
+      "js": [
+        "/packs/index.js"
+      ],
+      "js.map": [
+        "/packs/index.js.map"
+      ]
+    },
+    "ready": {
+      "js": [
+        "/packs/ready.js"
+      ],
+      "js.map": [
+        "/packs/ready.js.map"
+      ]
+    },
+    "semantic": {
+      "css": [
+        "/packs/css/semantic.css"
+      ],
+      "js": [
+        "/packs/semantic.js"
+      ],
+      "js.map": [
+        "/packs/semantic.js.map"
+      ]
+    }
+  },
+  "index.js": "/packs/index.js",
+  "index.js.map": "/packs/index.js.map",
+  "ready.js": "/packs/ready.js",
+  "ready.js.map": "/packs/ready.js.map",
+  "semantic.css": "/packs/css/semantic.css",
+  "semantic.js": "/packs/semantic.js",
+  "semantic.js.map": "/packs/semantic.js.map"
+}

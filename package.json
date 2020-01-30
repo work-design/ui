@@ -1,8 +1,8 @@
 {
-  "name": "work_ui",
+  "name": "@work-design/ui",
   "version": "1.0.0",
   "main": "dist",
-  "repository": "https://github.com/work-design/work_ui.git",
+  "repository": "https://github.com/work-design/ui.git",
   "author": "qinmingyuan <mingyuan0715@foxmail.com>",
   "license": "MIT",
   "scripts": {

@@ -1,11 +1,13 @@
-body {
+body,
+.body {
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-main {
+main,
+.main {
   flex-grow: 1;
   flex-shrink: 0;
 }

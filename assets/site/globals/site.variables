@@ -1,4 +1,4 @@
-@imagePath: '/assets/images';
-@fontPath: '/assets/webfonts';
+@imagePath: '/packs/media/images';
+@fontPath: '/packs/nondigest_webfonts';
 
 @importGoogleFonts: false;
